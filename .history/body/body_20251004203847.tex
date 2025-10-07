@@ -1,0 +1,18 @@
+\section{Model}
+\paragraph{Outcome Variables.} The key outcome variables in the model are defined as follows, for each country $n$ and sector $k$.
+\begin{align*}
+    W_n &= \frac{\sum_{k} {\color{black}w_{nk}} {\color{black}L_{nk}} + \sum_{k} \sum_{i} {\color{blue}\tau_{nik}} {\color{black}\pi_{nik}} {\color{black}X_{nk}}}{{\color{black}P_n}} & \text{(Real Welfare)} \\
+    {\color{black}P_n} &= \prod_{k} {\color{black}p_{nk}}^{{\color{black}\alpha_{nk}}} & \text{(Aggregate Price Index)}
+\end{align*}
+
+% Equilibrium Conditions
+\paragraph{Equilibrium Conditions.} The model equilibrium is characterized by the following conditions, which must hold for all countries $n$ and sectors $k$.
+\begin{align*}
+    {\color{orange}\pi_{nik}} &= \frac{{\color{red}T_{ik}} ({\color{orange}c_{ik}} {\color{orange}d_{nik}} (1 + {\color{blue}\tau_{nik}}))^{-{\color{yellow}\theta}}}{\sum_{i'} {\color{red}T_{i'k}} ({\color{orange}c_{i'k}} {\color{orange}d_{ni'k}} (1 + {\color{blue}\tau_{ni'k}}))^{-{\color{yellow}\theta}}} & \text{(Trade Shares)} \\
+    {\color{orange}c_{ik}} &= ({\color{orange}w_{ik}})^{{\color{green}\beta_{ik}}} \left(\prod_{k'} {\color{orange}p_{ik'}}^{{\color{green}\gamma_{ikk'}}}\right)^{1 - {\color{green}\beta_{ik}}} & \text{(Unit Costs)} \\
+    {\color{orange}p_{nk}} &= \left[ \sum_{i} {\color{red}T_{ik}} ({\color{orange}c_{ik}} {\color{orange}d_{nik}} (1 + {\color{blue}\tau_{nik}}))^{-{\color{yellow}\theta}} \right]^{-\frac{1}{{\color{yellow}\theta}}} & \text{(Price Index)} \\
+   \sum_{k} {\color{orange}w_{ik}} {\color{orange}L_{ik}} &= \sum_{k} \sum_{n} {\color{orange}\pi_{nik}} {\color{orange}X_{nk}} & \text{(Labor Income)}
+\end{align*}
+
+\paragraph{Variable Definitions and Data Sources.} The variables in the model are defined as follows:
+\input{Tables/table_1}

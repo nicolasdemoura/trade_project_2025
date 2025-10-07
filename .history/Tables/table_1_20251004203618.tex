@@ -1,0 +1,55 @@
+\begin{table}[H]
+\centering
+\caption{Model Variables and Parameters}
+\label{tab:model_variables}
+\renewcommand{\arraystretch}{1.2}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{>{\raggedright}p{3.5cm} >{\raggedright}p{7cm} >{\raggedright\arraybackslash}p{4.5cm}}
+\toprule
+\textbf{Variable/Parameter} & \textbf{Description} & \textbf{Data Source/Method} \\
+\midrule
+\multicolumn{3}{l}{\textbf{\large Primary Outcomes of Interest}} \\
+\midrule
+\textbf{Real Income Component} & & \\
+$W_n^{income} = \frac{\sum_{k} w_{nk} L_{nk}}{P_n}$ & Real income from labor & Structural model solution \\
+\addlinespace[0.2em]
+\textbf{Tariff Revenue Component} & & \\
+$W_n^{tariff} = \frac{\sum_{k} \sum_{i} \tau_{nik} \pi_{nik} X_{nk}}{P_n}$ & Real tariff revenue & Structural model solution \\
+\addlinespace[0.2em]
+\textbf{Aggregate Welfare} & & \\
+$W_n = W_n^{income} + W_n^{tariff}$ & Total real welfare & Structural model solution \\
+$P_n$ & Aggregate price index & Structural model solution \\
+\midrule
+\multicolumn{3}{l}{\textbf{\large Structural Parameters}} \\
+\midrule
+\textbf{Technology Parameters} & & \\
+${\color{red}T_{ik}}$ & Productivity parameter, country $i$, sector $k$ & Reduced form regression \\
+\addlinespace[0.2em]
+\textbf{Preference Parameters} & & \\
+${\color{yellow}\theta}$ & Trade elasticity (Fréchet parameter) & External calibration \\
+\addlinespace[0.2em]
+\textbf{Production Parameters} & & \\
+${\color{green}\beta_{ik}}$ & Labor share, country $i$, sector $k$ & Input-output tables \\
+${\color{green}\gamma_{ikk'}}$ & Intermediate input share, $k'$ in $k$, country $i$ & Input-output tables \\
+\midrule
+\multicolumn{3}{l}{\textbf{\large Policy Variables}} \\
+\midrule
+${\color{blue}\tau_{nik}}$ & Ad valorem tariff, $n$ imports from $i$, sector $k$ & Trade policy data \\
+\midrule
+\multicolumn{3}{l}{\textbf{\large Endogenous Variables}} \\
+\midrule
+\textbf{Prices and Costs} & & \\
+${\color{orange}p_{nk}}$ & Sectoral price index, country $n$, sector $k$ & Structural equilibrium \\
+${\color{orange}c_{ik}}$ & Unit cost of production, country $i$, sector $k$ & Structural equilibrium \\
+${\color{orange}w_{ik}}$ & Wage rate, country $i$, sector $k$ & Structural equilibrium \\
+\addlinespace[0.2em]
+\textbf{Trade and Allocation} & & \\
+${\color{orange}\pi_{nik}}$ & Bilateral trade share, $n$ imports from $i$, sector $k$ & Structural equilibrium \\
+${\color{orange}X_{nk}}$ & Total expenditure, country $n$, sector $k$ & Structural equilibrium \\
+${\color{orange}L_{nk}}$ & Labor allocation, country $n$, sector $k$ & Structural equilibrium \\
+${\color{orange}\alpha_{nk}}$ & Expenditure share, country $n$, sector $k$ & Structural equilibrium \\
+${\color{orange}d_{nik}}$ & Iceberg trade cost, $i$ to $n$, sector $k$ & Structural equilibrium \\
+\bottomrule
+\end{tabular}%
+}
+\end{table}

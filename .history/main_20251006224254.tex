@@ -1,0 +1,72 @@
+% --- LaTeX Research Paper Template - S. Venkatraman ---
+
+% --- Set document class and font size ---
+
+\documentclass[letterpaper, 11pt]{article}
+
+% --- Package imports ---
+\input{packages}
+\input{preamble}
+\input{nicoeconomics}
+\usepackage{tabularray}
+\usepackage{booktabs}  % For better table formatting
+\usepackage{caption}   % For table caption customization
+\usepackage{longtable} % For multi-page tables (optional)
+\usepackage{array}     % For advanced column definitions (optional)
+\usepackage{multirow}  % For multi-row cells (optional)
+\usepackage{colortbl}  % For table coloring (optional)
+
+\usepackage{subcaption  }
+
+% --- Left/right header text (to appear on every page) ---
+
+% Do not include a line under header or above footer
+\pagestyle{fancy}
+\renewcommand{\footrulewidth}{0pt}
+\renewcommand{\headrulewidth}{0pt}
+
+% Abstract settings
+\renewenvironment{abstract}
+{\small\begin{quote}\noindent \par{\sc \abstractname.}}
+{\noindent\end{quote}}
+
+% Center header text: short paper title
+% \chead{\MakeUppercase{\scriptsize Tariffs and Welfare: A Quantitative Analysis}}
+
+% Empty left and right header text
+\lhead{}\rhead{}
+
+% --- Document starts here ---
+
+\begin{document}
+% --- Title, author, date ---
+\title{\normalsize\MakeUppercase{\bfseries 
+ Tariffs and Welfare: A Quantitative Analysis}\footnote{All code and data used in this paper are available at \url{https://github.com/nicolasdemoura/}.}}
+\date{\footnotesize\MakeUppercase\today}
+\author{
+    \small\MakeUppercase{Nícolas de Moura}\footnote{FGV/Sao Paulo School of Economics. \href{mailto:nicolas.gou@hotmail.com}{nicolas.gou@hotmail.com}}
+}
+\maketitle
+
+% % --- Main content: import sections as subfiles ---
+
+\input{body/introduction}\newpage
+\input{body/theory}\newpage
+\input{body/data}\newpage
+\input{body/results}\newpage
+\input{body/counterfactual}\newpage
+\input{body/conclusion}
+
+% --- Bibliography ---
+\newpage
+\bibliography{references}
+\bibliographystyle{chicago}
+
+% % --- Appendix ---
+\newpage
+\input{appendix/code_appendix}
+
+
+% --- Document ends here ---
+
+\end{document}

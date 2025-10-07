@@ -1,0 +1,53 @@
+Suppose that two symmetric economies are opened to trade and fixed and variable trade costs are sufficiently high to induce selection into export markets. Solve for the open economy values of $\varphi^*$, $\varphi^*_x$, P, R.
+
+\begin{solution}
+	\paragraph{Household Side.} Since all countries are symmetric, the household problem remains the same as in autarky, yielding the familiar demand functions:
+	\begin{align*}
+		q(\omega) &= Q \left( \frac{p(\omega)}{P} \right)^{-\sigma}\\
+		r(\omega) &= R \left( \frac{p(\omega)}{P} \right)^{1 - \sigma}
+	\end{align*}
+	where demand for each variety is downward sloping in its own price with elasticity $\sigma>1$.
+
+	\paragraph{Producer Side.} Firms now face an iceberg trade cost $\tau>1$ and fixed export cost $f_x>0$ when serving the foreign market. A firm with productivity $\varphi$ that chooses to export maximizes:
+	\begin{align*}
+		\max_{p(\varphi), p_x(\varphi)} \quad & \pi(\varphi) = r(\varphi) - w \left( f + \frac{q(\varphi)}{\varphi} \right) + n r_x(\varphi) - n w \left( f_x + \frac{\tau q_x(\varphi)}{\varphi} \right)
+	\end{align*}
+
+	The first-order conditions yield constant markup pricing:
+	\begin{align*}
+		p(\varphi) &= \frac{\sigma}{\sigma - 1} \frac{w}{\varphi} = \frac{w}{\rho \varphi} \\
+		p_x(\varphi) &= \frac{\sigma}{\sigma - 1} \frac{\tau w}{\varphi} = \frac{\tau w}{\rho \varphi}
+	\end{align*}
+
+	Normalizing wages to $w=1$ (feasible due to symmetry), the revenue functions become:
+	\begin{align*}
+		r(\varphi) &= R \left( \frac{1}{\rho \varphi P} \right)^{1 - \sigma} \\
+		r_x(\varphi) &= R \left( \frac{\tau}{\rho \varphi P} \right)^{1 - \sigma} = \tau^{1-\sigma} r(\varphi)
+	\end{align*}
+
+	\paragraph{Zero Profit Conditions.} Since trade costs induce selection, we analyze domestic and export cutoffs separately.
+
+	For domestic market entry, the zero profit condition gives:
+	\begin{align*}
+		\pi(\varphi^*) &= r(\varphi^*) - \frac{1}{\varphi^*} q(\varphi^*) - f = 0
+	\end{align*}
+
+	Using the fact that variable profits equal $\frac{1}{\sigma}$ of revenues under CES demand:
+	\begin{align*}
+		\pi(\varphi^*) &= \frac{1}{\sigma} r(\varphi^*) - f = 0 \\
+		\implies r(\varphi^*) &= \sigma f
+	\end{align*}
+
+	For the export cutoff, consider a firm that serves both markets. Export profits are:
+	\begin{align*}
+		\pi_x(\varphi) &= r_x(\varphi) - \frac{\tau}{\varphi} q_x(\varphi) - f_x
+	\end{align*}
+
+	Under CES demand, variable export profits equal $\frac{1}{\sigma}$ of export revenues, so:
+	\begin{align*}
+		\pi_x(\varphi) &= r_x(\varphi) - \frac{\tau}{\varphi} q_x(\varphi) - f_x \\
+		&= \tau^{1-\sigma} r(\varphi) - f_x - \frac{\tau}{\varphi}Q\left(\frac{p_x(\varphi)}{P}\right)^{-\sigma} \\
+		&= \tau^{1-\sigma} r(\varphi) - f_x - \frac{\tau}{\varphi}Q\left(\frac{\tau}{\rho \varphi P}\right)^{-\sigma} \\
+		&= \tau^{1-\sigma} r(\varphi) - f_x - \tau^{1-\sigma} \frac{1}{\sigma} r
+		\end{align*}
+	\end{solution}

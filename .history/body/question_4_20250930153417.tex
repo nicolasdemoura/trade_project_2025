@@ -1,0 +1,35 @@
+\begin{solution}
+	\textbf{Restatement.} Consider opening to trade when variable and fixed trade costs are zero: $\tau=1$, $f_x=0$. How does this change the impact of trade relative to the positive-cost case in the slides?
+\begin{solution}
+    	\textbf{Restatement.} Consider opening to trade when variable and fixed trade costs are zero: $\tau=1$, $f_x=0$. How does this change the impact of trade relative to the positive-cost case?
+
+\bigskip
+	\textbf{Implications of $\tau=1$, $f_x=0$ (slides logic in your notation).}
+		\textbf{Implications of $\tau=1$, $f_x=0$.}
+\begin{itemize}
+	\item \emph{No export selection margin:} With $\tau=1$ and $f_x=0$, the export cutoff collapses to the domestic cutoff: from the formulas in Problem 2,
+	\[
+		\varphi_x^* \,=\, \tau\, \frac{\sigma}{\sigma-1}\Big(\frac{\sigma f_x}{R}\Big)^{\!\tfrac{1}{\sigma-1}} \frac{1}{P} \,=\, 0 \quad \Rightarrow \quad \text{all active domestic firms export.}
+	\]
+	\item \emph{No export selection margin:} With $\tau=1$ and $f_x=0$, the export cutoff equals the domestic cutoff, $\varphi_x^*=\varphi^*$. Thus every active domestic firm exports (there is no extra fixed or variable hurdle).
+	Any firm that can cover the domestic fixed cost $f$ ($\varphi\ge \varphi^*$) can profitably serve both markets because there is no extra fixed or variable hurdle.
+	\item \emph{World market integration:} Prices charged domestically and abroad are identical: $p_x(\varphi)=p(\varphi)=\tfrac{\sigma}{\sigma-1}\tfrac{1}{\varphi}$. Each country faces the same integrated variety set, so with symmetry $P$ equals the common world price index.
+	\item \emph{Price index falls further than with costly trade:} Compared to $\tau>1, f_x>0$, zero costs add all foreign varieties at the same price-quality schedule as home. The CES price index becomes
+	\[
+		P^{1-\sigma} \,=\, \Big(\tfrac{\sigma}{\sigma-1}\Big)^{1-\sigma}\,\Big[ M\, \mathbb{E}(\varphi^{\sigma-1}|\varphi\ge \varphi^*) \; + \; M^*\, \mathbb{E}(\varphi^{\sigma-1}|\varphi\ge \varphi^*) \Big],
+	\]
+	without the $\tau^{1-\sigma}$ attenuation on imports. With symmetry, this roughly doubles the contribution (relative to autarky), implying a larger fall in $P$ and higher real income $R/P$.
+	\item \emph{Cutoff $\varphi^*$ still rises relative to autarky:} Competition is even tougher than with costly trade, because all foreign varieties are perfect costless entrants to the domestic market. Thus the domestic zero-profit cutoff $\varphi^*$ increases relative to autarky (and weakly relative to the costly-trade case), inducing more exit at the bottom.
+	\item \emph{No discrete export threshold:} Since $f_x=0$ and $\tau=1$, there is no separate export-selection margin ($\varphi_x^*=\varphi^*$). The \emph{selection} happens entirely at the domestic survival margin; above it, firms sell to both markets.
+	\item \emph{Reallocation intensifies:} Labor reallocates toward high-$\varphi$ firms that now scale up to serve the integrated market, magnifying the within-industry productivity gains highlighted in the slides.
+	\item \emph{Reallocation intensifies:} Labor reallocates toward high-$\varphi$ firms that now scale up to serve the integrated market, magnifying the within-industry productivity gains.
+	\item \emph{Pareto note:} With a Pareto productivity distribution and the truncated-moment property $\mathbb{E}[\varphi^{\sigma-1}|\varphi\ge a]=\tfrac{\theta}{\theta-(\sigma-1)}a^{\sigma-1}$, removing wedges (no $\tau^{1-\sigma}$ attenuation; no $f_x$) implies imported varieties enter at full weight in $P^{1-\sigma}$. Hence $P$ falls more than under positive trade costs, and real income $R/P$ rises more.
+\end{itemize}
+
+\bigskip
+	\textbf{Economic intuition.}
+With zero trade frictions, the two symmetric economies become one integrated market. Every surviving firm faces a larger market at unchanged unit costs and markups, so high-$\varphi$ firms expand output across both countries. At the same time, consumers can substitute seamlessly to the cheapest (highest-$\varphi$) varieties globally, tightening competition and raising the survival threshold $\varphi^*$. The price index $P$ falls more than under positive trade costs because imported varieties enter one-for-one without any price wedge.
+
+\medskip
+\noindent\boxed{\text{With } \tau=1, f_x=0\text{: (i) } \varphi_x^*=\varphi^* \text{ and every active firm exports; (ii) competition is toughest, } \varphi^* \text{ rises most; (iii) } P \text{ falls the most; (iv) reallocation and real income gains are strongest.}}
+\end{solution}

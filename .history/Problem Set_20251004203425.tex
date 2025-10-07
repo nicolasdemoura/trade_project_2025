@@ -1,0 +1,43 @@
+\documentclass[12pt,answers]{exam}
+
+
+\input{packages}
+\input{preamble}
+\input{nicoeconomics}
+
+\usepackage{tabularray}
+\usepackage{booktabs}  % For better table formatting
+\usepackage{caption}   % For table caption customization
+\usepackage{longtable} % For multi-page tables (optional)
+\usepackage{array}     % For advanced column definitions (optional)
+\usepackage{multirow}  % For multi-row cells (optional)
+\usepackage{colortbl}  % For table coloring (optional)
+
+\renewcommand{\solutiontitle}{\noindent\textit{Solution:}\enspace}
+\CorrectChoiceEmphasis{\color{indigo}}
+\unframedsolutions
+\SolutionEmphasis{\color{indigo}}
+
+% ------------------ EXAM CONFIGURATION ------------------ 
+\pagestyle{headandfoot}
+\firstpageheadrule
+\firstpageheader{FGV EESP\\CMCD}{Nícolas Goulart de Moura}{International Trade\\\today}
+\firstpagefooter{}{}{\thepage\ of \numpages}
+
+%\runningheadrule
+%\runningheader{FGV-EESP}{Matemática II}{\today}
+\runningfooter{}{}{\thepage\ of \numpages}
+
+% ------------------ DOCUMENT BEGGINING  ------------------ 
+
+\begin{document}
+
+\begin{center}\LARGE \textsc{Empirical Project} \end{center}
+
+
+    \input{body/body}
+
+\newpage
+\bibliographystyle{chicago}
+\bibliography{references}
+\end{document}

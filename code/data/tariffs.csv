@@ -1,0 +1,857 @@
+"Reporter","Reporter Name","Product","Product Name","Partner","Partner Name","Tariff Year","DutyType","Weighted Average"
+"","EuropeanUnion --- EuropeanUnion  ","Chemical","Chemical","","RestOfTheWorld --- RestOfTheWorld  ",2023,"AHS",0.62
+"","EuropeanUnion --- EuropeanUnion  ","Chemical","Chemical","076","Brazil",2023,"AHS",3.76
+"","EuropeanUnion --- EuropeanUnion  ","Chemical","Chemical","124","Canada",2023,"AHS",0
+"","EuropeanUnion --- EuropeanUnion  ","Chemical","Chemical","156","China",2023,"AHS",4.47
+"","EuropeanUnion --- EuropeanUnion  ","Chemical","Chemical","356","India",2023,"AHS",0.46
+"","EuropeanUnion --- EuropeanUnion  ","Chemical","Chemical","392","Japan",2023,"AHS",0.1
+"","EuropeanUnion --- EuropeanUnion  ","Chemical","Chemical","484","Mexico",2023,"AHS",0.01
+"","EuropeanUnion --- EuropeanUnion  ","Chemical","Chemical","826","United Kingdom",2023,"AHS",0
+"","EuropeanUnion --- EuropeanUnion  ","Chemical","Chemical","840","United States",2023,"AHS",1.44
+"","EuropeanUnion --- EuropeanUnion  ","Construction","Construction","","RestOfTheWorld --- RestOfTheWorld  ",2023,"AHS",0.03
+"","EuropeanUnion --- EuropeanUnion  ","Construction","Construction","076","Brazil",2023,"AHS",0.42
+"","EuropeanUnion --- EuropeanUnion  ","Construction","Construction","124","Canada",2023,"AHS",0
+"","EuropeanUnion --- EuropeanUnion  ","Construction","Construction","156","China",2023,"AHS",0.8
+"","EuropeanUnion --- EuropeanUnion  ","Construction","Construction","356","India",2023,"AHS",0.01
+"","EuropeanUnion --- EuropeanUnion  ","Construction","Construction","392","Japan",2023,"AHS",0
+"","EuropeanUnion --- EuropeanUnion  ","Construction","Construction","484","Mexico",2023,"AHS",0
+"","EuropeanUnion --- EuropeanUnion  ","Construction","Construction","826","United Kingdom",2023,"AHS",0
+"","EuropeanUnion --- EuropeanUnion  ","Construction","Construction","840","United States",2023,"AHS",0.65
+"","EuropeanUnion --- EuropeanUnion  ","Energy","Energy","","RestOfTheWorld --- RestOfTheWorld  ",2023,"AHS",0.12
+"","EuropeanUnion --- EuropeanUnion  ","Energy","Energy","076","Brazil",2023,"AHS",0.3
+"","EuropeanUnion --- EuropeanUnion  ","Energy","Energy","124","Canada",2023,"AHS",0
+"","EuropeanUnion --- EuropeanUnion  ","Energy","Energy","156","China",2023,"AHS",1.11
+"","EuropeanUnion --- EuropeanUnion  ","Energy","Energy","356","India",2023,"AHS",0
+"","EuropeanUnion --- EuropeanUnion  ","Energy","Energy","392","Japan",2023,"AHS",0.12
+"","EuropeanUnion --- EuropeanUnion  ","Energy","Energy","484","Mexico",2023,"AHS",0
+"","EuropeanUnion --- EuropeanUnion  ","Energy","Energy","826","United Kingdom",2023,"AHS",0
+"","EuropeanUnion --- EuropeanUnion  ","Energy","Energy","840","United States",2023,"AHS",0.82
+"","EuropeanUnion --- EuropeanUnion  ","Food","Food","","RestOfTheWorld --- RestOfTheWorld  ",2023,"AHS",3.95
+"","EuropeanUnion --- EuropeanUnion  ","Food","Food","076","Brazil",2023,"AHS",8.25
+"","EuropeanUnion --- EuropeanUnion  ","Food","Food","124","Canada",2023,"AHS",0.59
+"","EuropeanUnion --- EuropeanUnion  ","Food","Food","156","China",2023,"AHS",10.96
+"","EuropeanUnion --- EuropeanUnion  ","Food","Food","356","India",2023,"AHS",5.34
+"","EuropeanUnion --- EuropeanUnion  ","Food","Food","392","Japan",2023,"AHS",0.46
+"","EuropeanUnion --- EuropeanUnion  ","Food","Food","484","Mexico",2023,"AHS",2.3
+"","EuropeanUnion --- EuropeanUnion  ","Food","Food","826","United Kingdom",2023,"AHS",0
+"","EuropeanUnion --- EuropeanUnion  ","Food","Food","840","United States",2023,"AHS",5.21
+"","EuropeanUnion --- EuropeanUnion  ","Manufacture","Manufacture","","RestOfTheWorld --- RestOfTheWorld  ",2023,"AHS",0.53
+"","EuropeanUnion --- EuropeanUnion  ","Manufacture","Manufacture","076","Brazil",2023,"AHS",3.28
+"","EuropeanUnion --- EuropeanUnion  ","Manufacture","Manufacture","124","Canada",2023,"AHS",0.03
+"","EuropeanUnion --- EuropeanUnion  ","Manufacture","Manufacture","156","China",2023,"AHS",2.43
+"","EuropeanUnion --- EuropeanUnion  ","Manufacture","Manufacture","356","India",2023,"AHS",0.52
+"","EuropeanUnion --- EuropeanUnion  ","Manufacture","Manufacture","392","Japan",2023,"AHS",1.71
+"","EuropeanUnion --- EuropeanUnion  ","Manufacture","Manufacture","484","Mexico",2023,"AHS",0
+"","EuropeanUnion --- EuropeanUnion  ","Manufacture","Manufacture","826","United Kingdom",2023,"AHS",0
+"","EuropeanUnion --- EuropeanUnion  ","Manufacture","Manufacture","840","United States",2023,"AHS",2.24
+"","EuropeanUnion --- EuropeanUnion  ","Metal","Metal","","RestOfTheWorld --- RestOfTheWorld  ",2023,"AHS",0.68
+"","EuropeanUnion --- EuropeanUnion  ","Metal","Metal","076","Brazil",2023,"AHS",0.86
+"","EuropeanUnion --- EuropeanUnion  ","Metal","Metal","124","Canada",2023,"AHS",0
+"","EuropeanUnion --- EuropeanUnion  ","Metal","Metal","156","China",2023,"AHS",2.86
+"","EuropeanUnion --- EuropeanUnion  ","Metal","Metal","356","India",2023,"AHS",0.78
+"","EuropeanUnion --- EuropeanUnion  ","Metal","Metal","392","Japan",2023,"AHS",0.07
+"","EuropeanUnion --- EuropeanUnion  ","Metal","Metal","484","Mexico",2023,"AHS",0
+"","EuropeanUnion --- EuropeanUnion  ","Metal","Metal","826","United Kingdom",2023,"AHS",0
+"","EuropeanUnion --- EuropeanUnion  ","Metal","Metal","840","United States",2023,"AHS",2.76
+"","EuropeanUnion --- EuropeanUnion  ","Mining","Mining","","RestOfTheWorld --- RestOfTheWorld  ",2023,"AHS",0
+"","EuropeanUnion --- EuropeanUnion  ","Mining","Mining","076","Brazil",2023,"AHS",0
+"","EuropeanUnion --- EuropeanUnion  ","Mining","Mining","124","Canada",2023,"AHS",0
+"","EuropeanUnion --- EuropeanUnion  ","Mining","Mining","156","China",2023,"AHS",0
+"","EuropeanUnion --- EuropeanUnion  ","Mining","Mining","356","India",2023,"AHS",0
+"","EuropeanUnion --- EuropeanUnion  ","Mining","Mining","392","Japan",2023,"AHS",0
+"","EuropeanUnion --- EuropeanUnion  ","Mining","Mining","484","Mexico",2023,"AHS",0
+"","EuropeanUnion --- EuropeanUnion  ","Mining","Mining","826","United Kingdom",2023,"AHS",0
+"","EuropeanUnion --- EuropeanUnion  ","Mining","Mining","840","United States",2023,"AHS",0
+"","EuropeanUnion --- EuropeanUnion  ","Paper","Paper","","RestOfTheWorld --- RestOfTheWorld  ",2023,"AHS",0.21
+"","EuropeanUnion --- EuropeanUnion  ","Paper","Paper","076","Brazil",2023,"AHS",0.62
+"","EuropeanUnion --- EuropeanUnion  ","Paper","Paper","124","Canada",2023,"AHS",0
+"","EuropeanUnion --- EuropeanUnion  ","Paper","Paper","156","China",2023,"AHS",0.77
+"","EuropeanUnion --- EuropeanUnion  ","Paper","Paper","356","India",2023,"AHS",0.07
+"","EuropeanUnion --- EuropeanUnion  ","Paper","Paper","392","Japan",2023,"AHS",0
+"","EuropeanUnion --- EuropeanUnion  ","Paper","Paper","484","Mexico",2023,"AHS",0
+"","EuropeanUnion --- EuropeanUnion  ","Paper","Paper","826","United Kingdom",2023,"AHS",0
+"","EuropeanUnion --- EuropeanUnion  ","Paper","Paper","840","United States",2023,"AHS",0.13
+"","EuropeanUnion --- EuropeanUnion  ","Textiles","Textiles","","RestOfTheWorld --- RestOfTheWorld  ",2023,"AHS",0.85
+"","EuropeanUnion --- EuropeanUnion  ","Textiles","Textiles","076","Brazil",2023,"AHS",4.84
+"","EuropeanUnion --- EuropeanUnion  ","Textiles","Textiles","124","Canada",2023,"AHS",0
+"","EuropeanUnion --- EuropeanUnion  ","Textiles","Textiles","156","China",2023,"AHS",10.42
+"","EuropeanUnion --- EuropeanUnion  ","Textiles","Textiles","356","India",2023,"AHS",8.18
+"","EuropeanUnion --- EuropeanUnion  ","Textiles","Textiles","392","Japan",2023,"AHS",0
+"","EuropeanUnion --- EuropeanUnion  ","Textiles","Textiles","484","Mexico",2023,"AHS",0
+"","EuropeanUnion --- EuropeanUnion  ","Textiles","Textiles","826","United Kingdom",2023,"AHS",0
+"","EuropeanUnion --- EuropeanUnion  ","Textiles","Textiles","840","United States",2023,"AHS",6.95
+"","RestOfTheWorld --- RestOfTheWorld  ","Chemical","Chemical","","EuropeanUnion --- EuropeanUnion  ",2023,"AHS",2.08
+"","RestOfTheWorld --- RestOfTheWorld  ","Chemical","Chemical","","RestOfTheWorld --- RestOfTheWorld  ",2023,"AHS",2.21
+"","RestOfTheWorld --- RestOfTheWorld  ","Chemical","Chemical","076","Brazil",2023,"AHS",3.82
+"","RestOfTheWorld --- RestOfTheWorld  ","Chemical","Chemical","124","Canada",2023,"AHS",1.09
+"","RestOfTheWorld --- RestOfTheWorld  ","Chemical","Chemical","156","China",2023,"AHS",2.99
+"","RestOfTheWorld --- RestOfTheWorld  ","Chemical","Chemical","356","India",2023,"AHS",3.43
+"","RestOfTheWorld --- RestOfTheWorld  ","Chemical","Chemical","392","Japan",2023,"AHS",2.88
+"","RestOfTheWorld --- RestOfTheWorld  ","Chemical","Chemical","484","Mexico",2023,"AHS",5.86
+"","RestOfTheWorld --- RestOfTheWorld  ","Chemical","Chemical","826","United Kingdom",2023,"AHS",3.66
+"","RestOfTheWorld --- RestOfTheWorld  ","Chemical","Chemical","840","United States",2023,"AHS",2.15
+"","RestOfTheWorld --- RestOfTheWorld  ","Construction","Construction","","EuropeanUnion --- EuropeanUnion  ",2023,"AHS",4.07
+"","RestOfTheWorld --- RestOfTheWorld  ","Construction","Construction","","RestOfTheWorld --- RestOfTheWorld  ",2023,"AHS",1.66
+"","RestOfTheWorld --- RestOfTheWorld  ","Construction","Construction","076","Brazil",2023,"AHS",4.5
+"","RestOfTheWorld --- RestOfTheWorld  ","Construction","Construction","124","Canada",2023,"AHS",0.2
+"","RestOfTheWorld --- RestOfTheWorld  ","Construction","Construction","156","China",2023,"AHS",3.53
+"","RestOfTheWorld --- RestOfTheWorld  ","Construction","Construction","356","India",2023,"AHS",2.91
+"","RestOfTheWorld --- RestOfTheWorld  ","Construction","Construction","392","Japan",2023,"AHS",3.54
+"","RestOfTheWorld --- RestOfTheWorld  ","Construction","Construction","484","Mexico",2023,"AHS",2.53
+"","RestOfTheWorld --- RestOfTheWorld  ","Construction","Construction","826","United Kingdom",2023,"AHS",2.96
+"","RestOfTheWorld --- RestOfTheWorld  ","Construction","Construction","840","United States",2023,"AHS",2.38
+"","RestOfTheWorld --- RestOfTheWorld  ","Energy","Energy","","EuropeanUnion --- EuropeanUnion  ",2023,"AHS",1.27
+"","RestOfTheWorld --- RestOfTheWorld  ","Energy","Energy","","RestOfTheWorld --- RestOfTheWorld  ",2023,"AHS",0.48
+"","RestOfTheWorld --- RestOfTheWorld  ","Energy","Energy","076","Brazil",2023,"AHS",3.01
+"","RestOfTheWorld --- RestOfTheWorld  ","Energy","Energy","124","Canada",2023,"AHS",0.36
+"","RestOfTheWorld --- RestOfTheWorld  ","Energy","Energy","156","China",2023,"AHS",1.56
+"","RestOfTheWorld --- RestOfTheWorld  ","Energy","Energy","356","India",2023,"AHS",2.8
+"","RestOfTheWorld --- RestOfTheWorld  ","Energy","Energy","392","Japan",2023,"AHS",2.14
+"","RestOfTheWorld --- RestOfTheWorld  ","Energy","Energy","484","Mexico",2023,"AHS",3.5
+"","RestOfTheWorld --- RestOfTheWorld  ","Energy","Energy","826","United Kingdom",2023,"AHS",4
+"","RestOfTheWorld --- RestOfTheWorld  ","Energy","Energy","840","United States",2023,"AHS",0.88
+"","RestOfTheWorld --- RestOfTheWorld  ","Food","Food","","EuropeanUnion --- EuropeanUnion  ",2023,"AHS",10.29
+"","RestOfTheWorld --- RestOfTheWorld  ","Food","Food","","RestOfTheWorld --- RestOfTheWorld  ",2023,"AHS",15.78
+"","RestOfTheWorld --- RestOfTheWorld  ","Food","Food","076","Brazil",2023,"AHS",58.51
+"","RestOfTheWorld --- RestOfTheWorld  ","Food","Food","124","Canada",2023,"AHS",11.02
+"","RestOfTheWorld --- RestOfTheWorld  ","Food","Food","156","China",2023,"AHS",26.1
+"","RestOfTheWorld --- RestOfTheWorld  ","Food","Food","356","India",2023,"AHS",15.15
+"","RestOfTheWorld --- RestOfTheWorld  ","Food","Food","392","Japan",2023,"AHS",14.22
+"","RestOfTheWorld --- RestOfTheWorld  ","Food","Food","484","Mexico",2023,"AHS",11.43
+"","RestOfTheWorld --- RestOfTheWorld  ","Food","Food","826","United Kingdom",2023,"AHS",7.69
+"","RestOfTheWorld --- RestOfTheWorld  ","Food","Food","840","United States",2023,"AHS",18.57
+"","RestOfTheWorld --- RestOfTheWorld  ","Manufacture","Manufacture","","EuropeanUnion --- EuropeanUnion  ",2023,"AHS",2.59
+"","RestOfTheWorld --- RestOfTheWorld  ","Manufacture","Manufacture","","RestOfTheWorld --- RestOfTheWorld  ",2023,"AHS",1.3
+"","RestOfTheWorld --- RestOfTheWorld  ","Manufacture","Manufacture","076","Brazil",2023,"AHS",4.26
+"","RestOfTheWorld --- RestOfTheWorld  ","Manufacture","Manufacture","124","Canada",2023,"AHS",0.94
+"","RestOfTheWorld --- RestOfTheWorld  ","Manufacture","Manufacture","156","China",2023,"AHS",2.52
+"","RestOfTheWorld --- RestOfTheWorld  ","Manufacture","Manufacture","356","India",2023,"AHS",4.65
+"","RestOfTheWorld --- RestOfTheWorld  ","Manufacture","Manufacture","392","Japan",2023,"AHS",2.67
+"","RestOfTheWorld --- RestOfTheWorld  ","Manufacture","Manufacture","484","Mexico",2023,"AHS",3.64
+"","RestOfTheWorld --- RestOfTheWorld  ","Manufacture","Manufacture","826","United Kingdom",2023,"AHS",4.7
+"","RestOfTheWorld --- RestOfTheWorld  ","Manufacture","Manufacture","840","United States",2023,"AHS",1.84
+"","RestOfTheWorld --- RestOfTheWorld  ","Metal","Metal","","EuropeanUnion --- EuropeanUnion  ",2023,"AHS",2.17
+"","RestOfTheWorld --- RestOfTheWorld  ","Metal","Metal","","RestOfTheWorld --- RestOfTheWorld  ",2023,"AHS",2.94
+"","RestOfTheWorld --- RestOfTheWorld  ","Metal","Metal","076","Brazil",2023,"AHS",3.31
+"","RestOfTheWorld --- RestOfTheWorld  ","Metal","Metal","124","Canada",2023,"AHS",0.73
+"","RestOfTheWorld --- RestOfTheWorld  ","Metal","Metal","156","China",2023,"AHS",2.91
+"","RestOfTheWorld --- RestOfTheWorld  ","Metal","Metal","356","India",2023,"AHS",2.07
+"","RestOfTheWorld --- RestOfTheWorld  ","Metal","Metal","392","Japan",2023,"AHS",2.83
+"","RestOfTheWorld --- RestOfTheWorld  ","Metal","Metal","484","Mexico",2023,"AHS",1.2
+"","RestOfTheWorld --- RestOfTheWorld  ","Metal","Metal","826","United Kingdom",2023,"AHS",4.17
+"","RestOfTheWorld --- RestOfTheWorld  ","Metal","Metal","840","United States",2023,"AHS",1.38
+"","RestOfTheWorld --- RestOfTheWorld  ","Mining","Mining","","EuropeanUnion --- EuropeanUnion  ",2023,"AHS",0.05
+"","RestOfTheWorld --- RestOfTheWorld  ","Mining","Mining","","RestOfTheWorld --- RestOfTheWorld  ",2023,"AHS",0.01
+"","RestOfTheWorld --- RestOfTheWorld  ","Mining","Mining","076","Brazil",2023,"AHS",0
+"","RestOfTheWorld --- RestOfTheWorld  ","Mining","Mining","124","Canada",2023,"AHS",0
+"","RestOfTheWorld --- RestOfTheWorld  ","Mining","Mining","156","China",2023,"AHS",0.21
+"","RestOfTheWorld --- RestOfTheWorld  ","Mining","Mining","356","India",2023,"AHS",0.1
+"","RestOfTheWorld --- RestOfTheWorld  ","Mining","Mining","392","Japan",2023,"AHS",0.48
+"","RestOfTheWorld --- RestOfTheWorld  ","Mining","Mining","484","Mexico",2023,"AHS",0.01
+"","RestOfTheWorld --- RestOfTheWorld  ","Mining","Mining","826","United Kingdom",2023,"AHS",0.02
+"","RestOfTheWorld --- RestOfTheWorld  ","Mining","Mining","840","United States",2023,"AHS",0
+"","RestOfTheWorld --- RestOfTheWorld  ","Paper","Paper","","EuropeanUnion --- EuropeanUnion  ",2023,"AHS",2.34
+"","RestOfTheWorld --- RestOfTheWorld  ","Paper","Paper","","RestOfTheWorld --- RestOfTheWorld  ",2023,"AHS",2.56
+"","RestOfTheWorld --- RestOfTheWorld  ","Paper","Paper","076","Brazil",2023,"AHS",0.37
+"","RestOfTheWorld --- RestOfTheWorld  ","Paper","Paper","124","Canada",2023,"AHS",0.14
+"","RestOfTheWorld --- RestOfTheWorld  ","Paper","Paper","156","China",2023,"AHS",2.1
+"","RestOfTheWorld --- RestOfTheWorld  ","Paper","Paper","356","India",2023,"AHS",2.32
+"","RestOfTheWorld --- RestOfTheWorld  ","Paper","Paper","392","Japan",2023,"AHS",0.2
+"","RestOfTheWorld --- RestOfTheWorld  ","Paper","Paper","484","Mexico",2023,"AHS",2.28
+"","RestOfTheWorld --- RestOfTheWorld  ","Paper","Paper","826","United Kingdom",2023,"AHS",2.72
+"","RestOfTheWorld --- RestOfTheWorld  ","Paper","Paper","840","United States",2023,"AHS",0.83
+"","RestOfTheWorld --- RestOfTheWorld  ","Textiles","Textiles","","EuropeanUnion --- EuropeanUnion  ",2023,"AHS",3.24
+"","RestOfTheWorld --- RestOfTheWorld  ","Textiles","Textiles","","RestOfTheWorld --- RestOfTheWorld  ",2023,"AHS",4.45
+"","RestOfTheWorld --- RestOfTheWorld  ","Textiles","Textiles","076","Brazil",2023,"AHS",0.16
+"","RestOfTheWorld --- RestOfTheWorld  ","Textiles","Textiles","124","Canada",2023,"AHS",3.05
+"","RestOfTheWorld --- RestOfTheWorld  ","Textiles","Textiles","156","China",2023,"AHS",6.93
+"","RestOfTheWorld --- RestOfTheWorld  ","Textiles","Textiles","356","India",2023,"AHS",6.44
+"","RestOfTheWorld --- RestOfTheWorld  ","Textiles","Textiles","392","Japan",2023,"AHS",5.15
+"","RestOfTheWorld --- RestOfTheWorld  ","Textiles","Textiles","484","Mexico",2023,"AHS",3.45
+"","RestOfTheWorld --- RestOfTheWorld  ","Textiles","Textiles","826","United Kingdom",2023,"AHS",8.32
+"","RestOfTheWorld --- RestOfTheWorld  ","Textiles","Textiles","840","United States",2023,"AHS",2.13
+"076","Brazil","Chemical","Chemical","","EuropeanUnion --- EuropeanUnion  ",2023,"AHS",6.88
+"076","Brazil","Chemical","Chemical","","RestOfTheWorld --- RestOfTheWorld  ",2023,"AHS",2.88
+"076","Brazil","Chemical","Chemical","076","Brazil",2023,"AHS",0.03
+"076","Brazil","Chemical","Chemical","124","Canada",2023,"AHS",1.39
+"076","Brazil","Chemical","Chemical","156","China",2023,"AHS",7.25
+"076","Brazil","Chemical","Chemical","356","India",2023,"AHS",7.65
+"076","Brazil","Chemical","Chemical","392","Japan",2023,"AHS",6.14
+"076","Brazil","Chemical","Chemical","484","Mexico",2023,"AHS",5.64
+"076","Brazil","Chemical","Chemical","826","United Kingdom",2023,"AHS",8.37
+"076","Brazil","Chemical","Chemical","840","United States",2023,"AHS",8.4
+"076","Brazil","Construction","Construction","","EuropeanUnion --- EuropeanUnion  ",2023,"AHS",6.55
+"076","Brazil","Construction","Construction","","RestOfTheWorld --- RestOfTheWorld  ",2023,"AHS",3.99
+"076","Brazil","Construction","Construction","076","Brazil",2023,"AHS",0
+"076","Brazil","Construction","Construction","124","Canada",2023,"AHS",4.7
+"076","Brazil","Construction","Construction","156","China",2023,"AHS",6.76
+"076","Brazil","Construction","Construction","356","India",2023,"AHS",6.76
+"076","Brazil","Construction","Construction","392","Japan",2023,"AHS",7.54
+"076","Brazil","Construction","Construction","484","Mexico",2023,"AHS",3.44
+"076","Brazil","Construction","Construction","826","United Kingdom",2023,"AHS",8.07
+"076","Brazil","Construction","Construction","840","United States",2023,"AHS",3.52
+"076","Brazil","Energy","Energy","","EuropeanUnion --- EuropeanUnion  ",2023,"AHS",10.85
+"076","Brazil","Energy","Energy","","RestOfTheWorld --- RestOfTheWorld  ",2023,"AHS",4.3
+"076","Brazil","Energy","Energy","076","Brazil",2023,"AHS",0.17
+"076","Brazil","Energy","Energy","124","Canada",2023,"AHS",5.49
+"076","Brazil","Energy","Energy","156","China",2023,"AHS",11.26
+"076","Brazil","Energy","Energy","356","India",2023,"AHS",11.5
+"076","Brazil","Energy","Energy","392","Japan",2023,"AHS",11.18
+"076","Brazil","Energy","Energy","484","Mexico",2023,"AHS",4.27
+"076","Brazil","Energy","Energy","826","United Kingdom",2023,"AHS",11.45
+"076","Brazil","Energy","Energy","840","United States",2023,"AHS",3.86
+"076","Brazil","Food","Food","","EuropeanUnion --- EuropeanUnion  ",2023,"AHS",13.33
+"076","Brazil","Food","Food","","RestOfTheWorld --- RestOfTheWorld  ",2023,"AHS",10.29
+"076","Brazil","Food","Food","076","Brazil",2023,"AHS",0
+"076","Brazil","Food","Food","124","Canada",2023,"AHS",8.12
+"076","Brazil","Food","Food","156","China",2023,"AHS",9.59
+"076","Brazil","Food","Food","356","India",2023,"AHS",10.17
+"076","Brazil","Food","Food","392","Japan",2023,"AHS",11.78
+"076","Brazil","Food","Food","484","Mexico",2023,"AHS",4.61
+"076","Brazil","Food","Food","826","United Kingdom",2023,"AHS",16.49
+"076","Brazil","Food","Food","840","United States",2023,"AHS",9.93
+"076","Brazil","Manufacture","Manufacture","","EuropeanUnion --- EuropeanUnion  ",2023,"AHS",14.26
+"076","Brazil","Manufacture","Manufacture","","RestOfTheWorld --- RestOfTheWorld  ",2023,"AHS",8.82
+"076","Brazil","Manufacture","Manufacture","076","Brazil",2023,"AHS",0.19
+"076","Brazil","Manufacture","Manufacture","124","Canada",2023,"AHS",6.71
+"076","Brazil","Manufacture","Manufacture","156","China",2023,"AHS",13.33
+"076","Brazil","Manufacture","Manufacture","356","India",2023,"AHS",14.34
+"076","Brazil","Manufacture","Manufacture","392","Japan",2023,"AHS",12.63
+"076","Brazil","Manufacture","Manufacture","484","Mexico",2023,"AHS",2.08
+"076","Brazil","Manufacture","Manufacture","826","United Kingdom",2023,"AHS",16.5
+"076","Brazil","Manufacture","Manufacture","840","United States",2023,"AHS",10.2
+"076","Brazil","Metal","Metal","","EuropeanUnion --- EuropeanUnion  ",2023,"AHS",12.58
+"076","Brazil","Metal","Metal","","RestOfTheWorld --- RestOfTheWorld  ",2023,"AHS",11.05
+"076","Brazil","Metal","Metal","076","Brazil",2023,"AHS",0
+"076","Brazil","Metal","Metal","124","Canada",2023,"AHS",7.74
+"076","Brazil","Metal","Metal","156","China",2023,"AHS",12.28
+"076","Brazil","Metal","Metal","356","India",2023,"AHS",11.2
+"076","Brazil","Metal","Metal","392","Japan",2023,"AHS",11.76
+"076","Brazil","Metal","Metal","484","Mexico",2023,"AHS",4
+"076","Brazil","Metal","Metal","826","United Kingdom",2023,"AHS",11.71
+"076","Brazil","Metal","Metal","840","United States",2023,"AHS",11.92
+"076","Brazil","Mining","Mining","","EuropeanUnion --- EuropeanUnion  ",2023,"AHS",2
+"076","Brazil","Mining","Mining","","RestOfTheWorld --- RestOfTheWorld  ",2023,"AHS",2
+"076","Brazil","Mining","Mining","124","Canada",2023,"AHS",2
+"076","Brazil","Mining","Mining","156","China",2023,"AHS",2
+"076","Brazil","Mining","Mining","356","India",2023,"AHS",2
+"076","Brazil","Mining","Mining","392","Japan",2023,"AHS",2
+"076","Brazil","Mining","Mining","484","Mexico",2023,"AHS",1.6
+"076","Brazil","Mining","Mining","826","United Kingdom",2023,"AHS",2
+"076","Brazil","Mining","Mining","840","United States",2023,"AHS",2
+"076","Brazil","Paper","Paper","","EuropeanUnion --- EuropeanUnion  ",2023,"AHS",12.06
+"076","Brazil","Paper","Paper","","RestOfTheWorld --- RestOfTheWorld  ",2023,"AHS",9.77
+"076","Brazil","Paper","Paper","076","Brazil",2023,"AHS",0
+"076","Brazil","Paper","Paper","124","Canada",2023,"AHS",11.4
+"076","Brazil","Paper","Paper","156","China",2023,"AHS",12.77
+"076","Brazil","Paper","Paper","356","India",2023,"AHS",14.1
+"076","Brazil","Paper","Paper","392","Japan",2023,"AHS",12.56
+"076","Brazil","Paper","Paper","484","Mexico",2023,"AHS",10.66
+"076","Brazil","Paper","Paper","826","United Kingdom",2023,"AHS",12.29
+"076","Brazil","Paper","Paper","840","United States",2023,"AHS",11.19
+"076","Brazil","Textiles","Textiles","","EuropeanUnion --- EuropeanUnion  ",2023,"AHS",22.96
+"076","Brazil","Textiles","Textiles","","RestOfTheWorld --- RestOfTheWorld  ",2023,"AHS",21.32
+"076","Brazil","Textiles","Textiles","076","Brazil",2023,"AHS",0
+"076","Brazil","Textiles","Textiles","124","Canada",2023,"AHS",25.37
+"076","Brazil","Textiles","Textiles","156","China",2023,"AHS",26.17
+"076","Brazil","Textiles","Textiles","356","India",2023,"AHS",23.78
+"076","Brazil","Textiles","Textiles","392","Japan",2023,"AHS",18.06
+"076","Brazil","Textiles","Textiles","484","Mexico",2023,"AHS",11.89
+"076","Brazil","Textiles","Textiles","826","United Kingdom",2023,"AHS",16.65
+"076","Brazil","Textiles","Textiles","840","United States",2023,"AHS",16.93
+"124","Canada","Chemical","Chemical","","EuropeanUnion --- EuropeanUnion  ",2023,"AHS",0
+"124","Canada","Chemical","Chemical","","RestOfTheWorld --- RestOfTheWorld  ",2023,"AHS",0.57
+"124","Canada","Chemical","Chemical","076","Brazil",2023,"AHS",0.1
+"124","Canada","Chemical","Chemical","124","Canada",2023,"AHS",2.57
+"124","Canada","Chemical","Chemical","156","China",2023,"AHS",2.67
+"124","Canada","Chemical","Chemical","356","India",2023,"AHS",0.38
+"124","Canada","Chemical","Chemical","392","Japan",2023,"AHS",0
+"124","Canada","Chemical","Chemical","484","Mexico",2023,"AHS",0
+"124","Canada","Chemical","Chemical","826","United Kingdom",2023,"AHS",1
+"124","Canada","Chemical","Chemical","840","United States",2023,"AHS",1.7
+"124","Canada","Construction","Construction","","EuropeanUnion --- EuropeanUnion  ",2023,"AHS",0
+"124","Canada","Construction","Construction","","RestOfTheWorld --- RestOfTheWorld  ",2023,"AHS",0.87
+"124","Canada","Construction","Construction","076","Brazil",2023,"AHS",1.61
+"124","Canada","Construction","Construction","124","Canada",2023,"AHS",0.49
+"124","Canada","Construction","Construction","156","China",2023,"AHS",3.62
+"124","Canada","Construction","Construction","356","India",2023,"AHS",3.71
+"124","Canada","Construction","Construction","392","Japan",2023,"AHS",0
+"124","Canada","Construction","Construction","484","Mexico",2023,"AHS",0
+"124","Canada","Construction","Construction","826","United Kingdom",2023,"AHS",1.64
+"124","Canada","Construction","Construction","840","United States",2023,"AHS",1.98
+"124","Canada","Energy","Energy","","EuropeanUnion --- EuropeanUnion  ",2023,"AHS",0
+"124","Canada","Energy","Energy","","RestOfTheWorld --- RestOfTheWorld  ",2023,"AHS",0.11
+"124","Canada","Energy","Energy","076","Brazil",2023,"AHS",0
+"124","Canada","Energy","Energy","124","Canada",2023,"AHS",0.03
+"124","Canada","Energy","Energy","156","China",2023,"AHS",0.22
+"124","Canada","Energy","Energy","356","India",2023,"AHS",0.03
+"124","Canada","Energy","Energy","392","Japan",2023,"AHS",0
+"124","Canada","Energy","Energy","484","Mexico",2023,"AHS",0
+"124","Canada","Energy","Energy","826","United Kingdom",2023,"AHS",0.03
+"124","Canada","Energy","Energy","840","United States",2023,"AHS",0.15
+"124","Canada","Food","Food","","EuropeanUnion --- EuropeanUnion  ",2023,"AHS",11.97
+"124","Canada","Food","Food","","RestOfTheWorld --- RestOfTheWorld  ",2023,"AHS",5.56
+"124","Canada","Food","Food","076","Brazil",2023,"AHS",5.71
+"124","Canada","Food","Food","124","Canada",2023,"AHS",11.81
+"124","Canada","Food","Food","156","China",2023,"AHS",3.79
+"124","Canada","Food","Food","356","India",2023,"AHS",2.52
+"124","Canada","Food","Food","392","Japan",2023,"AHS",3.56
+"124","Canada","Food","Food","484","Mexico",2023,"AHS",2.39
+"124","Canada","Food","Food","826","United Kingdom",2023,"AHS",14.53
+"124","Canada","Food","Food","840","United States",2023,"AHS",13.52
+"124","Canada","Manufacture","Manufacture","","EuropeanUnion --- EuropeanUnion  ",2023,"AHS",0.12
+"124","Canada","Manufacture","Manufacture","","RestOfTheWorld --- RestOfTheWorld  ",2023,"AHS",1
+"124","Canada","Manufacture","Manufacture","076","Brazil",2023,"AHS",0.3
+"124","Canada","Manufacture","Manufacture","124","Canada",2023,"AHS",0.72
+"124","Canada","Manufacture","Manufacture","156","China",2023,"AHS",2.63
+"124","Canada","Manufacture","Manufacture","356","India",2023,"AHS",2.97
+"124","Canada","Manufacture","Manufacture","392","Japan",2023,"AHS",0.02
+"124","Canada","Manufacture","Manufacture","484","Mexico",2023,"AHS",0.41
+"124","Canada","Manufacture","Manufacture","826","United Kingdom",2023,"AHS",2.05
+"124","Canada","Manufacture","Manufacture","840","United States",2023,"AHS",3.24
+"124","Canada","Metal","Metal","","EuropeanUnion --- EuropeanUnion  ",2023,"AHS",0
+"124","Canada","Metal","Metal","","RestOfTheWorld --- RestOfTheWorld  ",2023,"AHS",0.12
+"124","Canada","Metal","Metal","076","Brazil",2023,"AHS",0.05
+"124","Canada","Metal","Metal","124","Canada",2023,"AHS",0.72
+"124","Canada","Metal","Metal","156","China",2023,"AHS",1.23
+"124","Canada","Metal","Metal","356","India",2023,"AHS",0.73
+"124","Canada","Metal","Metal","392","Japan",2023,"AHS",0
+"124","Canada","Metal","Metal","484","Mexico",2023,"AHS",0
+"124","Canada","Metal","Metal","826","United Kingdom",2023,"AHS",0.54
+"124","Canada","Metal","Metal","840","United States",2023,"AHS",0.63
+"124","Canada","Mining","Mining","","EuropeanUnion --- EuropeanUnion  ",2023,"AHS",0
+"124","Canada","Mining","Mining","","RestOfTheWorld --- RestOfTheWorld  ",2023,"AHS",0
+"124","Canada","Mining","Mining","076","Brazil",2023,"AHS",0
+"124","Canada","Mining","Mining","124","Canada",2023,"AHS",0
+"124","Canada","Mining","Mining","156","China",2023,"AHS",0
+"124","Canada","Mining","Mining","356","India",2023,"AHS",0
+"124","Canada","Mining","Mining","392","Japan",2023,"AHS",0
+"124","Canada","Mining","Mining","484","Mexico",2023,"AHS",0
+"124","Canada","Mining","Mining","826","United Kingdom",2023,"AHS",0
+"124","Canada","Mining","Mining","840","United States",2023,"AHS",0
+"124","Canada","Paper","Paper","","EuropeanUnion --- EuropeanUnion  ",2023,"AHS",0
+"124","Canada","Paper","Paper","","RestOfTheWorld --- RestOfTheWorld  ",2023,"AHS",0.4
+"124","Canada","Paper","Paper","076","Brazil",2023,"AHS",0.12
+"124","Canada","Paper","Paper","124","Canada",2023,"AHS",0.41
+"124","Canada","Paper","Paper","156","China",2023,"AHS",0.91
+"124","Canada","Paper","Paper","356","India",2023,"AHS",1.28
+"124","Canada","Paper","Paper","392","Japan",2023,"AHS",0
+"124","Canada","Paper","Paper","484","Mexico",2023,"AHS",0
+"124","Canada","Paper","Paper","826","United Kingdom",2023,"AHS",0.07
+"124","Canada","Paper","Paper","840","United States",2023,"AHS",0.23
+"124","Canada","Textiles","Textiles","","EuropeanUnion --- EuropeanUnion  ",2023,"AHS",0
+"124","Canada","Textiles","Textiles","","RestOfTheWorld --- RestOfTheWorld  ",2023,"AHS",11.68
+"124","Canada","Textiles","Textiles","076","Brazil",2023,"AHS",6.76
+"124","Canada","Textiles","Textiles","124","Canada",2023,"AHS",8.97
+"124","Canada","Textiles","Textiles","156","China",2023,"AHS",14.79
+"124","Canada","Textiles","Textiles","356","India",2023,"AHS",13.25
+"124","Canada","Textiles","Textiles","392","Japan",2023,"AHS",0
+"124","Canada","Textiles","Textiles","484","Mexico",2023,"AHS",0
+"124","Canada","Textiles","Textiles","826","United Kingdom",2023,"AHS",8.86
+"124","Canada","Textiles","Textiles","840","United States",2023,"AHS",6.22
+"156","China","Chemical","Chemical","","EuropeanUnion --- EuropeanUnion  ",2023,"AHS",3.61
+"156","China","Chemical","Chemical","","RestOfTheWorld --- RestOfTheWorld  ",2023,"AHS",3.07
+"156","China","Chemical","Chemical","076","Brazil",2023,"AHS",6.94
+"156","China","Chemical","Chemical","124","Canada",2023,"AHS",3.81
+"156","China","Chemical","Chemical","156","China",2023,"AHS",5.04
+"156","China","Chemical","Chemical","356","India",2023,"AHS",5.63
+"156","China","Chemical","Chemical","392","Japan",2023,"AHS",4.41
+"156","China","Chemical","Chemical","484","Mexico",2023,"AHS",7.29
+"156","China","Chemical","Chemical","826","United Kingdom",2023,"AHS",3.28
+"156","China","Chemical","Chemical","840","United States",2023,"AHS",4.6
+"156","China","Construction","Construction","","EuropeanUnion --- EuropeanUnion  ",2023,"AHS",6.51
+"156","China","Construction","Construction","","RestOfTheWorld --- RestOfTheWorld  ",2023,"AHS",0.47
+"156","China","Construction","Construction","076","Brazil",2023,"AHS",3.1
+"156","China","Construction","Construction","124","Canada",2023,"AHS",2.89
+"156","China","Construction","Construction","156","China",2023,"AHS",8.25
+"156","China","Construction","Construction","356","India",2023,"AHS",1.61
+"156","China","Construction","Construction","392","Japan",2023,"AHS",9.52
+"156","China","Construction","Construction","484","Mexico",2023,"AHS",5.43
+"156","China","Construction","Construction","826","United Kingdom",2023,"AHS",9.89
+"156","China","Construction","Construction","840","United States",2023,"AHS",5.12
+"156","China","Energy","Energy","","EuropeanUnion --- EuropeanUnion  ",2023,"AHS",4.54
+"156","China","Energy","Energy","","RestOfTheWorld --- RestOfTheWorld  ",2023,"AHS",0.66
+"156","China","Energy","Energy","076","Brazil",2023,"AHS",0.18
+"156","China","Energy","Energy","124","Canada",2023,"AHS",1.86
+"156","China","Energy","Energy","156","China",2023,"AHS",0.35
+"156","China","Energy","Energy","356","India",2023,"AHS",4.77
+"156","China","Energy","Energy","392","Japan",2023,"AHS",3.05
+"156","China","Energy","Energy","484","Mexico",2023,"AHS",2.02
+"156","China","Energy","Energy","826","United Kingdom",2023,"AHS",2.72
+"156","China","Energy","Energy","840","United States",2023,"AHS",2.64
+"156","China","Food","Food","","EuropeanUnion --- EuropeanUnion  ",2023,"AHS",11.27
+"156","China","Food","Food","","RestOfTheWorld --- RestOfTheWorld  ",2023,"AHS",7.56
+"156","China","Food","Food","076","Brazil",2023,"AHS",7.4
+"156","China","Food","Food","124","Canada",2023,"AHS",7.87
+"156","China","Food","Food","156","China",2023,"AHS",12.81
+"156","China","Food","Food","356","India",2023,"AHS",7.54
+"156","China","Food","Food","392","Japan",2023,"AHS",11.3
+"156","China","Food","Food","484","Mexico",2023,"AHS",6.79
+"156","China","Food","Food","826","United Kingdom",2023,"AHS",10.29
+"156","China","Food","Food","840","United States",2023,"AHS",8.31
+"156","China","Manufacture","Manufacture","","EuropeanUnion --- EuropeanUnion  ",2023,"AHS",6.06
+"156","China","Manufacture","Manufacture","","RestOfTheWorld --- RestOfTheWorld  ",2023,"AHS",0.53
+"156","China","Manufacture","Manufacture","076","Brazil",2023,"AHS",5.48
+"156","China","Manufacture","Manufacture","124","Canada",2023,"AHS",0.32
+"156","China","Manufacture","Manufacture","156","China",2023,"AHS",0.59
+"156","China","Manufacture","Manufacture","356","India",2023,"AHS",2.58
+"156","China","Manufacture","Manufacture","392","Japan",2023,"AHS",3.49
+"156","China","Manufacture","Manufacture","484","Mexico",2023,"AHS",2.97
+"156","China","Manufacture","Manufacture","826","United Kingdom",2023,"AHS",8.74
+"156","China","Manufacture","Manufacture","840","United States",2023,"AHS",5.31
+"156","China","Metal","Metal","","EuropeanUnion --- EuropeanUnion  ",2023,"AHS",4.56
+"156","China","Metal","Metal","","RestOfTheWorld --- RestOfTheWorld  ",2023,"AHS",1.29
+"156","China","Metal","Metal","076","Brazil",2023,"AHS",2.07
+"156","China","Metal","Metal","124","Canada",2023,"AHS",2.57
+"156","China","Metal","Metal","156","China",2023,"AHS",3.16
+"156","China","Metal","Metal","356","India",2023,"AHS",2.67
+"156","China","Metal","Metal","392","Japan",2023,"AHS",3.24
+"156","China","Metal","Metal","484","Mexico",2023,"AHS",2.23
+"156","China","Metal","Metal","826","United Kingdom",2023,"AHS",3.01
+"156","China","Metal","Metal","840","United States",2023,"AHS",3.98
+"156","China","Mining","Mining","","EuropeanUnion --- EuropeanUnion  ",2023,"AHS",0
+"156","China","Mining","Mining","","RestOfTheWorld --- RestOfTheWorld  ",2023,"AHS",0
+"156","China","Mining","Mining","076","Brazil",2023,"AHS",0
+"156","China","Mining","Mining","124","Canada",2023,"AHS",0
+"156","China","Mining","Mining","156","China",2023,"AHS",0
+"156","China","Mining","Mining","356","India",2023,"AHS",0
+"156","China","Mining","Mining","392","Japan",2023,"AHS",0
+"156","China","Mining","Mining","484","Mexico",2023,"AHS",0
+"156","China","Mining","Mining","826","United Kingdom",2023,"AHS",0
+"156","China","Mining","Mining","840","United States",2023,"AHS",0
+"156","China","Paper","Paper","","EuropeanUnion --- EuropeanUnion  ",2023,"AHS",1.21
+"156","China","Paper","Paper","","RestOfTheWorld --- RestOfTheWorld  ",2023,"AHS",1.19
+"156","China","Paper","Paper","076","Brazil",2023,"AHS",0.04
+"156","China","Paper","Paper","124","Canada",2023,"AHS",0.12
+"156","China","Paper","Paper","156","China",2023,"AHS",5.19
+"156","China","Paper","Paper","356","India",2023,"AHS",3.35
+"156","China","Paper","Paper","392","Japan",2023,"AHS",3.53
+"156","China","Paper","Paper","484","Mexico",2023,"AHS",3.03
+"156","China","Paper","Paper","826","United Kingdom",2023,"AHS",4.95
+"156","China","Paper","Paper","840","United States",2023,"AHS",0.96
+"156","China","Textiles","Textiles","","EuropeanUnion --- EuropeanUnion  ",2023,"AHS",6.57
+"156","China","Textiles","Textiles","","RestOfTheWorld --- RestOfTheWorld  ",2023,"AHS",9.13
+"156","China","Textiles","Textiles","076","Brazil",2023,"AHS",13.38
+"156","China","Textiles","Textiles","124","Canada",2023,"AHS",8.06
+"156","China","Textiles","Textiles","156","China",2023,"AHS",5
+"156","China","Textiles","Textiles","356","India",2023,"AHS",5.03
+"156","China","Textiles","Textiles","392","Japan",2023,"AHS",6.62
+"156","China","Textiles","Textiles","484","Mexico",2023,"AHS",11.06
+"156","China","Textiles","Textiles","826","United Kingdom",2023,"AHS",6.64
+"156","China","Textiles","Textiles","840","United States",2023,"AHS",11.97
+"356","India","Chemical","Chemical","","EuropeanUnion --- EuropeanUnion  ",2023,"AHS",9.28
+"356","India","Chemical","Chemical","","RestOfTheWorld --- RestOfTheWorld  ",2023,"AHS",4.38
+"356","India","Chemical","Chemical","076","Brazil",2023,"AHS",8.76
+"356","India","Chemical","Chemical","124","Canada",2023,"AHS",8.03
+"356","India","Chemical","Chemical","156","China",2023,"AHS",7.36
+"356","India","Chemical","Chemical","356","India",2023,"AHS",5.95
+"356","India","Chemical","Chemical","392","Japan",2023,"AHS",0.64
+"356","India","Chemical","Chemical","484","Mexico",2023,"AHS",8.93
+"356","India","Chemical","Chemical","826","United Kingdom",2023,"AHS",13.94
+"356","India","Chemical","Chemical","840","United States",2023,"AHS",8.51
+"356","India","Construction","Construction","","EuropeanUnion --- EuropeanUnion  ",2023,"AHS",18.67
+"356","India","Construction","Construction","","RestOfTheWorld --- RestOfTheWorld  ",2023,"AHS",20.18
+"356","India","Construction","Construction","076","Brazil",2023,"AHS",10.4
+"356","India","Construction","Construction","124","Canada",2023,"AHS",9.38
+"356","India","Construction","Construction","156","China",2023,"AHS",8.82
+"356","India","Construction","Construction","356","India",2023,"AHS",5.76
+"356","India","Construction","Construction","392","Japan",2023,"AHS",3.9
+"356","India","Construction","Construction","484","Mexico",2023,"AHS",9.56
+"356","India","Construction","Construction","826","United Kingdom",2023,"AHS",7.86
+"356","India","Construction","Construction","840","United States",2023,"AHS",7.73
+"356","India","Energy","Energy","","EuropeanUnion --- EuropeanUnion  ",2023,"AHS",7.36
+"356","India","Energy","Energy","","RestOfTheWorld --- RestOfTheWorld  ",2023,"AHS",0.47
+"356","India","Energy","Energy","076","Brazil",2023,"AHS",0.72
+"356","India","Energy","Energy","124","Canada",2023,"AHS",1.37
+"356","India","Energy","Energy","156","China",2023,"AHS",5.24
+"356","India","Energy","Energy","356","India",2023,"AHS",5.34
+"356","India","Energy","Energy","392","Japan",2023,"AHS",1.78
+"356","India","Energy","Energy","484","Mexico",2023,"AHS",0.71
+"356","India","Energy","Energy","826","United Kingdom",2023,"AHS",8.55
+"356","India","Energy","Energy","840","United States",2023,"AHS",3.23
+"356","India","Food","Food","","EuropeanUnion --- EuropeanUnion  ",2023,"AHS",63.01
+"356","India","Food","Food","","RestOfTheWorld --- RestOfTheWorld  ",2023,"AHS",14.22
+"356","India","Food","Food","076","Brazil",2023,"AHS",44.82
+"356","India","Food","Food","124","Canada",2023,"AHS",1
+"356","India","Food","Food","156","China",2023,"AHS",25.96
+"356","India","Food","Food","356","India",2023,"AHS",21.17
+"356","India","Food","Food","392","Japan",2023,"AHS",60.41
+"356","India","Food","Food","484","Mexico",2023,"AHS",99.02
+"356","India","Food","Food","826","United Kingdom",2023,"AHS",141.06
+"356","India","Food","Food","840","United States",2023,"AHS",22.1
+"356","India","Manufacture","Manufacture","","EuropeanUnion --- EuropeanUnion  ",2023,"AHS",11.15
+"356","India","Manufacture","Manufacture","","RestOfTheWorld --- RestOfTheWorld  ",2023,"AHS",5.54
+"356","India","Manufacture","Manufacture","076","Brazil",2023,"AHS",11.39
+"356","India","Manufacture","Manufacture","124","Canada",2023,"AHS",9.31
+"356","India","Manufacture","Manufacture","156","China",2023,"AHS",10.65
+"356","India","Manufacture","Manufacture","356","India",2023,"AHS",8.83
+"356","India","Manufacture","Manufacture","392","Japan",2023,"AHS",3.72
+"356","India","Manufacture","Manufacture","484","Mexico",2023,"AHS",7.76
+"356","India","Manufacture","Manufacture","826","United Kingdom",2023,"AHS",17.54
+"356","India","Manufacture","Manufacture","840","United States",2023,"AHS",9.94
+"356","India","Metal","Metal","","EuropeanUnion --- EuropeanUnion  ",2023,"AHS",4.95
+"356","India","Metal","Metal","","RestOfTheWorld --- RestOfTheWorld  ",2023,"AHS",1.78
+"356","India","Metal","Metal","076","Brazil",2023,"AHS",2.47
+"356","India","Metal","Metal","124","Canada",2023,"AHS",1.43
+"356","India","Metal","Metal","156","China",2023,"AHS",8
+"356","India","Metal","Metal","356","India",2023,"AHS",5.26
+"356","India","Metal","Metal","392","Japan",2023,"AHS",0.27
+"356","India","Metal","Metal","484","Mexico",2023,"AHS",2.57
+"356","India","Metal","Metal","826","United Kingdom",2023,"AHS",2.37
+"356","India","Metal","Metal","840","United States",2023,"AHS",3.09
+"356","India","Mining","Mining","","EuropeanUnion --- EuropeanUnion  ",2023,"AHS",4.14
+"356","India","Mining","Mining","","RestOfTheWorld --- RestOfTheWorld  ",2023,"AHS",1.08
+"356","India","Mining","Mining","076","Brazil",2023,"AHS",2.5
+"356","India","Mining","Mining","124","Canada",2023,"AHS",2.54
+"356","India","Mining","Mining","156","China",2023,"AHS",1.49
+"356","India","Mining","Mining","392","Japan",2023,"AHS",0
+"356","India","Mining","Mining","484","Mexico",2023,"AHS",2.79
+"356","India","Mining","Mining","826","United Kingdom",2023,"AHS",4.66
+"356","India","Mining","Mining","840","United States",2023,"AHS",3.77
+"356","India","Paper","Paper","","EuropeanUnion --- EuropeanUnion  ",2023,"AHS",7.1
+"356","India","Paper","Paper","","RestOfTheWorld --- RestOfTheWorld  ",2023,"AHS",3.15
+"356","India","Paper","Paper","076","Brazil",2023,"AHS",7.01
+"356","India","Paper","Paper","124","Canada",2023,"AHS",6.77
+"356","India","Paper","Paper","156","China",2023,"AHS",8.05
+"356","India","Paper","Paper","356","India",2023,"AHS",7.56
+"356","India","Paper","Paper","392","Japan",2023,"AHS",2.6
+"356","India","Paper","Paper","484","Mexico",2023,"AHS",6.86
+"356","India","Paper","Paper","826","United Kingdom",2023,"AHS",3.82
+"356","India","Paper","Paper","840","United States",2023,"AHS",5.19
+"356","India","Textiles","Textiles","","EuropeanUnion --- EuropeanUnion  ",2023,"AHS",11.4
+"356","India","Textiles","Textiles","","RestOfTheWorld --- RestOfTheWorld  ",2023,"AHS",7.57
+"356","India","Textiles","Textiles","076","Brazil",2023,"AHS",5.91
+"356","India","Textiles","Textiles","124","Canada",2023,"AHS",17.54
+"356","India","Textiles","Textiles","156","China",2023,"AHS",12.33
+"356","India","Textiles","Textiles","356","India",2023,"AHS",10.18
+"356","India","Textiles","Textiles","392","Japan",2023,"AHS",0
+"356","India","Textiles","Textiles","484","Mexico",2023,"AHS",9.2
+"356","India","Textiles","Textiles","826","United Kingdom",2023,"AHS",11.69
+"356","India","Textiles","Textiles","840","United States",2023,"AHS",7.61
+"392","Japan","Chemical","Chemical","","EuropeanUnion --- EuropeanUnion  ",2023,"AHS",0.04
+"392","Japan","Chemical","Chemical","","RestOfTheWorld --- RestOfTheWorld  ",2023,"AHS",1.29
+"392","Japan","Chemical","Chemical","076","Brazil",2023,"AHS",1.68
+"392","Japan","Chemical","Chemical","124","Canada",2023,"AHS",0.07
+"392","Japan","Chemical","Chemical","156","China",2023,"AHS",1.37
+"392","Japan","Chemical","Chemical","356","India",2023,"AHS",0.09
+"392","Japan","Chemical","Chemical","484","Mexico",2023,"AHS",0
+"392","Japan","Chemical","Chemical","826","United Kingdom",2023,"AHS",0.53
+"392","Japan","Chemical","Chemical","840","United States",2023,"AHS",0.78
+"392","Japan","Construction","Construction","","EuropeanUnion --- EuropeanUnion  ",2023,"AHS",0.06
+"392","Japan","Construction","Construction","","RestOfTheWorld --- RestOfTheWorld  ",2023,"AHS",1.11
+"392","Japan","Construction","Construction","076","Brazil",2023,"AHS",0.07
+"392","Japan","Construction","Construction","124","Canada",2023,"AHS",0
+"392","Japan","Construction","Construction","156","China",2023,"AHS",0.13
+"392","Japan","Construction","Construction","356","India",2023,"AHS",0.07
+"392","Japan","Construction","Construction","484","Mexico",2023,"AHS",0.73
+"392","Japan","Construction","Construction","826","United Kingdom",2023,"AHS",0.26
+"392","Japan","Construction","Construction","840","United States",2023,"AHS",0.26
+"392","Japan","Energy","Energy","","EuropeanUnion --- EuropeanUnion  ",2023,"AHS",0
+"392","Japan","Energy","Energy","","RestOfTheWorld --- RestOfTheWorld  ",2023,"AHS",0
+"392","Japan","Energy","Energy","076","Brazil",2023,"AHS",0.03
+"392","Japan","Energy","Energy","124","Canada",2023,"AHS",0
+"392","Japan","Energy","Energy","156","China",2023,"AHS",0.01
+"392","Japan","Energy","Energy","356","India",2023,"AHS",0
+"392","Japan","Energy","Energy","484","Mexico",2023,"AHS",0
+"392","Japan","Energy","Energy","826","United Kingdom",2023,"AHS",0
+"392","Japan","Energy","Energy","840","United States",2023,"AHS",0
+"392","Japan","Food","Food","","EuropeanUnion --- EuropeanUnion  ",2023,"AHS",7.81
+"392","Japan","Food","Food","","RestOfTheWorld --- RestOfTheWorld  ",2023,"AHS",14.76
+"392","Japan","Food","Food","076","Brazil",2023,"AHS",6.82
+"392","Japan","Food","Food","124","Canada",2023,"AHS",19.08
+"392","Japan","Food","Food","156","China",2023,"AHS",10.11
+"392","Japan","Food","Food","356","India",2023,"AHS",2.12
+"392","Japan","Food","Food","484","Mexico",2023,"AHS",18.2
+"392","Japan","Food","Food","826","United Kingdom",2023,"AHS",5.33
+"392","Japan","Food","Food","840","United States",2023,"AHS",19.81
+"392","Japan","Manufacture","Manufacture","","EuropeanUnion --- EuropeanUnion  ",2023,"AHS",0.83
+"392","Japan","Manufacture","Manufacture","","RestOfTheWorld --- RestOfTheWorld  ",2023,"AHS",0.23
+"392","Japan","Manufacture","Manufacture","076","Brazil",2023,"AHS",1.45
+"392","Japan","Manufacture","Manufacture","124","Canada",2023,"AHS",0.1
+"392","Japan","Manufacture","Manufacture","156","China",2023,"AHS",0.71
+"392","Japan","Manufacture","Manufacture","356","India",2023,"AHS",0.41
+"392","Japan","Manufacture","Manufacture","484","Mexico",2023,"AHS",0.11
+"392","Japan","Manufacture","Manufacture","826","United Kingdom",2023,"AHS",0.84
+"392","Japan","Manufacture","Manufacture","840","United States",2023,"AHS",0.56
+"392","Japan","Metal","Metal","","EuropeanUnion --- EuropeanUnion  ",2023,"AHS",0
+"392","Japan","Metal","Metal","","RestOfTheWorld --- RestOfTheWorld  ",2023,"AHS",0.33
+"392","Japan","Metal","Metal","076","Brazil",2023,"AHS",0.11
+"392","Japan","Metal","Metal","124","Canada",2023,"AHS",0
+"392","Japan","Metal","Metal","156","China",2023,"AHS",0.66
+"392","Japan","Metal","Metal","356","India",2023,"AHS",0
+"392","Japan","Metal","Metal","484","Mexico",2023,"AHS",0
+"392","Japan","Metal","Metal","826","United Kingdom",2023,"AHS",1.03
+"392","Japan","Metal","Metal","840","United States",2023,"AHS",1.61
+"392","Japan","Mining","Mining","","EuropeanUnion --- EuropeanUnion  ",2023,"AHS",0
+"392","Japan","Mining","Mining","","RestOfTheWorld --- RestOfTheWorld  ",2023,"AHS",0
+"392","Japan","Mining","Mining","076","Brazil",2023,"AHS",0
+"392","Japan","Mining","Mining","124","Canada",2023,"AHS",0
+"392","Japan","Mining","Mining","156","China",2023,"AHS",0
+"392","Japan","Mining","Mining","356","India",2023,"AHS",0
+"392","Japan","Mining","Mining","484","Mexico",2023,"AHS",0
+"392","Japan","Mining","Mining","840","United States",2023,"AHS",0
+"392","Japan","Paper","Paper","","EuropeanUnion --- EuropeanUnion  ",2023,"AHS",0.44
+"392","Japan","Paper","Paper","","RestOfTheWorld --- RestOfTheWorld  ",2023,"AHS",1.56
+"392","Japan","Paper","Paper","076","Brazil",2023,"AHS",0.11
+"392","Japan","Paper","Paper","124","Canada",2023,"AHS",0.19
+"392","Japan","Paper","Paper","156","China",2023,"AHS",1.64
+"392","Japan","Paper","Paper","356","India",2023,"AHS",0
+"392","Japan","Paper","Paper","484","Mexico",2023,"AHS",0
+"392","Japan","Paper","Paper","826","United Kingdom",2023,"AHS",0.44
+"392","Japan","Paper","Paper","840","United States",2023,"AHS",0.11
+"392","Japan","Textiles","Textiles","","EuropeanUnion --- EuropeanUnion  ",2023,"AHS",0
+"392","Japan","Textiles","Textiles","","RestOfTheWorld --- RestOfTheWorld  ",2023,"AHS",2.45
+"392","Japan","Textiles","Textiles","076","Brazil",2023,"AHS",13.36
+"392","Japan","Textiles","Textiles","124","Canada",2023,"AHS",0.85
+"392","Japan","Textiles","Textiles","156","China",2023,"AHS",6.34
+"392","Japan","Textiles","Textiles","356","India",2023,"AHS",0
+"392","Japan","Textiles","Textiles","484","Mexico",2023,"AHS",0.04
+"392","Japan","Textiles","Textiles","826","United Kingdom",2023,"AHS",7.13
+"392","Japan","Textiles","Textiles","840","United States",2023,"AHS",4.64
+"484","Mexico","Chemical","Chemical","","EuropeanUnion --- EuropeanUnion  ",2023,"AHS",0.01
+"484","Mexico","Chemical","Chemical","","RestOfTheWorld --- RestOfTheWorld  ",2023,"AHS",3.99
+"484","Mexico","Chemical","Chemical","076","Brazil",2023,"AHS",4.03
+"484","Mexico","Chemical","Chemical","124","Canada",2023,"AHS",0
+"484","Mexico","Chemical","Chemical","156","China",2023,"AHS",5.16
+"484","Mexico","Chemical","Chemical","356","India",2023,"AHS",2.67
+"484","Mexico","Chemical","Chemical","392","Japan",2023,"AHS",0
+"484","Mexico","Chemical","Chemical","826","United Kingdom",2023,"AHS",0
+"484","Mexico","Chemical","Chemical","840","United States",2023,"AHS",0
+"484","Mexico","Construction","Construction","","EuropeanUnion --- EuropeanUnion  ",2023,"AHS",0
+"484","Mexico","Construction","Construction","","RestOfTheWorld --- RestOfTheWorld  ",2023,"AHS",5.76
+"484","Mexico","Construction","Construction","076","Brazil",2023,"AHS",2.1
+"484","Mexico","Construction","Construction","124","Canada",2023,"AHS",0
+"484","Mexico","Construction","Construction","156","China",2023,"AHS",4.42
+"484","Mexico","Construction","Construction","356","India",2023,"AHS",1.79
+"484","Mexico","Construction","Construction","392","Japan",2023,"AHS",0
+"484","Mexico","Construction","Construction","826","United Kingdom",2023,"AHS",0
+"484","Mexico","Construction","Construction","840","United States",2023,"AHS",0
+"484","Mexico","Energy","Energy","","EuropeanUnion --- EuropeanUnion  ",2023,"AHS",0
+"484","Mexico","Energy","Energy","","RestOfTheWorld --- RestOfTheWorld  ",2023,"AHS",1.2
+"484","Mexico","Energy","Energy","076","Brazil",2023,"AHS",1.53
+"484","Mexico","Energy","Energy","124","Canada",2023,"AHS",0
+"484","Mexico","Energy","Energy","156","China",2023,"AHS",1.84
+"484","Mexico","Energy","Energy","356","India",2023,"AHS",2.27
+"484","Mexico","Energy","Energy","392","Japan",2023,"AHS",0
+"484","Mexico","Energy","Energy","826","United Kingdom",2023,"AHS",0
+"484","Mexico","Energy","Energy","840","United States",2023,"AHS",0
+"484","Mexico","Food","Food","","EuropeanUnion --- EuropeanUnion  ",2023,"AHS",4.93
+"484","Mexico","Food","Food","","RestOfTheWorld --- RestOfTheWorld  ",2023,"AHS",7.77
+"484","Mexico","Food","Food","076","Brazil",2023,"AHS",17.79
+"484","Mexico","Food","Food","124","Canada",2023,"AHS",0.11
+"484","Mexico","Food","Food","156","China",2023,"AHS",15.31
+"484","Mexico","Food","Food","356","India",2023,"AHS",15.75
+"484","Mexico","Food","Food","392","Japan",2023,"AHS",1.4
+"484","Mexico","Food","Food","826","United Kingdom",2023,"AHS",0.26
+"484","Mexico","Food","Food","840","United States",2023,"AHS",0.08
+"484","Mexico","Manufacture","Manufacture","","EuropeanUnion --- EuropeanUnion  ",2023,"AHS",0
+"484","Mexico","Manufacture","Manufacture","","RestOfTheWorld --- RestOfTheWorld  ",2023,"AHS",3.31
+"484","Mexico","Manufacture","Manufacture","076","Brazil",2023,"AHS",15.21
+"484","Mexico","Manufacture","Manufacture","124","Canada",2023,"AHS",0
+"484","Mexico","Manufacture","Manufacture","156","China",2023,"AHS",5.3
+"484","Mexico","Manufacture","Manufacture","356","India",2023,"AHS",12.29
+"484","Mexico","Manufacture","Manufacture","392","Japan",2023,"AHS",0.6
+"484","Mexico","Manufacture","Manufacture","826","United Kingdom",2023,"AHS",0.02
+"484","Mexico","Manufacture","Manufacture","840","United States",2023,"AHS",0
+"484","Mexico","Metal","Metal","","EuropeanUnion --- EuropeanUnion  ",2023,"AHS",0
+"484","Mexico","Metal","Metal","","RestOfTheWorld --- RestOfTheWorld  ",2023,"AHS",7.35
+"484","Mexico","Metal","Metal","076","Brazil",2023,"AHS",4.25
+"484","Mexico","Metal","Metal","124","Canada",2023,"AHS",0
+"484","Mexico","Metal","Metal","156","China",2023,"AHS",3.78
+"484","Mexico","Metal","Metal","356","India",2023,"AHS",2.21
+"484","Mexico","Metal","Metal","392","Japan",2023,"AHS",0.01
+"484","Mexico","Metal","Metal","826","United Kingdom",2023,"AHS",0
+"484","Mexico","Metal","Metal","840","United States",2023,"AHS",0
+"484","Mexico","Mining","Mining","","EuropeanUnion --- EuropeanUnion  ",2023,"AHS",0
+"484","Mexico","Mining","Mining","124","Canada",2023,"AHS",0
+"484","Mexico","Mining","Mining","156","China",2023,"AHS",0
+"484","Mexico","Mining","Mining","840","United States",2023,"AHS",0
+"484","Mexico","Paper","Paper","","EuropeanUnion --- EuropeanUnion  ",2023,"AHS",0.01
+"484","Mexico","Paper","Paper","","RestOfTheWorld --- RestOfTheWorld  ",2023,"AHS",2.82
+"484","Mexico","Paper","Paper","076","Brazil",2023,"AHS",1.56
+"484","Mexico","Paper","Paper","124","Canada",2023,"AHS",0
+"484","Mexico","Paper","Paper","156","China",2023,"AHS",3.25
+"484","Mexico","Paper","Paper","356","India",2023,"AHS",5.35
+"484","Mexico","Paper","Paper","392","Japan",2023,"AHS",0
+"484","Mexico","Paper","Paper","826","United Kingdom",2023,"AHS",0
+"484","Mexico","Paper","Paper","840","United States",2023,"AHS",0
+"484","Mexico","Textiles","Textiles","","EuropeanUnion --- EuropeanUnion  ",2023,"AHS",0
+"484","Mexico","Textiles","Textiles","","RestOfTheWorld --- RestOfTheWorld  ",2023,"AHS",18.53
+"484","Mexico","Textiles","Textiles","076","Brazil",2023,"AHS",9.17
+"484","Mexico","Textiles","Textiles","124","Canada",2023,"AHS",0
+"484","Mexico","Textiles","Textiles","156","China",2023,"AHS",17.33
+"484","Mexico","Textiles","Textiles","356","India",2023,"AHS",21.23
+"484","Mexico","Textiles","Textiles","392","Japan",2023,"AHS",0
+"484","Mexico","Textiles","Textiles","826","United Kingdom",2023,"AHS",0
+"484","Mexico","Textiles","Textiles","840","United States",2023,"AHS",0
+"826","United Kingdom","Chemical","Chemical","","EuropeanUnion --- EuropeanUnion  ",2023,"AHS",0.06
+"826","United Kingdom","Chemical","Chemical","","RestOfTheWorld --- RestOfTheWorld  ",2023,"AHS",0.71
+"826","United Kingdom","Chemical","Chemical","076","Brazil",2023,"AHS",0.66
+"826","United Kingdom","Chemical","Chemical","124","Canada",2023,"AHS",0
+"826","United Kingdom","Chemical","Chemical","156","China",2023,"AHS",4.2
+"826","United Kingdom","Chemical","Chemical","356","India",2023,"AHS",0.01
+"826","United Kingdom","Chemical","Chemical","392","Japan",2023,"AHS",0.21
+"826","United Kingdom","Chemical","Chemical","484","Mexico",2023,"AHS",0.02
+"826","United Kingdom","Chemical","Chemical","826","United Kingdom",2023,"AHS",1.54
+"826","United Kingdom","Chemical","Chemical","840","United States",2023,"AHS",1.43
+"826","United Kingdom","Construction","Construction","","EuropeanUnion --- EuropeanUnion  ",2023,"AHS",0
+"826","United Kingdom","Construction","Construction","","RestOfTheWorld --- RestOfTheWorld  ",2023,"AHS",0
+"826","United Kingdom","Construction","Construction","076","Brazil",2023,"AHS",0
+"826","United Kingdom","Construction","Construction","124","Canada",2023,"AHS",0
+"826","United Kingdom","Construction","Construction","156","China",2023,"AHS",0.01
+"826","United Kingdom","Construction","Construction","356","India",2023,"AHS",0
+"826","United Kingdom","Construction","Construction","392","Japan",2023,"AHS",0
+"826","United Kingdom","Construction","Construction","484","Mexico",2023,"AHS",0
+"826","United Kingdom","Construction","Construction","826","United Kingdom",2023,"AHS",0
+"826","United Kingdom","Construction","Construction","840","United States",2023,"AHS",0
+"826","United Kingdom","Energy","Energy","","EuropeanUnion --- EuropeanUnion  ",2023,"AHS",0
+"826","United Kingdom","Energy","Energy","","RestOfTheWorld --- RestOfTheWorld  ",2023,"AHS",0.07
+"826","United Kingdom","Energy","Energy","076","Brazil",2023,"AHS",0.66
+"826","United Kingdom","Energy","Energy","124","Canada",2023,"AHS",0
+"826","United Kingdom","Energy","Energy","156","China",2023,"AHS",0.36
+"826","United Kingdom","Energy","Energy","356","India",2023,"AHS",0
+"826","United Kingdom","Energy","Energy","392","Japan",2023,"AHS",0.05
+"826","United Kingdom","Energy","Energy","484","Mexico",2023,"AHS",0
+"826","United Kingdom","Energy","Energy","826","United Kingdom",2023,"AHS",0.17
+"826","United Kingdom","Energy","Energy","840","United States",2023,"AHS",0.14
+"826","United Kingdom","Food","Food","","EuropeanUnion --- EuropeanUnion  ",2023,"AHS",3.82
+"826","United Kingdom","Food","Food","","RestOfTheWorld --- RestOfTheWorld  ",2023,"AHS",7.14
+"826","United Kingdom","Food","Food","076","Brazil",2023,"AHS",18.03
+"826","United Kingdom","Food","Food","124","Canada",2023,"AHS",3.4
+"826","United Kingdom","Food","Food","156","China",2023,"AHS",9.77
+"826","United Kingdom","Food","Food","356","India",2023,"AHS",3.04
+"826","United Kingdom","Food","Food","392","Japan",2023,"AHS",1.62
+"826","United Kingdom","Food","Food","484","Mexico",2023,"AHS",2.37
+"826","United Kingdom","Food","Food","826","United Kingdom",2023,"AHS",8.78
+"826","United Kingdom","Food","Food","840","United States",2023,"AHS",8.24
+"826","United Kingdom","Manufacture","Manufacture","","EuropeanUnion --- EuropeanUnion  ",2023,"AHS",0
+"826","United Kingdom","Manufacture","Manufacture","","RestOfTheWorld --- RestOfTheWorld  ",2023,"AHS",0.2
+"826","United Kingdom","Manufacture","Manufacture","076","Brazil",2023,"AHS",0.44
+"826","United Kingdom","Manufacture","Manufacture","124","Canada",2023,"AHS",0
+"826","United Kingdom","Manufacture","Manufacture","156","China",2023,"AHS",2.23
+"826","United Kingdom","Manufacture","Manufacture","356","India",2023,"AHS",0
+"826","United Kingdom","Manufacture","Manufacture","392","Japan",2023,"AHS",1.99
+"826","United Kingdom","Manufacture","Manufacture","484","Mexico",2023,"AHS",0
+"826","United Kingdom","Manufacture","Manufacture","826","United Kingdom",2023,"AHS",0.97
+"826","United Kingdom","Manufacture","Manufacture","840","United States",2023,"AHS",0.65
+"826","United Kingdom","Metal","Metal","","EuropeanUnion --- EuropeanUnion  ",2023,"AHS",0
+"826","United Kingdom","Metal","Metal","","RestOfTheWorld --- RestOfTheWorld  ",2023,"AHS",0.19
+"826","United Kingdom","Metal","Metal","076","Brazil",2023,"AHS",0.25
+"826","United Kingdom","Metal","Metal","124","Canada",2023,"AHS",0
+"826","United Kingdom","Metal","Metal","156","China",2023,"AHS",1.68
+"826","United Kingdom","Metal","Metal","356","India",2023,"AHS",0.17
+"826","United Kingdom","Metal","Metal","392","Japan",2023,"AHS",0.21
+"826","United Kingdom","Metal","Metal","484","Mexico",2023,"AHS",0
+"826","United Kingdom","Metal","Metal","826","United Kingdom",2023,"AHS",1.47
+"826","United Kingdom","Metal","Metal","840","United States",2023,"AHS",1.95
+"826","United Kingdom","Mining","Mining","","EuropeanUnion --- EuropeanUnion  ",2023,"AHS",0
+"826","United Kingdom","Mining","Mining","","RestOfTheWorld --- RestOfTheWorld  ",2023,"AHS",0
+"826","United Kingdom","Mining","Mining","076","Brazil",2023,"AHS",0
+"826","United Kingdom","Mining","Mining","124","Canada",2023,"AHS",0
+"826","United Kingdom","Mining","Mining","156","China",2023,"AHS",0
+"826","United Kingdom","Mining","Mining","356","India",2023,"AHS",0
+"826","United Kingdom","Mining","Mining","392","Japan",2023,"AHS",0
+"826","United Kingdom","Mining","Mining","484","Mexico",2023,"AHS",0
+"826","United Kingdom","Mining","Mining","826","United Kingdom",2023,"AHS",0
+"826","United Kingdom","Mining","Mining","840","United States",2023,"AHS",0
+"826","United Kingdom","Paper","Paper","","EuropeanUnion --- EuropeanUnion  ",2023,"AHS",0
+"826","United Kingdom","Paper","Paper","","RestOfTheWorld --- RestOfTheWorld  ",2023,"AHS",0
+"826","United Kingdom","Paper","Paper","076","Brazil",2023,"AHS",1.27
+"826","United Kingdom","Paper","Paper","124","Canada",2023,"AHS",0
+"826","United Kingdom","Paper","Paper","156","China",2023,"AHS",1.09
+"826","United Kingdom","Paper","Paper","356","India",2023,"AHS",0
+"826","United Kingdom","Paper","Paper","392","Japan",2023,"AHS",0
+"826","United Kingdom","Paper","Paper","484","Mexico",2023,"AHS",0
+"826","United Kingdom","Paper","Paper","826","United Kingdom",2023,"AHS",0.13
+"826","United Kingdom","Paper","Paper","840","United States",2023,"AHS",0
+"826","United Kingdom","Textiles","Textiles","","EuropeanUnion --- EuropeanUnion  ",2023,"AHS",0
+"826","United Kingdom","Textiles","Textiles","","RestOfTheWorld --- RestOfTheWorld  ",2023,"AHS",0.13
+"826","United Kingdom","Textiles","Textiles","076","Brazil",2023,"AHS",7.51
+"826","United Kingdom","Textiles","Textiles","124","Canada",2023,"AHS",0
+"826","United Kingdom","Textiles","Textiles","156","China",2023,"AHS",10.48
+"826","United Kingdom","Textiles","Textiles","356","India",2023,"AHS",0
+"826","United Kingdom","Textiles","Textiles","392","Japan",2023,"AHS",0
+"826","United Kingdom","Textiles","Textiles","484","Mexico",2023,"AHS",0
+"826","United Kingdom","Textiles","Textiles","826","United Kingdom",2023,"AHS",8.8
+"826","United Kingdom","Textiles","Textiles","840","United States",2023,"AHS",7.02
+"840","United States","Chemical","Chemical","","EuropeanUnion --- EuropeanUnion  ",2023,"AHS",1.02
+"840","United States","Chemical","Chemical","","RestOfTheWorld --- RestOfTheWorld  ",2023,"AHS",0.73
+"840","United States","Chemical","Chemical","076","Brazil",2023,"AHS",0.63
+"840","United States","Chemical","Chemical","124","Canada",2023,"AHS",0
+"840","United States","Chemical","Chemical","156","China",2023,"AHS",3.15
+"840","United States","Chemical","Chemical","356","India",2023,"AHS",1.42
+"840","United States","Chemical","Chemical","392","Japan",2023,"AHS",1.82
+"840","United States","Chemical","Chemical","484","Mexico",2023,"AHS",0
+"840","United States","Chemical","Chemical","826","United Kingdom",2023,"AHS",1
+"840","United States","Construction","Construction","","EuropeanUnion --- EuropeanUnion  ",2023,"AHS",1.25
+"840","United States","Construction","Construction","","RestOfTheWorld --- RestOfTheWorld  ",2023,"AHS",0.98
+"840","United States","Construction","Construction","076","Brazil",2023,"AHS",0
+"840","United States","Construction","Construction","124","Canada",2023,"AHS",0
+"840","United States","Construction","Construction","156","China",2023,"AHS",1.7
+"840","United States","Construction","Construction","356","India",2023,"AHS",1.62
+"840","United States","Construction","Construction","392","Japan",2023,"AHS",0.42
+"840","United States","Construction","Construction","484","Mexico",2023,"AHS",0
+"840","United States","Construction","Construction","826","United Kingdom",2023,"AHS",0.38
+"840","United States","Energy","Energy","","EuropeanUnion --- EuropeanUnion  ",2023,"AHS",0.9
+"840","United States","Energy","Energy","","RestOfTheWorld --- RestOfTheWorld  ",2023,"AHS",0.21
+"840","United States","Energy","Energy","076","Brazil",2023,"AHS",1.16
+"840","United States","Energy","Energy","124","Canada",2023,"AHS",0
+"840","United States","Energy","Energy","156","China",2023,"AHS",0.54
+"840","United States","Energy","Energy","356","India",2023,"AHS",1.35
+"840","United States","Energy","Energy","392","Japan",2023,"AHS",0.59
+"840","United States","Energy","Energy","484","Mexico",2023,"AHS",0
+"840","United States","Energy","Energy","826","United Kingdom",2023,"AHS",0.6
+"840","United States","Food","Food","","EuropeanUnion --- EuropeanUnion  ",2023,"AHS",3.92
+"840","United States","Food","Food","","RestOfTheWorld --- RestOfTheWorld  ",2023,"AHS",1.99
+"840","United States","Food","Food","076","Brazil",2023,"AHS",5.17
+"840","United States","Food","Food","124","Canada",2023,"AHS",0.92
+"840","United States","Food","Food","156","China",2023,"AHS",4.22
+"840","United States","Food","Food","356","India",2023,"AHS",2.95
+"840","United States","Food","Food","392","Japan",2023,"AHS",2.84
+"840","United States","Food","Food","484","Mexico",2023,"AHS",0.72
+"840","United States","Food","Food","826","United Kingdom",2023,"AHS",1.86
+"840","United States","Manufacture","Manufacture","","EuropeanUnion --- EuropeanUnion  ",2023,"AHS",1.82
+"840","United States","Manufacture","Manufacture","","RestOfTheWorld --- RestOfTheWorld  ",2023,"AHS",0.65
+"840","United States","Manufacture","Manufacture","076","Brazil",2023,"AHS",0.57
+"840","United States","Manufacture","Manufacture","124","Canada",2023,"AHS",0
+"840","United States","Manufacture","Manufacture","156","China",2023,"AHS",2.09
+"840","United States","Manufacture","Manufacture","356","India",2023,"AHS",1.58
+"840","United States","Manufacture","Manufacture","392","Japan",2023,"AHS",1.91
+"840","United States","Manufacture","Manufacture","484","Mexico",2023,"AHS",0
+"840","United States","Manufacture","Manufacture","826","United Kingdom",2023,"AHS",1.19
+"840","United States","Metal","Metal","","EuropeanUnion --- EuropeanUnion  ",2023,"AHS",1.38
+"840","United States","Metal","Metal","","RestOfTheWorld --- RestOfTheWorld  ",2023,"AHS",1.12
+"840","United States","Metal","Metal","076","Brazil",2023,"AHS",0.13
+"840","United States","Metal","Metal","124","Canada",2023,"AHS",0
+"840","United States","Metal","Metal","156","China",2023,"AHS",2.15
+"840","United States","Metal","Metal","356","India",2023,"AHS",1.81
+"840","United States","Metal","Metal","392","Japan",2023,"AHS",2.01
+"840","United States","Metal","Metal","484","Mexico",2023,"AHS",0
+"840","United States","Metal","Metal","826","United Kingdom",2023,"AHS",1.52
+"840","United States","Mining","Mining","","EuropeanUnion --- EuropeanUnion  ",2023,"AHS",0.3
+"840","United States","Mining","Mining","","RestOfTheWorld --- RestOfTheWorld  ",2023,"AHS",0.01
+"840","United States","Mining","Mining","076","Brazil",2023,"AHS",0
+"840","United States","Mining","Mining","124","Canada",2023,"AHS",0
+"840","United States","Mining","Mining","156","China",2023,"AHS",0.08
+"840","United States","Mining","Mining","356","India",2023,"AHS",0
+"840","United States","Mining","Mining","392","Japan",2023,"AHS",0.38
+"840","United States","Mining","Mining","484","Mexico",2023,"AHS",0
+"840","United States","Mining","Mining","826","United Kingdom",2023,"AHS",0.03
+"840","United States","Paper","Paper","","EuropeanUnion --- EuropeanUnion  ",2023,"AHS",0.43
+"840","United States","Paper","Paper","","RestOfTheWorld --- RestOfTheWorld  ",2023,"AHS",0.4
+"840","United States","Paper","Paper","076","Brazil",2023,"AHS",0.23
+"840","United States","Paper","Paper","124","Canada",2023,"AHS",0
+"840","United States","Paper","Paper","156","China",2023,"AHS",1.24
+"840","United States","Paper","Paper","356","India",2023,"AHS",1.11
+"840","United States","Paper","Paper","392","Japan",2023,"AHS",0.32
+"840","United States","Paper","Paper","484","Mexico",2023,"AHS",0
+"840","United States","Paper","Paper","826","United Kingdom",2023,"AHS",0.14
+"840","United States","Textiles","Textiles","","EuropeanUnion --- EuropeanUnion  ",2023,"AHS",8.62
+"840","United States","Textiles","Textiles","","RestOfTheWorld --- RestOfTheWorld  ",2023,"AHS",8.91
+"840","United States","Textiles","Textiles","076","Brazil",2023,"AHS",6.39
+"840","United States","Textiles","Textiles","124","Canada",2023,"AHS",0
+"840","United States","Textiles","Textiles","156","China",2023,"AHS",10.7
+"840","United States","Textiles","Textiles","356","India",2023,"AHS",9.17
+"840","United States","Textiles","Textiles","392","Japan",2023,"AHS",5.03
+"840","United States","Textiles","Textiles","484","Mexico",2023,"AHS",0
+"840","United States","Textiles","Textiles","826","United Kingdom",2023,"AHS",7.21

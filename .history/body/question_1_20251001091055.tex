@@ -1,0 +1,145 @@
+Solve for the closed economy values of $\varphi^*$, $P$, $R$.
+
+\begin{solution}
+    \paragraph{Household side} The household's problem is given by:
+    \begin{align*}
+        \max_{q(\omega)} \quad & U = \left( \int_{\omega \in \Omega} q(\omega)^{\rho} d\omega \right)^{\frac{1}{\rho}} \\
+        \text{s.t.} \quad & \int_{\omega \in \Omega} p(\omega) q(\omega) d\omega = R
+    \end{align*}
+    where $\rho = \frac{\sigma - 1}{\sigma}$ and $\sigma > 1$. The Lagrangian for this problem is given by:
+    \begin{align*}
+        \mathcal{L} = \left( \int_{\omega \in \Omega} q(\omega)^{\rho} d\omega \right)^{\frac{1}{\rho}} + \lambda \left( R - \int_{\omega \in \Omega} p(\omega) q(\omega) d\omega \right)
+    \end{align*}
+    The first order condition with respect to $q(\omega)$ is given by:
+    \begin{align*}
+        \frac{\partial \mathcal{L}}{\partial q(\omega)} = 0 &\iff \frac{1}{\rho} \left( \int_{\omega \in \Omega} q(\omega)^{\rho} d\omega \right)^{\frac{1}{\rho} - 1} \rho q(\omega)^{\rho - 1} - \lambda p(\omega) = 0 \\
+        &\iff q(\omega)^{\rho - 1} = \lambda p(\omega) \left( \int_{\omega \in \Omega} q(\omega)^{\rho} d\omega \right)^{1 - \frac{1}{\rho}} \\
+        &\iff q(\omega) = \left[ \lambda p(\omega) \right]^{\frac{1}{\rho - 1}} \left( \int_{\omega \in \Omega} q(\omega)^{\rho} d\omega \right)^{\frac{1}{\rho} } \\
+        &\iff q(\omega) = \left[ \lambda p(\omega) \right]^{-\sigma} Q 
+    \end{align*}
+    where $Q = \left( \int_{\omega \in \Omega} q(\omega)^{\rho} d\omega \right)^{\frac{1}{\rho}}$ is the CES aggregate. Substituting this expression for $q(\omega)$ into the budget constraint, we have:
+    \begin{align*}
+        R &= \int_{\omega \in \Omega} p(\omega) q(\omega) d\omega \\
+        &= \int_{\omega \in \Omega} p(\omega) \left[ \lambda p(\omega) \right]^{-\sigma} Q d\omega \\
+        &= Q \lambda^{-\sigma} \int_{\omega \in \Omega} p(\omega)^{1 - \sigma} d\omega \\
+        &\iff \lambda^{-\sigma} = \frac{R}{Q P^{1 - \sigma}} 
+    \end{align*}
+    where $P = \left( \int_{\omega \in \Omega} p(\omega)^{1 - \sigma} d\omega \right)^{\frac{1}{1 - \sigma}}$ is the CES price index. Substituting this expression for $\lambda^{-\sigma}$ back into the expression for $q(\omega)$, we have:
+    \begin{align*}
+        q(\omega) &= \left[ \frac{R}{Q P^{1 - \sigma}} p(\omega) \right]^{-\sigma} Q \\
+        &\iff q(\omega) = \frac{R}{P} \left( \frac{p(\omega)}{P} \right)^{-\sigma}\\
+        &\iff q(\omega) = Q \left( \frac{p(\omega)}{P} \right)^{-\sigma}
+    \end{align*}
+    The revenue associated with a variety $\omega$ is given by:
+    \begin{align*}
+        r(\omega) &= p(\omega) q(\omega) \\
+        &= p(\omega) \frac{R}{P} \left( \frac{p(\omega)}{P} \right)^{-\sigma} \\
+        &\iff r(\omega) = R \left( \frac{p(\omega)}{P} \right)^{1 - \sigma}
+    \end{align*}
+    
+    \paragraph{Producer's Problem.} A firm with productivity $\varphi$ needs $\dfrac{1}{\varphi}$ units of labor to produce one unit of output. It also pays a fixed cost $f$ units of labor to operate. Hence, the total cost of producing quantity $q$ is given by:
+    \begin{align*}
+        C(q, \varphi) = f + \frac{q}{\varphi} 
+    \end{align*}
+    
+    The profit maximization problem for the firm is given by:
+    \begin{align*}
+        \max_{p(\varphi)} \quad & \pi(\varphi) = r(\varphi) - w\left( f + \frac{q(\varphi)}{\varphi} \right)
+    \end{align*}
+    where $w$ is the wage rate. Normalizing the wage to $w = 1$, the profit maximization problem becomes:
+    \begin{align*}
+        \max_{p(\varphi)} \quad & \pi(\varphi) = r(\varphi) - \left( f + \frac{q(\varphi)}{\varphi} \right)
+    \end{align*}
+    The FOC with respect to $p(\varphi)$ is given by:
+    \begin{align*}
+        \frac{\partial \pi(\varphi)}{\partial p(\varphi)} = 0 &\iff \frac{\partial r(\varphi)}{\partial p(\varphi)} - \frac{1}{\varphi} \frac{\partial q(\varphi)}{\partial p(\varphi)} = 0 \\
+        &\iff R(1 - \sigma) \left( \frac{p(\varphi)}{P} \right)^{-\sigma} \frac{1}{P} - \frac{1}{\varphi} \left( -\sigma Q \left( \frac{p(\varphi)}{P} \right)^{-\sigma - 1} \frac{1}{P} \right) = 0 \\
+        &\iff (1 - \sigma) r(\varphi) + \frac{\sigma}{\varphi} q(\varphi) = 0 \\
+        &\iff r(\varphi) = \frac{\sigma}{\sigma - 1} \frac{1}{\varphi} q(\varphi) \\
+        &\iff p(\varphi) = \frac{\sigma}{\sigma - 1} \frac{1}{\varphi} = \frac{1}{\rho\varphi} 
+    \end{align*}
+    where we used the demand result above to substitute for $q(\varphi)$ in the third line. Thus, the optimal price charged by a firm with productivity $\varphi$ is a constant markup over marginal cost, as expected.
+    
+    Substituting this into the revenue expression and using the demand result above,
+    \begin{align*}
+        r(\varphi) &= R \left( \frac{p(\varphi)}{P} \right)^{1 - \sigma} \\
+        &= R \left( \frac{1}{\rho \varphi P} \right)^{1 - \sigma} \\
+        &= (\rho \varphi)^{\sigma - 1} R P^{\sigma - 1}
+    \end{align*} 
+    Profits from serving the domestic market are: 
+    \begin{align*}
+        \pi(\varphi) &= r(\varphi) - \left( f + \frac{q(\varphi)}{\varphi} \right) \\
+        &= r(\varphi) - f - \frac{1}{\varphi} Q \left( \frac{p(\varphi)}{P} \right)^{-\sigma} \\
+        &= r(\varphi) - f - \frac{1}{\varphi} Q \left( \frac{1}{\rho\varphi P} \right)^{-\sigma} \\
+        &= r(\varphi) - f -  \rho^{\sigma} \varphi^{\sigma - 1} R P^{\sigma - 1} \\
+        &= r(\varphi) - f -  \rho r(\varphi) \\
+        &= \frac{1}{\sigma} r(\varphi) - f
+    \end{align*}
+    
+    The marginal (least productive) active firm satisfies $\pi(\varphi^*)=0$, hence:
+    \begin{align*}
+        \pi(\varphi^*) = 0 &\iff \frac{1}{\sigma} r(\varphi^*) - f = 0 \\
+        &\iff r(\varphi^*) = \sigma f 
+    \end{align*}
+    Note that we can write:
+    \begin{align*}
+        r(\varphi) = \left(\frac{\varphi}{\varphi^*}\right)^{\sigma - 1} \sigma f
+    \end{align*}
+
+    \paragraph{Enter and Exit.} Firms pay a sunk entry cost $f_e$ to draw a productivity $\varphi$ from the distribution $G$. If they choose to operate, they pay the fixed cost $f$ and produce optimally as above. If they do not operate, they exit and earn zero profits. The probability of drawing a productivity above the cutoff $\varphi^*$ is $1 - G(\varphi^*)$. Hence, the ex-post productivity distribution among active firms is given by the truncated distribution:
+    \begin{align*}
+        \mu(\varphi) = \begin{cases}
+            \frac{g(\varphi)}{1 - G(\varphi^*)} & \text{if } \varphi \geq \varphi^*\\
+            0 & \text{otherwise}
+        \end{cases}
+    \end{align*}
+    where $g(\varphi)$ is the density associated with $G$.
+
+    After entering the market, there is a probability $\delta$ that the firm exits exogenously. Hence, the value of a firm with productivity $\varphi$ is given by:
+    \begin{align*}\
+        v(\varphi) = \max\left\{\frac{\pi(\varphi)}{\delta}, 0\right\}
+    \end{align*}
+    The free entry condition requires that the expected value of entry equals the entry cost:
+    \begin{align*}
+        \int v(\varphi) g(\varphi) d\varphi = f_e &\iff (1-G(\varphi^*))\int_{\varphi^*}^{\infty} \frac{\pi(\varphi)}{\delta} \frac{g(\varphi)}{1 - G(\varphi^*)} d\varphi = f_e \\
+        &\iff \frac{1-G(\varphi^*)}{\delta} \int_{\varphi^*}^{\infty} \pi(\varphi) \frac{g(\varphi)}{1 - G(\varphi^*)} d\varphi = f_e \\
+        &\iff \frac{1-G(\varphi^*)}{\delta} \bar{\pi} = f_e
+    \end{align*}
+    where $\bar{\pi} = \int_{\varphi^*}^{\infty} \pi(\varphi) \frac{g(\varphi)}{1 - G(\varphi^*)} d\varphi$ is the average profit among active firms.
+
+    \paragraph{Pareto Distribution.} Assume that the productivity distribution is Pareto with parameters $\varphi_{min}$ and $k > \sigma - 1$:
+    \begin{align*}
+        G(\varphi) = 1 - \left( \frac{\varphi_{min}}{\varphi} \right)^k, \quad g(\varphi) = k \frac{\varphi_{min}^k}{\varphi^{k+1}}, \quad \text{for } \varphi \geq \varphi_{min}
+    \end{align*}
+    Then:
+    \begin{align*}
+        \bar{pi} &= \int_{\varphi^*}^{\infty} \left( \frac{1}{\sigma} r(\varphi) - f \right) \frac{g(\varphi)}{1 - G(\varphi^*)} d\varphi \\
+        &= \int_{\varphi^*}^{\infty} \left( \frac{1}{\sigma} \left(\frac{\varphi}{\varphi^*}\right)^{\sigma - 1} \sigma f - f \right) \frac{k \frac{\varphi_{min}^k}{\varphi^{k+1}}}{\left( \frac{\varphi_{min}}{\varphi^*} \right)^k} d\varphi \\
+        &= \int_{\varphi^*}^{\infty} f \left( \left(\frac{\varphi}{\varphi^*}\right)^{\sigma - 1} - 1 \right) k \left(\frac{\varphi^*}{\varphi_{min}}\right)^k \frac{\varphi_{min}^k}{\varphi^{k+1}} d\varphi \\
+        &= fk (\varphi^*)^k \int_{\varphi^*}^{\infty} \left( \varphi^{\sigma - 1 - k - 1} - \varphi^{-k - 1} \right) d\varphi \\
+        &= fk (\varphi^*)^k \left[ \frac{\varphi^{\sigma - k - 1}}{\sigma - k - 1} + \frac{\varphi^{-k}}{k} \right]_{\varphi^*}^{\infty} \\
+        &= fk (\varphi^*)^k \left( 0 - \left[ \frac{(\varphi^*)^{\sigma - k - 1}}{\sigma - k - 1} + \frac{(\varphi^*)^{-k}}{k} \right] \right) \\
+        &= fk (\varphi^*)^k \left( - \frac{(\varphi^*)^{\sigma - k - 1}}{\sigma - k - 1} - \frac{(\varphi^*)^{-k}}{k} \right) \\
+        &= f \left( - \frac{k}{\sigma - k - 1} (\varphi^*)^{\sigma - 1} - 1 \right) \\
+        &= f \left( \frac{k}{k + 1 - \sigma} (\varphi^*)^{\sigma - 1} - 1 \right)
+    \end{align*}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\end{solution}

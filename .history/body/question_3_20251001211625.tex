@@ -1,0 +1,73 @@
+
+With CES utility and the Fréchet-derived distribution $G_n(p)$ for prices actually paid, show that the CES price index in $n$ is
+\begin{align*}
+p_n = \gamma\, \Phi_n^{-1/\theta}, \qquad
+\gamma \equiv \Bigg[\Gamma\!\Big(\frac{\theta+1-\sigma}{\theta}\Big)\Bigg]^{\!1/(1-\sigma)},
+\end{align*}
+and that the restriction $\sigma<1+\theta$ is required for the index to be finite.
+
+
+\begin{solution}
+The CES price index (with elasticity $\sigma$) is
+\begin{align*}
+p_n = \Bigg(\int_0^\infty p^{\,1-\sigma}\, dG_n(p)\Bigg)^{\!1/(1-\sigma)}.
+\end{align*}
+Using the density $g_n(p)=\Phi_n\theta p^{\theta-1}e^{-\Phi_n p^{\theta}}$ we get
+\begin{align*}
+\int_0^\infty p^{1-\sigma}\, dG_n(p)
+&= \int_0^\infty p^{1-\sigma} g_n(p)\, dp \\
+&= \Phi_n \theta \int_0^\infty p^{1-\sigma}\, p^{\theta-1}\,
+    \exp\!\big(-\Phi_n p^{\theta}\big)\, dp \\
+&= \Phi_n \theta \int_0^\infty p^{\theta-\sigma}\,
+    \exp\!\big(-\Phi_n p^{\theta}\big)\, dp.
+\end{align*}
+
+Perform the substitution $x=\Phi_n p^{\theta}$, so $dx=\Phi_n\theta p^{\theta-1}dp$ (or equivalently $dp=dx/(\Phi_n\theta p^{\theta-1})$). Then
+\begin{align*}
+\int_0^\infty p^{1-\sigma}\, dG_n(p)
+&= \Phi_n \theta \int_0^\infty p^{\theta-\sigma} e^{-x}\, \frac{dx}{\Phi_n\theta p^{\theta-1}} \\
+&= \int_0^\infty p^{1-\sigma} e^{-x}\, dx.
+\end{align*}
+Now express $p^{1-\sigma}$ in terms of $x$:
+\begin{align*}
+p^{1-\sigma} = \big(\,(\,x/\Phi_n\,)^{1/\theta}\big)^{\,1-\sigma}
+= x^{(1-\sigma)/\theta}\, \Phi_n^{(\sigma-1)/\theta}.
+\end{align*}
+Hence
+\begin{align*}
+\int_0^\infty p^{1-\sigma}\, dG_n(p)
+&= \Phi_n^{(\sigma-1)/\theta} \int_0^\infty x^{(1-\sigma)/\theta}\, e^{-x}\, dx \\
+&= \Phi_n^{(\sigma-1)/\theta}\, \Gamma\!\Big(\frac{1-\sigma}{\theta}+1\Big)
+= \Phi_n^{(\sigma-1)/\theta}\, \Gamma\!\Big(\frac{\theta+1-\sigma}{\theta}\Big),
+\end{align*}
+where we used the Gamma integral $\displaystyle\int_0^\infty x^{a-1}e^{-x}dx=\Gamma(a)$ with
+\begin{align*}
+a = \frac{1-\sigma}{\theta}+1 = \frac{\theta+1-\sigma}{\theta}.
+\end{align*}
+
+Now raise to the power $1/(1-\sigma)$ to obtain the price index:
+\begin{align*}
+p_n
+&= \Bigg[\Phi_n^{(\sigma-1)/\theta}\,
+    \Gamma\!\Big(\frac{\theta+1-\sigma}{\theta}\Big)\Bigg]^{\!1/(1-\sigma)} \\
+&= \Gamma\!\Big(\frac{\theta+1-\sigma}{\theta}\Big)^{\,1/(1-\sigma)}
+    \Phi_n^{(\sigma-1)/( \theta(1-\sigma))} \\
+&= \Gamma\!\Big(\frac{\theta+1-\sigma}{\theta}\Big)^{\,1/(1-\sigma)}
+    \Phi_n^{-1/\theta}.
+\end{align*}
+Define the constant
+\begin{align*}
+\gamma \equiv \Gamma\!\Big(\frac{\theta+1-\sigma}{\theta}\Big)^{\,1/(1-\sigma)},
+\end{align*}
+so that
+\begin{align*}
+p_n = \gamma\, \Phi_n^{-1/\theta}.
+\end{align*}
+
+Finally, the Gamma function is finite only when its argument is strictly positive:
+\begin{align*}
+\frac{\theta+1-\sigma}{\theta} > 0 \quad\Longleftrightarrow\quad \sigma < 1+\theta.
+\end{align*}
+Thus the restriction $\sigma<1+\theta$ is required for the price index to be well-defined (finite).
+\end{solution}
+

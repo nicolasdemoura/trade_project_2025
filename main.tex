@@ -1,0 +1,78 @@
+% ================================================================================
+% QUANTITATIVE ANALYSIS OF U.S. TARIFF POLICIES: A MULTI-SECTOR RICARDIAN APPROACH
+% Main LaTeX Document
+% Author: Nicolas de Moura
+% Institution: FGV/Sao Paulo School of Economics  
+% Course: Theory and Quantitative Methods in International Trade
+% Last Updated: October 2025
+% ================================================================================
+
+\documentclass[a4paper, 12pt]{article}
+
+% --- Package imports ---
+\input{packages}        % All LaTeX packages
+\input{preamble}        % Document formatting and custom commands
+\input{nicoeconomics}   % Custom economics notation and commands
+
+% --- Left/right header text (to appear on every page) ---
+
+% Do not include a line under header or above footer
+\pagestyle{fancy}
+\renewcommand{\footrulewidth}{0pt}
+\renewcommand{\headrulewidth}{0pt}
+
+% Abstract settings
+\renewenvironment{abstract}
+{\small\begin{quote}\noindent \par{\sc \abstractname.}}
+{\noindent\end{quote}}
+
+% Center header text: short paper title
+% \chead{\MakeUppercase{\scriptsize Quantitative Analysis of U.S. Tariff Policies}}
+
+% Empty left and right header text
+\lhead{}\rhead{}
+
+% --- Document starts here ---
+
+\begin{document}
+% --- Title, author, date ---
+\title{\normalsize\MakeUppercase{\bfseries 
+ Quantitative Analysis of U.S. Tariff Policies:\\A Multi-Sector Ricardian Approach}\footnote{All code and data used in this paper are available at \url{https://github.com/nicolasdemoura/trade_project_2025}.}}
+\date{\footnotesize\MakeUppercase\today}
+\author{
+    \small\MakeUppercase{Nícolas de Moura}\footnote{FGV/Sao Paulo School of Economics. \url{mailto:nicolasgoulartdemoura@gmail.com}}
+}
+\maketitle
+
+
+% % --- Main content: import sections as subfiles ---
+
+\input{body/introduction}
+\input{body/theory}
+\input{body/data}
+\input{body/results}
+\input{body/counterfactual}
+\input{body/conclusion}
+
+% --- Bibliography ---
+\newpage
+\bibliography{references}
+\bibliographystyle{chicago}
+
+% --- Appendix ---
+\newpage
+\input{appendix/code_appendix}
+
+% ================================================================================
+% END OF DOCUMENT
+% 
+% Compilation Instructions:
+% 1. pdflatex main.tex
+% 2. bibtex main  
+% 3. pdflatex main.tex
+% 4. pdflatex main.tex
+%
+% For R code execution: source("code/main.R") in R console
+% ================================================================================
+
+\end{document}

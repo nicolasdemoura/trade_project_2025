@@ -1,0 +1,46 @@
+Suppose that two symmetric economies are opened to trade and fixed and variable trade costs are sufficiently high to induce selection into export markets. Solve for the open economy values of $\varphi^*$, $\varphi^*_x$, P, R.
+
+\begin{solution}
+	\paragraph{Household Side.} As all countries are symmetric, the household problem is the same as in autarky. The solution is:
+	\begin{align*}
+		q(\omega) &= Q \left( \frac{p(\omega)}{P} \right)^{-\sigma}\\
+		r(\omega) &= R \left( \frac{p(\omega)}{P} \right)^{1 - \sigma}
+	\end{align*}
+	The demand for each variety is downward sloping in its own price, with elasticity $\sigma>1$.
+	\paragraph{Producer side.} The firm's now incur in an iceberg trade cost $\tau>1$ and a fixed export cost $f_x>0$ for serving the foreign market. The problem for a firm with productivity $\varphi$ is, conditional on exporting:
+	\begin{align*}
+		\max_{p(\varphi), p_x(\varphi)} \quad & \pi(\varphi) = r(\varphi) - w \left( f + \frac{q(\varphi)}{\varphi} \right) + n r_x(\varphi) - n w \left( f_x + \frac{\tau q_x(\varphi)}{\varphi} \right) \\
+	\end{align*}
+	where $r(\varphi)$ and $r_x(\varphi)$ are the revenues from domestic and foreign sales, respectively. The first-order conditions yield the constant markup pricing rules:
+	\begin{align*}
+		p(\varphi) &= \frac{\sigma}{\sigma - 1} \frac{w}{\varphi} = \frac{w}{\rho \varphi} \\
+		p_x(\varphi) &= \frac{\sigma}{\sigma - 1} \frac{\tau w}{\varphi} = \frac{\tau w}{\rho \varphi}
+	\end{align*}
+	We assume for a country that $w=1$. As all countries are symmetric, all countries have the same wage.
+	\begin{align*}
+		r(\varphi) &= R \left( \frac{p(\varphi)}{P} \right)^{1 - \sigma} = R \left( \frac{\sigma}{\sigma - 1} \frac{1}{\varphi P} \right)^{1 - \sigma} = R \left( \frac{1}{\rho \varphi P} \right)^{1 - \sigma} \\
+		r_x(\varphi) &= R\left( \frac{p_x(\varphi)}{P} \right)^{1 - \sigma} = R \left( \frac{\sigma}{\sigma - 1} \frac{\tau}{\varphi P} \right)^{1 - \sigma} = R \left( \frac{\tau}{\rho \varphi P} \right)^{1 - \sigma}
+	\end{align*}
+	\paragraph{Zero profit conditions.} As we assume fixed and variable trade costs are sufficiently high to induce selection into export markets, then we can analyse the zero profit condition for exporting separately. The zero profit condition for a firm that serves only the domestic market is the same as in autarky:
+	\begin{align*}
+		\pi(\varphi) = \frac{1}{\sigma} r(\varphi) - f \implies \varphi^* = \varphi_{min} \left( \frac{f}{\delta f_e}\, \theta \right)^{\frac{1}{k}}
+	\end{align*}
+	where $\theta = \frac{k}{k + 1 - \sigma}$. The zero profit condition for a firm that serves foreign markets is:
+    \begin{align*}
+        \pi_x(\varphi) &= r_x(\varphi) - \left( f_x + \frac{q_x(\varphi)}{\varphi} \right) \\
+        &= r_x(\varphi) - f_x - \frac{1}{\varphi} Q \left( \frac{p_x(\varphi)}{P} \right)^{-\sigma} \\
+        &= r_x(\varphi) - f_x - \frac{1}{\varphi} Q \left( \frac{1}{\rho\varphi P} \right)^{-\sigma} \\
+        &= r_x(\varphi) - f_x -  \rho^{\sigma} \varphi^{\sigma - 1} R P^{\sigma - 1} \\
+        &= r_x(\varphi) - f_x -  \rho r_x(\varphi) \\
+        &= \frac{1}{\sigma} r_x(\varphi) - f_x
+    \end{align*}
+	The marginal (least productive) active firm that exports satisfies $\pi_x(\varphi_x^*)=0$, hence:
+    \begin{align*}
+        \pi_x(\varphi_x^*) = 0 &\iff \frac{1}{\sigma} r_x(\varphi_x^*) - f_x = 0 \\
+        &\iff r_x(\varphi_x^*) = \sigma f_x
+    \end{align*}
+    Note that we can write:
+    \begin{align*}
+        r_x(\varphi) = \left(\frac{\varphi}{\varphi_x^*}\right)^{\sigma - 1} \sigma f_x
+    \end{align*}
+\end{solution}

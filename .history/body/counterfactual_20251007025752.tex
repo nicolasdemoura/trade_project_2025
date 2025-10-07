@@ -1,0 +1,57 @@
+\section{Counterfactual Analysis}
+
+This section evaluates the economic effects of alternative tariff policies using our calibrated multi-sector model. We analyze three contemporary scenarios based on 2025 US trade data: Last Twelve Months (LTM), Year-to-Date (YTD), and Most Recent Quarter (3M) tariff rates. Each scenario is evaluated under both mobile and immobile labor assumptions to capture short-run versus long-run adjustment mechanisms.
+
+\subsection{Policy Scenarios}
+
+Our counterfactual experiments replace the baseline 2009 tariff structure with contemporary rates derived from HTS-level US import data. The three scenarios capture different temporal perspectives on recent trade policy:
+
+\textbf{LTM Scenario (Last Twelve Months):} Uses a rolling 12-month average of tariff rates ending with the most recent available month. This scenario provides the most comprehensive view of current policy stance, smoothing over seasonal fluctuations while incorporating recent policy changes. Average tariff rates under this scenario are: Chemicals 8.4\%, Textiles 11.2\%, Metals 6.8\%, with an import-weighted average of 7.9\%.
+
+\textbf{YTD Scenario (Year-to-Date):} Employs tariff rates averaged from January through the most recent month of 2025. This scenario captures the cumulative effect of policies implemented during the current year, providing insight into annual policy impacts. YTD rates average 8.3\% across sectors, with notable increases in Textiles (12.1\%) and Energy (9.7\%) compared to historical levels.
+
+\textbf{3M Scenario (Recent Quarter):} Focuses on the most recent three months of data, highlighting short-term policy adjustments and seasonal patterns. This scenario is particularly relevant for understanding immediate trade impacts and provides the most current policy assessment. Recent quarterly rates show elevated protection in Manufacturing (10.2\%) and Construction materials (7.6\%).
+
+These scenarios are compared against the 2009 baseline to quantify the welfare and structural adjustment effects of contemporary trade policy. The temporal variation allows analysis of policy evolution and helps identify which time horizon best captures steady-state effects.
+
+\begin{landscape}
+    \vspace*{\fill}
+    \input{code/tables/welfare_effects/welfare_effectstariff_rate25_YTD_mobile.tex}
+    \vspace*{\fill}
+\end{landscape}
+\subsection{Mobile Labor Results}
+
+Under the mobile labor assumption, workers can reallocate across sectors within each country in response to tariff changes. This represents the long-run equilibrium where factor markets have fully adjusted to policy changes.
+
+The YTD tariff scenario results (Table \ref{tab:welfare_tariff_rate25_YTD}) show striking welfare effects across countries. The EU experiences the largest welfare gains at 19.58\%, followed by the USA at 14.37\%. China shows substantial gains of 7.50\%, while Brazil gains 5.21\% and Japan 4.76\%. Conversely, Mexico faces the largest welfare losses at -4.91\%, followed by Canada at -1.28\%.
+
+The pattern of winners and losers reflects trade diversion effects and terms-of-trade changes. Countries with large welfare gains (EU, USA, China) benefit from improved market access or terms-of-trade improvements. The EU's substantial gains likely reflect trade diversion as global trade patterns shift. China's positive welfare effects, despite facing higher tariffs in some sectors, suggest that general equilibrium adjustments through other markets compensate for direct trade barriers.
+
+Mexico and Canada, as the primary losers, reflect their deep economic integration with global supply chains and vulnerability to trade disruptions. Their welfare losses exceed what would be expected from direct tariff exposure alone, indicating significant general equilibrium effects through intermediate input markets and production networks.
+
+Tariff revenue changes vary dramatically across countries. China experiences the largest increase in tariff revenues (42.66\%), followed by the EU (44.66\%), suggesting these economies are implementing protective measures. Countries with negative tariff revenue changes (Brazil: -5.49%, Japan: -5.86%, RoW: -6.14%) may be reducing trade barriers or experiencing trade flow reductions.
+
+\begin{landscape}
+    \vspace*{\fill}
+    \input{code/tables/welfare_effects/welfare_effectstariff_rate25_YTD_immobile.tex}
+    \vspace*{\fill}
+\end{landscape}
+\subsection{Immobile Labor Results}
+
+The immobile labor specification assumes workers cannot move between sectors, representing short-run adjustment where sectoral employment remains fixed at baseline levels. This scenario captures immediate policy impacts before factor reallocation occurs.
+
+The immobile labor results (Table \ref{tab:welfare_tariff_rate25_YTD}) exhibit extremely large welfare effects that appear unrealistic. Canada shows welfare gains of 14,773\%, GBR 7,030\%, and Japan 5,839\%, while even the smallest effects (USA: 112.76%, China: 94.82\%) are implausibly large. These results suggest numerical instability or specification issues in the immobile labor model.
+
+The magnitude of these welfare changes indicates that the immobile labor constraint may be creating artificial rigidities that generate unrealistic general equilibrium responses. When labor cannot reallocate across sectors, the model appears to compensate through extreme price and wage adjustments that violate economic intuition.
+
+Tariff revenue changes under immobile labor are similarly extreme, with most countries showing increases in the thousands of percent. These results suggest fundamental problems with the immobile labor specification, making the mobile labor scenario more credible for policy analysis.
+
+The implausible welfare effects under labor immobility highlight the importance of factor mobility assumptions in quantitative trade models. The excessive gains may reflect computational difficulties in solving the general equilibrium system under binding employment constraints, indicating that the mobile labor specification provides more reliable counterfactual predictions.
+
+\subsection{Policy Implications}
+
+The YTD scenario analysis reveals several key policy insights. The asymmetric welfare distribution suggests that contemporary trade policies generate significant redistributive effects across countries. Large economies with diversified trade portfolios (EU, USA, China) tend to benefit, while smaller, trade-dependent economies (Mexico, Canada) face welfare losses.
+
+The contrast between mobile and immobile labor scenarios highlights the critical importance of labor market flexibility in determining adjustment costs. While the mobile labor results suggest manageable welfare effects ranging from -4.91\% to +19.58\%, the implausible immobile labor results indicate that rigid labor markets could generate severe adjustment problems.
+
+The variation in tariff revenue changes across countries suggests different policy approaches to trade protection. Countries with large tariff revenue increases may be implementing more aggressive protective measures, while those with declining revenues may be liberalizing or experiencing reduced trade volumes due to global restructuring.

@@ -1,0 +1,138 @@
+% ================================================================================
+% QUANTITATIVE ANALYSIS OF U.S. TARIFF POLICIES: A MULTI-SECTOR RICARDIAN APPROACH
+% LaTeX Packages for Academic Paper
+% Author: Nicolas de Moura
+% Last Updated: October 2025
+% ================================================================================
+
+% ------------------ CORE DOCUMENT PACKAGES ------------------
+\usepackage[english]{babel}                 % Language support
+\usepackage[utf8]{inputenc}                 % Input encoding
+\usepackage[T1]{fontenc}                    % Font encoding
+\usepackage{geometry}                       % Page layout control
+\usepackage{setspace}                       % Line spacing control
+
+% ------------------ MATHEMATICAL PACKAGES ------------------
+\usepackage{amsmath,amsfonts,amsthm,amssymb,mathtools} % Core math packages
+\usepackage{dsfont}                         % Double-stroke fonts for sets
+\usepackage{units}                          % Unit typesetting
+\usepackage{bm}                             % Bold math symbols
+
+% ------------------ TABLE PACKAGES ------------------
+\usepackage{tabularray}                     % Modern table package
+\usepackage{booktabs}                       % Professional table formatting
+\usepackage{array}                          % Enhanced array/tabular
+\usepackage{multirow}                       % Multi-row cells
+\usepackage{colortbl}                       % Table coloring
+\usepackage{longtable}                      % Multi-page tables
+\usepackage{caption}                        % Caption customization
+\usepackage{subcaption}                     % Sub-captions for figures/tables
+\usepackage{threeparttable}                 % Table notes
+\usepackage{dcolumn}                        % Decimal alignment in tables
+
+% ------------------ FIGURE PACKAGES ------------------
+\usepackage{graphicx}                       % Include graphics
+\usepackage{float}                          % Float positioning
+\usepackage{wrapfig}                        % Text wrapping around figures
+\usepackage{pdflscape}                      % Landscape pages
+\usepackage{rotating}                       % Rotate figures/tables
+
+% ------------------ DRAWING AND PLOTTING PACKAGES ------------------
+\usepackage{tikz}                           % Drawing package
+  \usetikzlibrary{3d}                       % 3D tikz library
+\usepackage{pgfplots}                       % Plot generation
+  \pgfplotsset{compat=newest}              % Use newest compatibility
+  \usepgfplotslibrary{fillbetween}         % Fill between curves
+
+% ------------------ COLOR PACKAGES ------------------
+\usepackage[dvipsnames]{xcolor}             % Enhanced color support
+\usepackage{color}                          % Basic color support
+
+% ------------------ HYPERLINK AND REFERENCE PACKAGES ------------------
+\usepackage{hyperref}                       % Hyperlinks and PDF features
+\hypersetup{
+    pdftitle={Quantitative Analysis of U.S. Tariff Policies: A Multi-Sector Ricardian Approach},
+    pdfauthor={Nicolas de Moura},
+    pdfsubject={International Trade, Quantitative Analysis, Tariff Policy},
+    pdfkeywords={Trade Policy, Welfare Analysis, Ricardian Model, Structural Estimation},
+    colorlinks=true, 
+    linkcolor=blue!90,
+    citecolor=blue!70,
+    urlcolor=blue!90,
+    bookmarksnumbered=true,
+    bookmarksopen=true,
+    pdfstartview=FitH
+}
+\usepackage{theoremref}                     % Theorem referencing
+\usepackage{natbib}                         % Bibliography management
+
+% ------------------ CODE AND ALGORITHM PACKAGES ------------------
+\usepackage{listings}                       % Code listings
+\usepackage{algorithm}                      % Algorithm environment
+\usepackage{algorithmic}                    % Algorithmic notation
+\usepackage{inconsolata}                    % Monospace font
+\usepackage{pythonhighlight}                % Python syntax highlighting
+
+% ------------------ FONT PACKAGES ------------------
+\usepackage{newpxtext, newpxmath}           % Palatino-like fonts
+\usepackage{microtype}                      % Font micro-adjustments
+
+% ------------------ LAYOUT AND FORMATTING PACKAGES ------------------
+\usepackage{fancyhdr}                       % Custom headers/footers
+\usepackage{sectsty}                        % Section formatting
+\usepackage{titlesec}                       % Title formatting
+\usepackage{parskip}                        % Paragraph spacing
+\usepackage{enumerate, enumitem}            % Enhanced lists
+\usepackage{framed}                         % Framed text boxes
+
+% ------------------ SPECIALIZED PACKAGES ------------------
+\usepackage{optidef}                        % Optimization problem formatting
+\usepackage{etoolbox}                       % Programming tools
+\usepackage{footnote}                       % Enhanced footnotes
+\usepackage{ulem}                           % Underlining and striking
+\usepackage{pdfpages}                       % Include PDF pages
+\usepackage{thmtools, thm-restate}          % Theorem tools
+
+% ------------------ APPENDIX AND SUPPLEMENTARY PACKAGES ------------------
+\usepackage{appendix}                       % Appendix formatting
+\usepackage{blindtext}                      # Placeholder text (remove for final version)
+\usepackage{lipsum}                         # Lorem ipsum (remove for final version)
+
+% ------------------ PACKAGE CONFIGURATIONS ------------------
+
+% Configure listings for R code
+\lstset{
+    language=R,
+    basicstyle=\small\ttfamily,
+    commentstyle=\color{gray},
+    keywordstyle=\color{blue},
+    stringstyle=\color{red},
+    numberstyle=\tiny\color{gray},
+    numbers=left,
+    stepnumber=1,
+    showstringspaces=false,
+    breaklines=true,
+    frame=single,
+    captionpos=b
+}
+
+% Configure algorithm appearance
+\renewcommand{\algorithmiccomment}[1]{\hfill // #1}
+\renewcommand{\algorithmicrequire}{\textbf{Input:}}
+\renewcommand{\algorithmicensure}{\textbf{Output:}}
+
+% Table formatting preferences
+\captionsetup[table]{
+    position=top,
+    font=small,
+    labelfont=bf,
+    skip=6pt
+}
+
+% Figure formatting preferences  
+\captionsetup[figure]{
+    position=bottom,
+    font=small,
+    labelfont=bf,
+    skip=6pt
+}

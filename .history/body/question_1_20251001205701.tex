@@ -1,0 +1,198 @@
+```latex
+\documentclass[12pt]{article}
+
+\usepackage{amsmath, amssymb, amsthm}
+\usepackage{mathtools}
+\usepackage{geometry}
+\geometry{margin=1in}
+
+% Define environments
+\newtheorem{question}{Question}
+\newtheorem*{solution}{Solution}
+
+\title{Problem Set 2: Eaton and Kortum (2002) --- Solutions}
+\author{}
+\date{}
+
+\begin{document}
+\maketitle
+
+\begin{question}
+Prove that the probability that country $i$ provides a good at the lowest price in country $n$ is
+\[
+\pi_{ni} = \frac{T_i (c_{ni})^{-\theta}}{\Phi_n}, \quad
+\Phi_n = \sum_j T_j (c_{nj})^{-\theta}.
+\]
+\end{question}
+
+\begin{solution}
+The distribution of productivity in $i$ is Fréchet:
+\[
+F_i(z) = \exp(-T_i z^{-\theta}), \quad z > 0.
+\]
+
+The price for country $n$ is $p_{ni} = c_{ni}/z$, so
+\[
+G_{ni}(p) = 1 - \exp\!\big(-T_i (c_{ni} p)^{-\theta}\big).
+\]
+
+The density is
+\begin{align*}
+g_{ni}(p) 
+&= \frac{d}{dp} G_{ni}(p) \\
+&= T_i \theta (c_{ni})^{-\theta} p^{-(\theta+1)} 
+    \exp\!\big(-T_i (c_{ni} p)^{-\theta}\big).
+\end{align*}
+
+The probability $i$ is cheapest in $n$ is
+\begin{align*}
+\pi_{ni} &= \int_0^\infty g_{ni}(p) 
+    \Pr(p_{nj} > p \ \forall j \neq i)\, dp \\
+&= \int_0^\infty g_{ni}(p)\,
+    \exp\!\left(-\sum_{j \neq i} T_j (c_{nj})^{-\theta} p^{-\theta}\right) dp \\
+&= \int_0^\infty T_i \theta (c_{ni})^{-\theta} p^{-(\theta+1)} 
+    \exp\!\left(-\sum_{j} T_j (c_{nj})^{-\theta} p^{-\theta}\right) dp.
+\end{align*}
+
+With the change of variable $x = p^{-\theta}$, $dx = -\theta p^{-(\theta+1)} dp$,
+\begin{align*}
+\pi_{ni} &= T_i (c_{ni})^{-\theta} 
+    \int_0^\infty e^{-\Phi_n x} \, dx \\
+&= \frac{T_i (c_{ni})^{-\theta}}{\Phi_n}.
+\end{align*}
+\end{solution}
+
+\begin{question}
+Prove that the price of a good that country $n$ actually buys from some $i$ has distribution $G_n(p)$.
+\end{question}
+
+\begin{solution}
+The minimum price in $n$ is
+\[
+p_n = \min_i p_{ni}.
+\]
+
+Thus
+\begin{align*}
+\Pr(p_n \leq p) 
+&= 1 - \Pr(p_{ni} > p, \ \forall i) \\
+&= 1 - \exp\!\left(-\sum_i T_i (c_{ni} p)^{-\theta}\right) \\
+&= 1 - \exp(-\Phi_n p^{-\theta}).
+\end{align*}
+
+Therefore
+\[
+G_n(p) = 1 - \exp(-\Phi_n p^{-\theta}).
+\]
+\end{solution}
+
+\begin{question}
+Prove that with CES utility and Fréchet-distributed prices, the price index is
+\[
+p_n = \gamma \Phi_n^{-1/\theta}, \qquad 
+\gamma = \left[\Gamma\!\left(\frac{\theta+1-\sigma}{\theta}\right)\right]^{\frac{1}{1-\sigma}},
+\]
+with the restriction $\sigma < 1+\theta$.
+\end{question}
+
+\begin{solution}
+The CES price index is
+\[
+p_n = \left( \int_0^\infty p^{1-\sigma} dG_n(p) \right)^{\tfrac{1}{1-\sigma}}.
+\]
+
+The density of $G_n(p)$ is
+\[
+g_n(p) = \Phi_n \theta p^{-(\theta+1)} \exp(-\Phi_n p^{-\theta}).
+\]
+
+Hence
+\begin{align*}
+\int_0^\infty p^{1-\sigma} g_n(p)\, dp
+&= \Phi_n \theta \int_0^\infty p^{-(\theta+\sigma)} 
+    \exp(-\Phi_n p^{-\theta})\, dp.
+\end{align*}
+
+Let $x = \Phi_n p^{-\theta}$, so $dp = -\tfrac{1}{\theta} (\Phi_n/x)^{1/\theta} x^{-1} dx$. Then
+\begin{align*}
+\int_0^\infty p^{1-\sigma} g_n(p)\, dp
+&= \Phi_n^{\tfrac{\sigma-1}{\theta}} 
+   \Gamma\!\left(\tfrac{\theta+1-\sigma}{\theta}\right).
+\end{align*}
+
+Therefore
+\begin{align*}
+p_n &= \left[\Phi_n^{\tfrac{\sigma-1}{\theta}} 
+   \Gamma\!\left(\tfrac{\theta+1-\sigma}{\theta}\right)\right]^{\tfrac{1}{1-\sigma}} \\
+&= \gamma \Phi_n^{-1/\theta}.
+\end{align*}
+
+The Gamma function is finite only if $\sigma < 1 + \theta$.
+\end{solution}
+
+\end{document}
+```
+```latex
+\documentclass[12pt]{article}
+
+\usepackage{amsmath, amssymb, amsthm}
+\usepackage{mathtools}
+\usepackage{geometry}
+\geometry{margin=1in}
+
+% Define environments
+\newtheorem{question}{Question}
+\newtheorem*{solution}{Solution}
+
+\title{Problem Set 2: Eaton and Kortum (2002) --- Solutions}
+\author{}
+\date{}
+
+\begin{document}
+\maketitle
+
+\begin{question}
+Prove that the probability that country $i$ provides a good at the lowest price in country $n$ is
+\[
+\pi_{ni} = \frac{T_i (c_{ni})^{-\theta}}{\Phi_n}, \quad
+\Phi_n = \sum_j T_j (c_{nj})^{-\theta}.
+\]
+\end{question}
+
+\begin{solution}
+The distribution of productivity in $i$ is Fréchet:
+\[
+F_i(z) = \exp(-T_i z^{-\theta}), \quad z > 0.
+\]
+
+The price for country $n$ is $p_{ni} = c_{ni}/z$, so
+\[
+G_{ni}(p) = 1 - \exp\!\big(-T_i (c_{ni} p)^{-\theta}\big).
+\]
+
+The density is
+\begin{align*}
+g_{ni}(p) 
+&= \frac{d}{dp} G_{ni}(p) \\
+&= T_i \theta (c_{ni})^{-\theta} p^{-(\theta+1)} 
+    \exp\!\big(-T_i (c_{ni} p)^{-\theta}\big).
+\end{align*}
+
+The probability $i$ is cheapest in $n$ is
+\begin{align*}
+\pi_{ni} &= \int_0^\infty g_{ni}(p) 
+    \Pr(p_{nj} > p \ \forall j \neq i)\, dp \\
+&= \int_0^\infty g_{ni}(p)\,
+    \exp\!\left(-\sum_{j \neq i} T_j (c_{nj})^{-\theta} p^{-\theta}\right) dp \\
+&= \int_0^\infty T_i \theta (c_{ni})^{-\theta} p^{-(\theta+1)} 
+    \exp\!\left(-\sum_{j} T_j (c_{nj})^{-\theta} p^{-\theta}\right) dp.
+\end{align*}
+
+With the change of variable $x = p^{-\theta}$, $dx = -\theta p^{-(\theta+1)} dp$,
+\begin{align*}
+\pi_{ni} &= T_i (c_{ni})^{-\theta} 
+    \int_0^\infty e^{-\Phi_n x} \, dx \\
+&= \frac{T_i (c_{ni})^{-\theta}}{\Phi_n}.
+\end{align*}
+\end{solution}
+

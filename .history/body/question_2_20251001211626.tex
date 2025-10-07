@@ -1,0 +1,52 @@
+Prove that the price of a good that country $n$ actually buys (i.e. the minimum price across suppliers) has distribution $G_n(p)$.
+
+\begin{solution}
+Let $p_n=\min_i p_{ni}$ be the price actually paid in $n$. We will show
+\begin{align*}
+G_n(p)\equiv \Pr(p_n \le p) = 1 - \exp\!\big(-\Phi_n p^{\theta}\big),
+\end{align*}
+with $\Phi_n=\sum_j T_j c_{nj}^{-\theta}$.
+
+\paragraph{Method 1: Using the survival function (simplest).}
+\begin{align*}
+\Pr(p_n > p)
+&= \Pr\big(p_{ni} > p\ \forall i\big)
+= \prod_i \Pr\big(p_{ni} > p\big)
+= \prod_i \big(1 - G_{ni}(p)\big) \\
+&= \prod_i \exp\!\big(-T_i c_{ni}^{-\theta} p^{\theta}\big)
+= \exp\!\Big(-\sum_i T_i c_{ni}^{-\theta} p^{\theta}\Big)
+= \exp\!\big(-\Phi_n p^{\theta}\big).
+\end{align*}
+Therefore
+\begin{align*}
+\Pr(p_n \le p) = 1 - \Pr(p_n>p) = 1 - \exp\!\big(-\Phi_n p^{\theta}\big),
+\end{align*}
+so the CDF is $G_n(p)=1-\exp(-\Phi_n p^\theta)$.
+
+\paragraph{Method 2: As a mixture (alternative, more detailed).}
+Write the CDF of the price actually bought as the sum over suppliers:
+\begin{align*}
+\Pr(p_n \le p)
+&= \sum_i \Pr\big(\text{supplier}=i,\; p_{ni}\le p\big) \\
+&= \sum_i \int_0^p \Pr\big(p_{ni}\in ds,\; p_{nj}>s\ \forall j\neq i\big) \\
+&= \sum_i \int_0^p g_{ni}(s)\, \prod_{j\neq i}\big(1-G_{nj}(s)\big)\, ds.
+\end{align*}
+Plug in $g_{ni}(s)$ and $1-G_{nj}(s)=\exp(-T_j c_{nj}^{-\theta} s^{\theta})$:
+\begin{align*}
+\Pr(p_n \le p)
+&= \sum_i \int_0^p T_i\theta\, c_{ni}^{-\theta} s^{\theta-1}
+    \exp\!\Big(-\sum_j T_j c_{nj}^{-\theta} s^{\theta}\Big)\, ds \\
+&= \int_0^p \theta\, s^{\theta-1} \Phi_n \exp\!\big(-\Phi_n s^{\theta}\big)\, ds.
+\end{align*}
+Now perform the change of variables $x=\Phi_n s^{\theta}$, $dx=\Phi_n\theta s^{\theta-1} ds$, to obtain
+\begin{align*}
+\Pr(p_n \le p)
+&= \int_{x=0}^{\Phi_n p^{\theta}} e^{-x}\, dx
+= 1 - e^{-\Phi_n p^{\theta}}.
+\end{align*}
+This matches the result from Method 1. Differentiating gives the density of the price actually paid:
+\begin{align*}
+g_n(p) = \frac{d}{dp}G_n(p) = \Phi_n \theta\, p^{\theta-1} \exp\!\big(-\Phi_n p^{\theta}\big).
+\end{align*}
+Thus the distribution of the price actually bought is $G_n(p)$ as claimed.
+\end{solution}

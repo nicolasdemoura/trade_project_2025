@@ -1,0 +1,44 @@
+\begin{thebibliography}{}
+
+\bibitem[\protect\citeauthoryear{Costinot, Donaldson, and Komunjer}{Costinot
+  et~al.}{2012}]{costinot2012TheReviewofEconomicStudies}
+Costinot, A., D.~Donaldson, and I.~Komunjer (2012, April).
+\newblock What {{Goods Do Countries Trade}}? {{A Quantitative Exploration}} of
+  {{Ricardo}}'s {{Ideas}}.
+\newblock {\em The Review of Economic Studies\/}~{\em 79\/}(2), 581--608.
+
+\bibitem[\protect\citeauthoryear{Eaton and Kortum}{Eaton and
+  Kortum}{2002}]{eaton2002Econometrica}
+Eaton, J. and S.~Kortum (2002, September).
+\newblock Technology, {{Geography}}, and {{Trade}}.
+\newblock {\em Econometrica\/}~{\em 70\/}(5), 1741--1779.
+
+\bibitem[\protect\citeauthoryear{Mazumder, Hastie, and Tibshirani}{Mazumder
+  et~al.}{2010}]{mazumder2010spectral}
+Mazumder, R., T.~Hastie, and R.~Tibshirani (2010).
+\newblock Spectral regularization algorithms for learning large incomplete
+  matrices.
+\newblock {\em Journal of Machine Learning Research\/}~{\em 11}, 2287--2322.
+
+\bibitem[\protect\citeauthoryear{Timmer, Dietzenbacher, Los, Stehrer, and
+  de~Vries}{Timmer et~al.}{2015}]{timmer2015illustrated}
+Timmer, M.~P., E.~Dietzenbacher, B.~Los, R.~Stehrer, and G.~J. de~Vries (2015).
+\newblock An illustrated user guide to the world input--output database: The
+  case of global automotive production.
+\newblock {\em Review of International Economics\/}~{\em 23\/}(3), 575--605.
+\newblock Data hosted on Dataverse: \url{https://doi.org/10.34894/XDTAUZ}.
+
+\bibitem[\protect\citeauthoryear{UISTC}{UISTC}{2025}]{USITC2025}
+UISTC (2025).
+\newblock {USITC DataWeb - General Imports by HTS}.
+\newblock \url{https://dataweb.usitc.gov/trade/search/GenImp/HTS}.
+\newblock Accessed: 2025-10-06.
+
+\bibitem[\protect\citeauthoryear{WITS}{WITS}{2025}]{WITS2025}
+WITS (2025).
+\newblock {WITS - World Integrated Trade Solution (TRAINS / Tariff \& Trade
+  Data)}.
+\newblock \url{https://wits.worldbank.org/WITS/}.
+\newblock Accessed: 2025-10-06.
+
+\end{thebibliography}

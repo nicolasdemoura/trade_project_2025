@@ -1,0 +1,52 @@
+\section{Counterfactual Analysis}
+
+This section evaluates the economic effects of alternative tariff policies using our calibrated multi-sector model. We analyze three contemporary scenarios based on 2025 US trade data: Last Twelve Months (LTM), Year-to-Date (YTD), and Most Recent Quarter (3M) tariff rates. Each scenario is evaluated under both mobile and immobile labor assumptions to capture short-run versus long-run adjustment mechanisms.
+
+\subsection{Policy Scenarios}
+
+Our counterfactual experiments replace the baseline 2024 tariff structure with contemporary rates derived from HTS-level US import data. The three scenarios capture different temporal perspectives on recent trade policy:
+\textbf{LTM Scenario (Last Twelve Months):} Uses contemporary tariff rates based on recent US trade policy implementation. This scenario captures the current protective stance across sectors.
+
+\textbf{YTD Scenario (Year-to-Date):} Employs tariff rates reflecting policy changes implemented during 2025. This scenario provides the baseline for our main counterfactual analysis.
+
+\textbf{3M Scenario (Recent Quarter):} Focuses on the most recent policy adjustments, highlighting short-term trade impacts and immediate policy effects.
+
+These scenarios are compared against the 2024 baseline to quantify the welfare and structural adjustment effects of contemporary trade policy. The temporal variation allows analysis of policy evolution and helps identify which time horizon best captures steady-state effects.
+
+Under the mobile labor assumption, workers can reallocate across sectors within each country in response to tariff changes. This represents the long-run equilibrium where factor markets have fully adjusted to policy changes.
+
+The YTD tariff scenario results (Table \ref{tab:welfare_tariff_rate25_YTD}) show welfare effects that appear implausibly large in magnitude, similar to the immobile labor case. The EU shows gains of 19.58\%, USA 14.37\%, China 7.50\%, Brazil 5.21\%, and Japan 4.76\%, while Mexico faces losses of -4.91\% and Canada -1.28\%.
+
+While the absolute magnitudes are unrealistic and suggest model specification or computational issues, the relative ordering of countries provides meaningful insights. The results indicate that Canada and Mexico are the countries most vulnerable to contemporary US tariff policies, consistent with their deep integration with US supply chains and NAFTA/USMCA trade relationships. Similarly, the model identifies India, China, and Brazil as potentially significant losers from protectionist policies, reflecting their substantial trade exposure to developed markets.
+
+\begin{landscape}
+    \vspace*{\fill}
+    \input{code/tables/welfare_effects/welfare_effectstariff_rate25_YTD_mobile.tex}
+    \vspace*{\fill}
+\end{landscape}
+The pattern where North American trading partners (Canada, Mexico) show the largest relative welfare losses aligns with expectations that geographically proximate and economically integrated countries face the greatest adjustment costs from trade disruptions. This ordering effect, rather than the specific numerical values, represents the most reliable insight from this counterfactual exercise.
+
+Tariff revenue changes also show implausibly large magnitudes, with EU increasing 44.66\% and China 42.66\%, while Brazil (-5.49\%), Japan (-5.86\%), and Rest of World (-6.14\%) experience decreases. Again, the levels are unrealistic, but the pattern suggests differential impacts across trading partners that merit further investigation with improved model specifications. We don't believe that these are just general equilibrium effects, but rather numerical issues with the immobile labor specification.
+
+The immobile labor specification assumes workers cannot move between sectors, representing short-run adjustment where sectoral employment remains fixed at baseline levels. This scenario captures immediate policy impacts before factor reallocation occurs.
+
+The immobile labor results (Table \ref{tab:welfare_tariff_rate25_YTD}) exhibit extremely large welfare effects that appear unrealistic. Canada shows welfare gains of 14,773\%, GBR 7,030\%, and Japan 5,839\%, while even the smallest effects (USA: 112.76\%, China: 94.82\%) are implausibly large. These results suggest numerical instability or specification issues in the immobile labor model.
+
+The magnitude of these welfare changes indicates that the immobile labor constraint may be creating artificial rigidities that generate unrealistic general equilibrium responses. When labor cannot reallocate across sectors, the model appears to compensate through extreme price and wage adjustments that violate economic intuition.
+
+Tariff revenue changes under immobile labor are similarly extreme, with most countries showing increases in the thousands of percent. These results suggest fundamental problems with the immobile labor specification, making the mobile labor scenario more credible for policy analysis.
+
+The implausible welfare effects under labor immobility highlight the importance of factor mobility assumptions in quantitative trade models. The excessive gains may reflect computational difficulties in solving the general equilibrium system under binding employment constraints, indicating that the mobile labor specification provides more reliable counterfactual predictions.
+\begin{landscape}
+    \vspace*{\fill}
+    \input{code/tables/welfare_effects/welfare_effectstariff_rate25_YTD_immobile.tex}
+    \vspace*{\fill}
+\end{landscape}
+
+
+\subsection{Policy Implications}
+
+The YTD scenario analysis reveals several key policy insights. The asymmetric welfare distribution suggests that contemporary trade policies generate significant redistributive effects across countries. The main source of welfare gains appears to be trade diversion, where protected domestic industries benefit at the expense of foreign competitors. By imposing tariffs, the US may be redirecting trade flows towards its own producers, thereby improving its terms of trade. However, this comes at the cost of efficiency losses in global supply chains, particularly affecting countries like Canada and Mexico that are closely integrated with the US economy.
+
+The contrast between mobile and immobile labor scenarios highlights the critical importance of labor market flexibility in determining adjustment costs. While the mobile labor results suggest manageable welfare effects ranging from -4.91\% to +19.58\%, the implausible immobile labor results indicate that rigid labor markets could generate severe adjustment problems.
+

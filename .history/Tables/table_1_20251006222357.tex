@@ -1,0 +1,43 @@
+\begin{table}[H]
+\centering
+\caption{Model Variables and Parameters}
+\label{tab:model_variables}
+\renewcommand{\arraystretch}{1.1}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{>{\raggedright}p{2cm} >{\raggedright}p{7cm} >{\raggedright\arraybackslash}p{6cm}}
+\toprule
+\textbf{Variable} & \textbf{Description} & \textbf{Source} \\
+\midrule
+\multicolumn{3}{l}{\textbf{Primary Outcomes of Interest}} \\
+\midrule
+$W_n^{income}$ & Real income from labor: $\frac{\sum_{k} w_{nk} L_{nk}}{P_n}$ & Structural model solution \\
+$W_n^{tariff}$ & Real tariff revenue: $\frac{\sum_{k} \sum_{i} \tau_{nik} \pi_{nik} X_{nk}}{P_n}$ & Structural model solution \\
+$W_n$ & Total real welfare: $W_n^{income} + W_n^{tariff}$ & Structural model solution \\
+$P_n$ & Aggregate price index & Structural model solution \\
+\midrule
+\multicolumn{3}{l}{\textbf{Structural Parameters}} \\
+\midrule
+${\color{red}T_{ik}}$ & Productivity parameter, country $i$, sector $k$ & Reduced form regression \\
+${\color{purple}\theta}$ & Trade elasticity & External calibration \\
+${\color{green}\beta_{ik}}$ & Labor share, country $i$, sector $k$ & Input-output tables \\
+${\color{green}\gamma_{ikk'}}$ & Intermediate input share, $k'$ in $k$, country $i$ & Input-output tables \\
+${\color{green}\alpha_{nk}}$ & Expenditure share, country $n$, sector $k$ & Input-output tables \\
+${\color{orange}d_{nik}}$ & Iceberg trade cost, $i$ to $n$, sector $k$ & Structural estimation \\
+\midrule
+\multicolumn{3}{l}{\textbf{Policy Variables}} \\
+\midrule
+${\color{blue}\tau_{nik}}$ & Ad valorem tariff, $n$ imports from $i$, sector $k$ & Trade policy data \\
+\midrule
+\multicolumn{3}{l}{\textbf{Endogenous Variables}} \\
+\midrule
+${\color{orange}p_{nk}}$ & Sectoral price index, country $n$, sector $k$ & Structural equilibrium \\
+${\color{orange}c_{ik}}$ & Unit cost of production, country $i$, sector $k$ & Structural equilibrium \\
+${\color{orange}w_{ik}}$ & Wage rate, country $i$, sector $k$ & Structural equilibrium \\
+${\color{orange}\pi_{nik}}$ & Bilateral trade share, $n$ imports from $i$, sector $k$ & Structural equilibrium \\
+${\color{orange}X_{nk}}$ & Sectoral expenditure, country $n$, sector $k$ & Structural equilibrium \\
+${\color{orange}Y_{n}}$ & Total income, country $n$ & Structural equilibrium \\
+${\color{orange}L_{nk}}$ & Labor allocation, country $n$, sector $k$ & Structural equilibrium \\
+\bottomrule
+\end{tabular}%
+}
+\end{table}

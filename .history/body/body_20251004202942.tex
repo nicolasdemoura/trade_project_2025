@@ -1,0 +1,57 @@
+\section{Model}
+\paragraph{Outcome Variables.} The key outcome variables in the model are defined as follows, for each country $n$ and sector $k$.
+\begin{align*}
+    W_n &= \frac{\sum_{k} {\color{black}w_{nk}} {\color{black}L_{nk}} + \sum_{k} \sum_{i} {\color{blue}\tau_{nik}} {\color{black}\pi_{nik}} {\color{black}X_{nk}}}{{\color{black}P_n}} & \text{(Real Welfare)} \\
+    {\color{black}P_n} &= \prod_{k} {\color{black}p_{nk}}^{{\color{black}\alpha_{nk}}} & \text{(Aggregate Price Index)}
+\end{align*}
+
+% Equilibrium Conditions
+\paragraph{Equilibrium Conditions.} The model equilibrium is characterized by the following conditions, which must hold for all countries $n$ and sectors $k$.
+\begin{align*}
+    {\color{purple}\pi_{nik}} &= \frac{{\color{red}T_{ik}} ({\color{purple}c_{ik}} {\color{purple}d_{nik}} (1 + {\color{blue}\tau_{nik}}))^{-{\color{yellow}\theta}}}{\sum_{i'} {\color{red}T_{i'k}} ({\color{purple}c_{i'k}} {\color{purple}d_{ni'k}} (1 + {\color{blue}\tau_{ni'k}}))^{-{\color{yellow}\theta}}} & \text{(Trade Shares)} \\
+    {\color{purple}c_{ik}} &= ({\color{purple}w_{ik}})^{{\color{green}\beta_{ik}}} \left(\prod_{k'} {\color{purple}p_{ik'}}^{{\color{green}\gamma_{ikk'}}}\right)^{1 - {\color{green}\beta_{ik}}} & \text{(Unit Costs)} \\
+    {\color{purple}p_{nk}} &= \left[ \sum_{i} {\color{red}T_{ik}} ({\color{purple}c_{ik}} {\color{purple}d_{nik}} (1 + {\color{blue}\tau_{nik}}))^{-{\color{yellow}\theta}} \right]^{-\frac{1}{{\color{yellow}\theta}}} & \text{(Price Index)} \\
+   \sum_{k} {\color{purple}w_{ik}} {\color{purple}L_{ik}} &= \sum_{k} \sum_{n} {\color{purple}\pi_{nik}} {\color{purple}X_{nk}} & \text{(Labor Income)}
+\end{align*}
+
+\paragraph{Variable Definitions and Data Sources.}
+\begin{table}[h]
+\centering
+\caption{Model Variables and Parameters}
+\begin{tabular}{|l|l|l|}
+\hline
+\textbf{Variable/Parameter} & \textbf{Description} & \textbf{Data Source/Method} \\
+\hline
+\multicolumn{3}{|l|}{\textbf{Estimated from Reduced Form Regression}} \\
+\hline
+${\color{red}T_{ik}}$ & Technology parameter for country $i$, sector $k$ & Reduced form regression \\
+\hline
+\multicolumn{3}{|l|}{\textbf{Calibrated from Literature}} \\
+\hline
+${\color{yellow}\theta}$ & Trade elasticity parameter & External calibration from literature \\
+\hline
+\multicolumn{3}{|l|}{\textbf{Computed from Data (Policy Variables)}} \\
+\hline
+${\color{blue}\tau_{nik}}$ & Ad valorem tariff from country $n$ to $i$, sector $k$ & Trade data, subject to policy shocks \\
+\hline
+\multicolumn{3}{|l|}{\textbf{Computed from Data (Input-Output)}} \\
+\hline
+${\color{green}\beta_{ik}}$ & Labor share in production, country $i$, sector $k$ & Input-output tables \\
+${\color{green}\gamma_{ikk'}}$ & Input share of sector $k'$ in sector $k$, country $i$ & Input-output tables \\
+\hline
+\multicolumn{3}{|l|}{\textbf{Endogenous Variables (Structural Model)}} \\
+\hline
+${\color{purple}p_{nk}}$ & Price index in country $n$, sector $k$ & Structural model solution \\
+${\color{purple}c_{ik}}$ & Unit cost in country $i$, sector $k$ & Structural model solution \\
+${\color{purple}w_{ik}}$ & Wage in country $i$, sector $k$ & Structural model solution \\
+${\color{purple}\pi_{nik}}$ & Trade share from country $i$ to $n$, sector $k$ & Structural model solution \\
+${\color{purple}P_n}$ & Aggregate price index in country $n$ & Structural model solution \\
+${\color{purple}W_n}$ & Real welfare in country $n$ & Structural model solution \\
+${\color{purple}X_{nk}}$ & Total expenditure in country $n$, sector $k$ & Structural model solution \\
+${\color{purple}L_{nk}}$ & Labor in country $n$, sector $k$ & Structural model solution \\
+${\color{purple}\alpha_{nk}}$ & Expenditure share in country $n$, sector $k$ & Structural model solution \\
+${\color{purple}d_{nik}}$ & Iceberg trade cost from $i$ to $n$, sector $k$ & Structural model solution \\
+\hline
+\end{tabular}
+\end{table}
+

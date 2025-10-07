@@ -1,0 +1,30 @@
+\begin{table}[H]
+\centering
+\caption{Country Aggregation Scheme}
+\label{tab:country_aggregation}
+\renewcommand{\arraystretch}{1.3}
+\resizebox{0.9\textwidth}{!}{%
+\begin{tabular}{>{\raggedright}p{3cm} >{\raggedright}p{8cm} >{\raggedright\arraybackslash}p{4cm}}
+\toprule
+\textbf{Model Region} & \textbf{Constituent Countries/Economies} & \textbf{WIOD Codes} \\
+\midrule
+\multirow{8}{3cm}[0pt]{\textbf{Focus Economies}} & United States & USA \\
+& Brazil & BRA \\
+& China & CHN \\
+& Japan & JPN \\
+& Mexico & MEX \\
+& India & IND \\
+& Canada & CAN \\
+& United Kingdom & GBR \\
+\midrule
+\multirow{7}{3cm}[0pt]{\textbf{European Union}} & \multirow{7}{3cm}[0pt]{Austria, Belgium, Bulgaria, Croatia, Cyprus, Czech Republic, Denmark, Estonia, Finland, France, Germany, Greece, Hungary, Ireland, Italy, Latvia, Lithuania, Luxembourg, Malta, Netherlands, Poland, Portugal, Romania, Slovakia, Slovenia, Spain, Sweden} & \multirow{7}{3cm}[0pt]{AUT, BEL, BGR, HRV, CYP, CZE, DNK, EST, FIN, FRA, DEU, GRC, HUN, IRL, ITA, LVA, LTU, LUX, MLT, NLD, POL, PRT, ROU, SVK, SVN, ESP, SWE} \\
+\midrule
+\multirow{2}{3cm}[0pt]{\textbf{Rest of World}} & \multirow{2}{3cm}[0pt]{Australia, Indonesia, Korea, Russia, Turkey, Taiwan, Other economies} & \multirow{2}{3cm}[0pt]{AUS, IDN, KOR, RUS, TUR, TWN, RoW} \\
+\bottomrule
+\end{tabular}%
+}
+\begin{tablenotes}
+\footnotesize
+\item Notes: The aggregation scheme balances analytical tractability with economic realism. Focus economies represent the 8 largest trading partners and policy-relevant countries for our analysis. The European Union is treated as an integrated economic area reflecting deep trade and regulatory integration among member states. Rest of World captures remaining economies in the WIOD database. Country codes follow ISO 3166-1 alpha-3 standard as implemented in \cite{stehrer2014wiod}.
+\end{tablenotes}
+\end{table}

@@ -1,0 +1,44 @@
+
+\begin{question}
+Prove that with CES utility and Fréchet-distributed prices, the price index is
+\[
+p_n = \gamma \Phi_n^{-1/\theta}, \qquad 
+\gamma = \left[\Gamma\!\left(\frac{\theta+1-\sigma}{\theta}\right)\right]^{\frac{1}{1-\sigma}},
+\]
+with the restriction $\sigma < 1+\theta$.
+\end{question}
+
+\begin{solution}
+The CES price index is
+\[
+p_n = \left( \int_0^\infty p^{1-\sigma} dG_n(p) \right)^{\tfrac{1}{1-\sigma}}.
+\]
+
+The density of $G_n(p)$ is
+\[
+g_n(p) = \Phi_n \theta p^{-(\theta+1)} \exp(-\Phi_n p^{-\theta}).
+\]
+
+Hence
+\begin{align*}
+\int_0^\infty p^{1-\sigma} g_n(p)\, dp
+&= \Phi_n \theta \int_0^\infty p^{-(\theta+\sigma)} 
+    \exp(-\Phi_n p^{-\theta})\, dp.
+\end{align*}
+
+Let $x = \Phi_n p^{-\theta}$, so $dp = -\tfrac{1}{\theta} (\Phi_n/x)^{1/\theta} x^{-1} dx$. Then
+\begin{align*}
+\int_0^\infty p^{1-\sigma} g_n(p)\, dp
+&= \Phi_n^{\tfrac{\sigma-1}{\theta}} 
+   \Gamma\!\left(\tfrac{\theta+1-\sigma}{\theta}\right).
+\end{align*}
+
+Therefore
+\begin{align*}
+p_n &= \left[\Phi_n^{\tfrac{\sigma-1}{\theta}} 
+   \Gamma\!\left(\tfrac{\theta+1-\sigma}{\theta}\right)\right]^{\tfrac{1}{1-\sigma}} \\
+&= \gamma \Phi_n^{-1/\theta}.
+\end{align*}
+
+The Gamma function is finite only if $\sigma < 1 + \theta$.
+\end{solution}

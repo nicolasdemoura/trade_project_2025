@@ -1,0 +1,127 @@
+Solve for the closed economy values of $\varphi^*$, $P$, $R$.
+
+\begin{solution}
+    The household's problem is given by:
+    \begin{align*}
+        \max_{q(\omega)} \quad & U = \left( \int_{\omega \in \Omega} q(\omega)^{\rho} d\omega \right)^{\frac{1}{\rho}} \\
+        	ext{s.t.} \quad & \int_{\omega \in \Omega} p(\omega) q(\omega) d\omega = R
+    \end{align*}
+    where $\rho = \frac{\sigma - 1}{\sigma}$ and $\sigma > 1$. The Lagrangian for this problem is given by:
+    \begin{align*}
+        \mathcal{L} = \left( \int_{\omega \in \Omega} q(\omega)^{\rho} d\omega \right)^{\frac{1}{\rho}} + \lambda \left( R - \int_{\omega \in \Omega} p(\omega) q(\omega) d\omega \right)
+    \end{align*}
+    The first order condition with respect to $q(\omega)$ is given by:
+    \begin{align*}
+        \frac{\partial \mathcal{L}}{\partial q(\omega)} = 0 &\iff \frac{1}{\rho} \left( \int_{\omega \in \Omega} q(\omega)^{\rho} d\omega \right)^{\frac{1}{\rho} - 1} \rho q(\omega)^{\rho - 1} - \lambda p(\omega) = 0 \\
+        &\iff q(\omega)^{\rho - 1} = \lambda p(\omega) \left( \int_{\omega \in \Omega} q(\omega)^{\rho} d\omega \right)^{1 - \frac{1}{\rho}} \\
+        &\iff q(\omega) = \left[ \lambda p(\omega) \right]^{\frac{1}{\rho - 1}} \left( \int_{\omega \in \Omega} q(\omega)^{\rho} d\omega \right)^{\frac{1}{\rho} } \\
+        &\iff q(\omega) = \left[ \lambda p(\omega) \right]^{-\sigma} Q 
+    \end{align*}
+    where $Q = \left( \int_{\omega \in \Omega} q(\omega)^{\rho} d\omega \right)^{\frac{1}{\rho}}$ is the CES aggregate. Substituting this expression for $q(\omega)$ into the budget constraint, we have:
+    \begin{align*}
+        R &= \int_{\omega \in \Omega} p(\omega) q(\omega) d\omega \\
+        &= \int_{\omega \in \Omega} p(\omega) \left[ \lambda p(\omega) \right]^{-\sigma} Q d\omega \\
+        &= Q \lambda^{-\sigma} \int_{\omega \in \Omega} p(\omega)^{1 - \sigma} d\omega \\
+        &\iff \lambda^{-\sigma} = \frac{R}{Q P^{1 - \sigma}} 
+    \end{align*}
+    where $P = \left( \int_{\omega \in \Omega} p(\omega)^{1 - \sigma} d\omega \right)^{\frac{1}{1 - \sigma}}$ is the CES price index. Substituting this expression for $\lambda^{-\sigma}$ back into the expression for $q(\omega)$, we have:
+    \begin{align*}
+        q(\omega) &= \left[ \frac{R}{Q P^{1 - \sigma}} p(\omega) \right]^{-\sigma} Q \\
+        &\iff q(\omega) = \frac{R}{P} \left( \frac{p(\omega)}{P} \right)^{-\sigma}\\
+        &\iff q(\omega) = Q \left( \frac{p(\omega)}{P} \right)^{-\sigma}
+    \end{align*}
+    The revenue associated with a variety $\omega$ is given by:
+    \begin{align*}
+        r(\omega) &= p(\omega) q(\omega) \\
+        &= p(\omega) \frac{R}{P} \left( \frac{p(\omega)}{P} \right)^{-\sigma} \\
+        &\iff r(\omega) = R \left( \frac{p(\omega)}{P} \right)^{1 - \sigma}
+    \end{align*}
+    
+    \bigskip
+    	\textbf{Firm side, pricing, and cutoffs (CES + monopolistic competition).}
+    
+    \emph{Technology and costs (notation):} A firm with productivity $\varphi$ has marginal cost $c_m(\varphi)=\dfrac{w}{\varphi}$ and pays a fixed operating cost $f>0$ to serve the domestic market. We normalize the wage to $w=1$.
+    
+    \emph{CES pricing with constant markup:} Under monopolistic competition with elasticity $\sigma>1$, the optimal price is
+    \[
+        p(\varphi) = \mu\, c_m(\varphi) \,=\, \frac{\sigma}{\sigma-1}\cdot\frac{1}{\varphi} .
+    \]
+    Substituting this into the revenue expression and using the demand result above,
+    \[
+        r(\varphi) \,=\, R\Big(\tfrac{p(\varphi)}{P}\Big)^{1-\sigma}
+        \,=\, R\Big( \frac{\tfrac{\sigma}{\sigma-1}\,\tfrac{1}{\varphi}}{P} \Big)^{1-\sigma}
+        \,=\, R\Big(\tfrac{\sigma}{\sigma-1}\Big)^{1-\sigma} (\varphi P)^{\sigma-1} .
+    \]
+    Profits from serving the domestic market are (slides): $\pi(\varphi) = \dfrac{1}{\sigma} r(\varphi) - f$.
+    
+    \emph{Zero-profit cutoff $\varphi^*$:} The marginal (least productive) active firm satisfies $\pi(\varphi^*)=0$, hence
+    \[
+        r(\varphi^*) = \sigma f
+        \quad\Longleftrightarrow\quad
+        R\Big(\tfrac{\sigma}{\sigma-1}\Big)^{1-\sigma} (\varphi^* P)^{\sigma-1} = \sigma f.
+    \]
+    Solving for $\varphi^*$ gives the convenient closed form in your notation:
+    \[
+        (\varphi^* P)^{\sigma-1} = \frac{\sigma f}{R}\Big(\frac{\sigma}{\sigma-1}\Big)^{\sigma-1}
+        \quad\Rightarrow\quad
+        \boxed{\;\displaystyle \varphi^* \,=\, \frac{\sigma}{\sigma-1}\,\Big(\frac{\sigma f}{R}\Big)^{\!\frac{1}{\sigma-1}} \frac{1}{P}\; } 
+    \]
+    which we will reuse in the open-economy case.
+    
+    \bigskip
+    	\textbf{Aggregate price index (CES aggregator).}
+    
+    Using $p(\varphi)^{1-\sigma}=\big(\tfrac{\sigma}{\sigma-1}\big)^{1-\sigma} \varphi^{\sigma-1}$, the CES price index is
+    \[
+        P^{1-\sigma} \,=\, \int_{\varphi\ge \varphi^*} p(\varphi)^{1-\sigma}\, d\mu(\varphi)
+        \,=\, \Big(\frac{\sigma}{\sigma-1}\Big)^{1-\sigma}\, M\, \mathbb{E}\big[\varphi^{\sigma-1}\,\big|\,\varphi\ge \varphi^*\big],
+    \]
+    where $M$ is the mass of active domestic varieties and the expectation is taken over the productivity distribution truncated at $\varphi^*$. Equivalently,
+    \[
+        \boxed{\;\displaystyle P \,=\, \Big[\Big(\frac{\sigma}{\sigma-1}\Big)^{1-\sigma}\, M\, \mathbb{E}\big(\varphi^{\sigma-1}\,\big|\,\varphi\ge \varphi^*\big)\Big]^{\!\tfrac{1}{1-\sigma}}\; }.
+    \]
+    
+    \bigskip
+    	\textbf{Pareto productivity hypothesis and closed forms.}
+
+    Assume productivities are i.i.d. Pareto on $[\varphi_m,\infty)$ with tail parameter $\theta>\sigma-1$:
+    \[
+        G(\varphi)=1-\Big(\tfrac{\varphi_m}{\varphi}\Big)^{\!\theta},\qquad g(\varphi)=\theta\,\varphi_m^{\theta}\,\varphi^{-\theta-1},\quad \varphi\ge\varphi_m.
+    \]
+    For any $a\ge\varphi_m$, the truncated $(\sigma-1)$-moment is
+    \[
+        \mathbb{E}\big[\varphi^{\sigma-1}\,\big|\,\varphi\ge a\big] \,=\, \frac{\theta}{\theta-(\sigma-1)}\, a^{\sigma-1}.
+    \]
+    Using this inside the price-index formula yields
+    \[
+        P^{1-\sigma} \,=\, \Big(\tfrac{\sigma}{\sigma-1}\Big)^{1-\sigma} M \frac{\theta}{\theta-(\sigma-1)}\, (\varphi^*)^{\sigma-1}.
+    \]
+    From the cutoff condition $R\Big(\tfrac{\sigma}{\sigma-1}\Big)^{1-\sigma} (\varphi^* P)^{\sigma-1}=\sigma f$, we have
+    \[
+        (\varphi^*)^{\sigma-1} \,=\, \frac{\sigma f}{R}\Big(\tfrac{\sigma}{\sigma-1}\Big)^{\!\sigma-1} P^{1-\sigma}.
+    \]
+    Substituting and simplifying cancels $P^{1-\sigma}$ and markup terms on both sides and delivers the identity (no circular reference):
+    \[
+        \boxed{\; R \,=\, \frac{\sigma\,\theta}{\theta-(\sigma-1)}\, M f \; }.
+    \]
+    One can also write the joint level $(\varphi^* P)$ directly from the cutoff condition as
+    \[
+        \boxed{\; (\varphi^* P)^{\sigma-1} \,=\, \Big(\tfrac{\sigma}{\sigma-1}\Big)^{\!\sigma-1} \frac{\sigma f}{R} \; }.
+    \]
+
+    \bigskip
+    	\textbf{Total revenue $R$ (labor-income closure, optional).}
+
+    With only labor and $w=1$, free entry drives pure profits to zero so $R=wL=L$. Combining with the Pareto identity above also gives $M=\dfrac{\theta-(\sigma-1)}{\sigma\theta}\,\dfrac{R}{f}$ if desired.
+    
+    
+    \bigskip
+    	\textbf{Final closed-economy answers (in your notation):}
+    \[
+    \boxed{\;\displaystyle \varphi^* \,=\, \frac{\sigma}{\sigma-1}\,\Big(\frac{\sigma f}{R}\Big)^{\!\frac{1}{\sigma-1}} \frac{1}{P}\; },
+    \quad
+    \boxed{\;\displaystyle P \,=\, \Big[\Big(\frac{\sigma}{\sigma-1}\Big)^{1-\sigma}\, M\, \mathbb{E}\big(\varphi^{\sigma-1}\,\big|\,\varphi\ge \varphi^*\big)\Big]^{\!\tfrac{1}{1-\sigma}}\; },
+    \quad
+    \boxed{\; R = L\; (w=1) },\quad \boxed{\; R \,=\, \dfrac{\sigma\,\theta}{\theta-(\sigma-1)}\, M f\; }.
+    \]
+\end{solution}

@@ -1,0 +1,79 @@
+\section{Theoretical Framework}
+
+\paragraph{} We adopt the multi-sector Ricardian trade model developed by \cite{costinot2012TheReviewofEconomicStudies}, which extends the \cite{eaton2002Econometrica} framework to incorporate multiple sectors and intermediate input linkages. The model features $N$ countries and $K$ sectors, where each country-sector pair is characterized by specific productivity parameters, production costs, and trade linkages.
+
+\subsection{Production and Technology}
+
+\paragraph{} Production in country $i$, sector $k$ is governed by a Cobb-Douglas technology that combines labor and intermediate inputs from all sectors. The unit cost of production is given by:
+\begin{align*}
+    {\color{orange}c_{ik}} &= ({\color{orange}w_{ik}})^{{\color{green}\beta_{ik}}} \left(\prod_{k'=1}^{K} {\color{orange}p_{ik'}}^{{\color{green}\gamma_{ikk'}}}\right)^{1 - {\color{green}\beta_{ik}}}
+\end{align*}
+where ${\color{orange}w_{ik}} > 0$ represents the wage rate in country $i$, sector $k$, ${\color{orange}p_{ik'}} > 0$ denotes the price of intermediate input from sector $k'$ in country $i$, ${\color{green}\beta_{ik}} \in (0,1)$ is the labor share parameter, and ${\color{green}\gamma_{ikk'}} \geq 0$ represents the share of intermediate input $k'$ in the production of sector $k$ with the restriction $\sum_{k'=1}^{K} {\color{green}\gamma_{ikk'}} = 1$. 
+
+\paragraph{} Each country $i$ in sector $k$ is characterized by a productivity parameter ${\color{red}T_{ik}} > 0$ that determines the country's comparative advantage in that sector. Higher values of ${\color{red}T_{ik}}$ indicate greater productivity and lower production costs, making the country more competitive in international markets for sector $k$ goods.
+
+\subsection{Trade Structure and Market Clearing}
+
+\paragraph{} Countries trade goods subject to iceberg trade costs ${\color{orange}d_{nik}} \geq 1$ and ad valorem tariffs ${\color{blue}\tau_{nik}} \geq 0$, where ${\color{orange}d_{nik}}$ represents the units of good that must be shipped from country $i$ to country $n$ in sector $k$ for one unit to arrive, and ${\color{blue}\tau_{nik}}$ is the tariff rate imposed by country $n$ on imports from country $i$ in sector $k$. By convention, ${\color{orange}d_{iik}} = 1$ and ${\color{blue}\tau_{iik}} = 0$ for domestic transactions.
+
+\paragraph{} Given perfect competition and consumers' preference for variety, the share of country $n$'s expenditure on sector $k$ goods that comes from country $i$ is:
+\begin{align*}
+    {\color{orange}\pi_{nik}} &= \frac{{\color{red}T_{ik}} \left({\color{orange}c_{ik}} {\color{orange}d_{nik}} (1 + {\color{blue}\tau_{nik}})\right)^{-{\color{purple}\theta}}}{\sum_{i'=1}^{N} {\color{red}T_{i'k}} \left({\color{orange}c_{i'k}} {\color{orange}d_{ni'k}} (1 + {\color{blue}\tau_{ni'k}})\right)^{-{\color{purple}\theta}}}
+\end{align*}
+where ${\color{purple}\theta > 1}$ is the trade elasticity parameter that governs the substitutability between varieties from different countries. The trade shares satisfy ${\color{orange}\pi_{nik}} \in (0,1)$ and $\sum_{i=1}^{N} {\color{orange}\pi_{nik}} = 1$ for all $n,k$.
+
+\paragraph{} The price index for sector $k$ goods in country $n$ is determined by:
+\begin{align*}
+    {\color{orange}p_{nk}} &= \left[ \sum_{i=1}^{N} {\color{red}T_{ik}} \left({\color{orange}c_{ik}} {\color{orange}d_{nik}} (1 + {\color{blue}\tau_{nik}})\right)^{-{\color{purple}\theta}} \right]^{-\frac{1}{{\color{purple}\theta}}}
+\end{align*}
+where ${\color{orange}p_{nk}} > 0$ represents the minimum cost of purchasing one unit of sector $k$ goods in country $n$.
+
+\subsection{Income and Expenditure}
+
+\paragraph{} Total expenditure by country $n$ on sector $k$ goods is determined by Cobb-Douglas preferences with expenditure shares ${\color{green}\alpha_{nk}}$:
+\begin{align*}
+   {\color{orange}X_{nk}} &= {\color{green}\alpha_{nk}} \left( \sum_{k'=1}^{K} {\color{orange}w_{nk'}} {\color{orange}L_{nk'}} + \sum_{k'=1}^{K} \sum_{i=1}^{N} {\color{blue}\tau_{nik'}} {\color{orange}\pi_{nik'}} {\color{orange}X_{nk'}} \right)
+\end{align*}
+where ${\color{green}\alpha_{nk}} \in (0,1)$ with $\sum_{k=1}^{K} {\color{green}\alpha_{nk}} = 1$, ${\color{orange}L_{nk}} > 0$ represents labor allocation, and ${\color{orange}X_{nk}} > 0$ denotes total expenditure. The term in parentheses represents total income, comprising labor income and tariff revenue.
+
+\paragraph{} Total income for country $n$ is given by:
+\begin{align*}
+   Y_n &= \sum_{k=1}^{K} {\color{orange}w_{nk}} {\color{orange}L_{nk}} + \sum_{k=1}^{K} \sum_{i=1}^{N} {\color{blue}\tau_{nik}} {\color{orange}\pi_{nik}} {\color{orange}X_{nk}}
+\end{align*}
+where $Y_n > 0$ represents the total income available for expenditure across all sectors.
+
+\subsection{Labor Mobility and Trade Balance}
+
+\paragraph{} We consider two scenarios for labor mobility that correspond to different time horizons for adjustment. The choice between these scenarios determines both the wage structure and the trade balance conditions.
+
+\paragraph{\textbf{Mobile Labor (Long-Run Equilibrium).}} Under perfect labor mobility within countries, wages equalize across sectors: ${\color{orange}w_{ik}} = {\color{orange}w_{i}}$ for all $k$. The trade balance condition requires that total export revenues equal total income:
+\begin{align*}
+   \sum_{k=1}^{K} \sum_{n=1}^{N} {\color{orange}\pi_{ink}} {\color{green}\alpha_{nk}} Y_n  &= \sum_{k=1}^{K} {\color{orange}w_{i}} {\color{orange}L_{ik}} + \sum_{k=1}^{K} \sum_{n=1}^{N} {\color{blue}\tau_{nik}} {\color{orange}\pi_{nik}} {\color{green}\alpha_{nk}} Y_{n} \quad \forall i
+\end{align*}
+This scenario represents long-run equilibrium where labor can move between sectors in response to wage differentials.
+
+\paragraph{\textbf{Immobile Labor (Short-Run Equilibrium).}} Under sector-specific labor, wages can differ across sectors within a country: ${\color{orange}w_{ik}}$ varies with both $i$ and $k$. The trade balance condition must hold at the sector level:
+\begin{align*}
+   \sum_{n=1}^{N} {\color{orange}\pi_{ink}} {\color{green}\alpha_{nk}} Y_n  &= {\color{orange}w_{ik}} {\color{orange}L_{ik}} + \sum_{n=1}^{N} {\color{blue}\tau_{nik}} {\color{orange}\pi_{nik}} {\color{green}\alpha_{nk}} Y_{n} \quad \forall i,k
+\end{align*}
+This scenario represents short-run equilibrium where sector-specific factors prevent immediate labor reallocation.
+
+\subsection{Welfare Measurement}
+
+\paragraph{} Real welfare for country $n$ is measured as total real income, comprising both labor income and tariff revenue:
+\begin{align*}
+    {\color{black}W_n} &= \frac{\sum_{k=1}^{K} {\color{orange}w_{nk}} {\color{orange}L_{nk}} + \sum_{k=1}^{K} \sum_{i=1}^{N} {\color{blue}\tau_{nik}} {\color{orange}\pi_{nik}} {\color{orange}X_{nk}}}{{\color{black}P_n}}
+\end{align*}
+where the aggregate price index is:
+\begin{align*}
+    {\color{black}P_n} &= \prod_{k=1}^{K} {\color{orange}p_{nk}}^{{\color{green}\alpha_{nk}}}
+\end{align*}
+with ${\color{black}P_n} > 0$ and ${\color{black}W_n} > 0$.
+
+\subsection{Equilibrium Definition}
+
+\paragraph{} A general equilibrium consists of wages $\{{\color{orange}w_{ik}}\}$, prices $\{{\color{orange}p_{nk}}\}$, trade shares $\{{\color{orange}\pi_{nik}}\}$, expenditures $\{{\color{orange}X_{nk}}\}$, and incomes $\{Y_n\}$ such that: (i) firms minimize costs taking prices as given, (ii) trade shares follow from consumer optimization, (iii) price indices clear markets, (iv) expenditure patterns reflect consumer preferences, (v) income identities hold, and (vi) trade balances are satisfied under the specified labor mobility regime.
+
+\paragraph{Variable Definitions and Data Sources.} The complete set of variables and their empirical counterparts is summarized in Table~\ref{tab:model_variables}:
+
+\input{Tables/table_1}

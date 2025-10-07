@@ -1,0 +1,36 @@
+\section{Data Construction}
+
+This section presents the comprehensive data construction process underlying our multi-sector Ricardian analysis. We integrate multiple international databases to build a consistent analytical framework covering 10 countries and 12 sectors, with particular focus on constructing time-varying tariff scenarios for contemporary US trade policy evaluation during 2024-2025. Our data architecture combines trade data from 2009 with current policy instruments to enable robust counterfactual analysis. Tables \ref{tab:sector_mapping_1} and \ref{tab:sector_mapping_2} present our sector aggregation scheme linking WIOD classifications to HS codes, while Table \ref{tab:country_aggregation} details the country grouping structure.
+
+\subsection{World Input-Output Database (WIOD)}
+
+Our analysis builds on the World Input-Output Database (WIOD) 2013 Release \citep{timmer2015illustrated}, providing comprehensive input-output tables for 27 EU countries and 13 other major economies from 1995 to 2011. We focus on the year 2009 because it offers the most comprehensive trade flow information across our country sample, which is essential for robust estimation of the structural parameters. The WIOD provides three critical data components that form the foundation of our calibration: bilateral trade flows $X_{nik}$ used to compute trade shares $\pi_{nik}$, sectoral intermediate input coefficients $\gamma_{ikk'}$, and final expenditure patterns used to derive consumption shares $\alpha_{nk}$.
+
+We implement a structured aggregation scheme to balance tractability with economic realism. Our 10-country framework includes 8 focus economies (USA, Brazil, China, Japan, Mexico, India, Canada, United Kingdom), the European Union as an integrated bloc (27 member countries), and Rest of World capturing remaining economies. This aggregation captures the primary trade relationships while maintaining computational feasibility, as detailed in Table \ref{tab:country_aggregation}. 
+
+\input{Tables/country_aggregation}
+
+The 56 original WIOD sectors are aggregated into 12 economically meaningful categories following the mapping scheme presented in Tables \ref{tab:sector_mapping_1} and \ref{tab:sector_mapping_2}: Food, Textiles, Paper, Chemical, Metal, Manufacture, Mining, Energy, Construction, Retail/Wholesale, Transport, and Services. This aggregation scheme is designed to capture key sectoral distinctions while maintaining sufficient observations within each category to ensure robust parameter estimation.
+
+\input{Tables/sector_mapping}
+
+\subsection{Socioeconomic Accounts and Labor Data}
+
+Labor market data comes from the WIOD Socioeconomic Accounts (SEA) July 2014 release \citep{timmer2015illustrated}, providing employment and compensation data by country and sector for 2009. We use total hours worked rather than employment headcounts to capture cross-country differences in work intensity and labor market institutions. This approach is particularly crucial for services sectors where part-time employment and working hour conventions vary substantially across countries.
+
+All monetary values are converted to 2009 US dollars using annual average exchange rates from the IMF International Financial Statistics, ensuring cross-country comparability. The WIOD input-output framework enables direct computation of key structural parameters: labor shares $\beta_{ik} = \frac{\text{Labor Compensation}_{ik}}{\text{Gross Output}_{ik}}$ capture the factor intensity of production consistent with our Cobb-Douglas specification in equation (\ref{eq:production}). Together with intermediate input coefficients $\gamma_{ikk'} = \frac{\text{Intermediate Purchases}_{ikk'}}{\text{Gross Output}_{ik}}$ and final expenditure shares $\alpha_{nk} = \frac{\text{Final Consumption}_{nk}}{\text{Total Final Consumption}_{n}}$, these parameters form the technological and preference foundations of our structural model, estimated from observed 2009 production and consumption patterns.
+
+\subsection{Tariff Data Architecture}
+
+Our empirical analysis employs a two main sources approach to capture both historical patterns and contemporary policy dynamics. The baseline tariff structure uses the TRAINS database through WITS, providing ad valorem equivalent rates for 2023 that match our WIOD reference year. These historical tariffs establish the structural relationships and serve as the counterfactual baseline.
+
+For policy-relevant analysis, we integrate a comprehensive HTS-level dataset covering US imports for 2024-2025. This dataset contains monthly observations of General Customs Value and General Import Charges at the 10-digit HTS level, allowing us to compute effective tariff rates as $\tau_{ik} = \frac{\text{Import Charges}_}{\text{Customs Value}}$ for each trading partner and product category.
+
+The HTS data enables construction of four temporal tariff scenarios: (1) \texttt{tariff\_rate24} uses 2024 annual averages as the baseline, (2) \texttt{tariff\_rate25\_YTD} covers year-to-date 2025 through the most recent month, (3) \texttt{tariff\_rate25\_LTM} uses a rolling 12-month window ending with the latest data, and (4) \texttt{tariff\_rate25\_3M} captures the most recent quarterly trends. This temporal structure allows analysis of evolving trade policies and seasonal patterns.
+
+HTS codes are mapped to our 12-sector classification using concordance tables based on 2-digit HS categories. For example, HS chapters 28-39 map to Chemicals, chapters 84-85 to Energy/Machinery, and chapters 01-24 to Food products. Country mapping aggregates individual trading partners into our three-region framework based on trade volumes and economic integration patterns. Trade-weighted averaging ensures that tariff rates reflect the economic importance of different products and partners within each sector.
+Since our focus is on US counterfactual trade policy analysis, we employ a hybrid data approach optimized for policy-relevant scenarios. For the 9 non-US economies in our sample, we obtain 2023 tariff data from the TRAINS database via World Bank WITS \citep{WorldBank_WITS}, which provides the most comprehensive coverage available for this reference year across our country sample.
+
+For the United States, we utilize detailed HTS-level data from USITC DataWeb covering 2024-2025 \citep{USITC_DataWeb_HTS}. This high-frequency dataset contains monthly observations of imports and duties at the 10-digit HTS level, enabling precise calculation of effective tariff rates and capturing recent policy changes that are central to our analysis.
+
+We calibrate the structural model using 2024 data as our baseline equilibrium, which represents the most recent complete year of comprehensive trade data. The analysis then considers three counterfactual scenarios reflecting different temporal aggregations of 2025 policies: (1) \texttt{tariff\_rate25\_LTM} employs a rolling 12-month window to capture medium-term trends, (2) \texttt{tariff\_rate25\_YTD} uses year-to-date averages through the most recent available month, and (3) \texttt{tariff\_rate25\_3M} focuses on the latest quarterly period to identify recent policy shifts. This temporal structure enables assessment of both sustained policy changes and short-term trade dynamics.

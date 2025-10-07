@@ -1,0 +1,24 @@
+Prove that the price of a good that country $n$ actually buys (i.e. the minimum price across suppliers) has distribution $G_n(p)$.
+
+\begin{solution}
+Let $p_n=\min_i p_{ni}$ be the price actually paid in $n$. We will show
+\begin{align*}
+G_n(p)\equiv \Pr(p_n \le p) = 1 - \exp\!\big(-\Phi_n p^{\theta}\big),
+\end{align*}
+with $\Phi_n=\sum_j T_j c_{nj}^{-\theta}$.
+
+\begin{align*}
+\Pr(p_n > p)
+&= \Pr\big(p_{ni} > p\ \forall i\big)
+= \prod_i \Pr\big(p_{ni} > p\big)
+= \prod_i \big(1 - G_{ni}(p)\big) \\
+&= \prod_i \exp\!\big(-T_i c_{ni}^{-\theta} p^{\theta}\big)
+= \exp\!\Big(-\sum_i T_i c_{ni}^{-\theta} p^{\theta}\Big)
+= \exp\!\big(-\Phi_n p^{\theta}\big).
+\end{align*}
+Therefore
+\begin{align*}
+\Pr(p_n \le p) = 1 - \Pr(p_n>p) = 1 - \exp\!\big(-\Phi_n p^{\theta}\big),
+\end{align*}
+so the CDF is $G_n(p)=1-\exp(-\Phi_n p^\theta)$.
+\end{solution}

@@ -1,0 +1,60 @@
+\documentclass[12pt,answers]{exam}
+
+
+\input{packages}
+\input{preamble}
+\input{nicoeconomics}
+
+\renewcommand{\solutiontitle}{\noindent\textit{Solution:}\enspace}
+\CorrectChoiceEmphasis{\color{indigo}}
+\unframedsolutions
+\SolutionEmphasis{\color{indigo}}
+
+% ------------------ EXAM CONFIGURATION ------------------ 
+\pagestyle{headandfoot}
+\firstpageheadrule
+\firstpageheader{FGV EESP\\CMCD}{Nícolas Goulart de Moura}{International Trade\\\today}
+\firstpagefooter{}{}{\thepage\ of \numpages}
+
+%\runningheadrule
+%\runningheader{FGV-EESP}{Matemática II}{\today}
+\runningfooter{}{}{\thepage\ of \numpages}
+
+% ------------------ DOCUMENT BEGGINING  ------------------ 
+
+\begin{document}
+
+\begin{center}\LARGE \textsc{Problem Set \#1} \end{center}
+Consider the \cite{melitz2003Econometrica} model. Suppose that productivity $\varphi$ is Pareto distributed with the following
+density function:
+\begin{align*}
+g(\varphi) &= k \varphi_{\min}^k \varphi^{-(k+1)}, \quad \varphi_{\min} > 0, \quad k > \sigma - 1
+\end{align*}
+where $\sigma$ is the elasticity of substitution between varieties. The corresponding cumulative distribution
+function is:
+\begin{align*}
+G(\varphi) &= 1 - \left( \frac{\varphi_{\min}}{\varphi} \right)^k
+\end{align*}
+Note the following properties of the Pareto distribution:
+\begin{align*}
+\text{Mean} &= \frac{k}{k-1} \varphi_{\min} \quad \text{Variance} = \frac{k \varphi_{\min}^2}{(k-1)^2 (k-2)} \quad \text{Coeff. Variation} = \frac{1}{\sqrt{k-2}}
+\end{align*}
+where $k > 1$ is required for a finite mean and $k > 2$ is required for a finite variance.
+\begin{questions}
+    \question
+    \input{body/question_1.tex}
+    \newpage
+    \question
+    \input{body/question_2.tex}
+    \newpage
+    \question
+    \input{body/question_3.tex}
+    \newpage
+    \question
+    \input{body/question_4.tex}
+\end{questions}
+
+\newpage
+\bibliographystyle{chicago}
+\bibliography{references}
+\end{document}

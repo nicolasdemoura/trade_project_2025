@@ -1,0 +1,45 @@
+\begin{question}
+Prove that the probability that country $i$ provides a good at the lowest price in country $n$ is
+\[
+\pi_{ni} = \frac{T_i (c_{ni})^{-\theta}}{\Phi_n}, \quad
+\Phi_n = \sum_j T_j (c_{nj})^{-\theta}.
+\]
+\end{question}
+
+\begin{solution}
+The distribution of productivity in $i$ is Fréchet:
+\[
+F_i(z) = \exp(-T_i z^{-\theta}), \quad z > 0.
+\]
+
+The price for country $n$ is $p_{ni} = c_{ni}/z$, so
+\[
+G_{ni}(p) = 1 - \exp\!\big(-T_i (c_{ni} p)^{-\theta}\big).
+\]
+
+The density is
+\begin{align*}
+g_{ni}(p) 
+&= \frac{d}{dp} G_{ni}(p) \\
+&= T_i \theta (c_{ni})^{-\theta} p^{-(\theta+1)} 
+    \exp\!\big(-T_i (c_{ni} p)^{-\theta}\big).
+\end{align*}
+
+The probability $i$ is cheapest in $n$ is
+\begin{align*}
+\pi_{ni} &= \int_0^\infty g_{ni}(p) 
+    \Pr(p_{nj} > p \ \forall j \neq i)\, dp \\
+&= \int_0^\infty g_{ni}(p)\,
+    \exp\!\left(-\sum_{j \neq i} T_j (c_{nj})^{-\theta} p^{-\theta}\right) dp \\
+&= \int_0^\infty T_i \theta (c_{ni})^{-\theta} p^{-(\theta+1)} 
+    \exp\!\left(-\sum_{j} T_j (c_{nj})^{-\theta} p^{-\theta}\right) dp.
+\end{align*}
+
+With the change of variable $x = p^{-\theta}$, $dx = -\theta p^{-(\theta+1)} dp$,
+\begin{align*}
+\pi_{ni} &= T_i (c_{ni})^{-\theta} 
+    \int_0^\infty e^{-\Phi_n x} \, dx \\
+&= \frac{T_i (c_{ni})^{-\theta}}{\Phi_n}.
+\end{align*}
+\end{solution}
+

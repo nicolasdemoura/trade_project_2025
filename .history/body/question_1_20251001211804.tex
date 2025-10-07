@@ -1,0 +1,57 @@
+Prove that the probability that country $i$ provides a good at the lowest price in country $n$ is
+\begin{align*}
+\pi_{ni} = \frac{T_i (c_{ni})^{-\theta}}{\Phi_n},
+\qquad
+\Phi_n \equiv \sum_j T_j (c_{nj})^{-\theta}.
+\end{align*}
+
+\begin{solution}
+The productivity draw in country $i$ is Fr\'echet:
+\begin{align*}
+F_i(z) = \exp\big(-T_i z^{-\theta}\big), \qquad z>0.
+\end{align*}
+If a producer in $i$ with productivity $z$ ships to $n$, the delivered price is
+\begin{align*}
+p_{ni}=\frac{c_{ni}}{z}.
+\end{align*}
+Thus the CDF of the price offered by $i$ to $n$ is
+\begin{align*}
+G_{ni}(p)
+&= \Pr\big(p_{ni}\le p\big)
+= \Pr\big(z \ge c_{ni}/p\big)
+= 1 - F_i\!\big(c_{ni}/p\big) \\
+&= 1 - \exp\!\big(-T_i (c_{ni}/p)^{-\theta}\big)
+= 1 - \exp\!\big(-T_i c_{ni}^{-\theta} p^{\theta}\big).
+\end{align*}
+Differentiate to get the density:
+\begin{align*}
+g_{ni}(p)
+&= \frac{d}{dp}G_{ni}(p)
+= T_i \theta\, c_{ni}^{-\theta}\, p^{\theta-1}
+    \exp\!\big(-T_i c_{ni}^{-\theta} p^{\theta}\big).
+\end{align*}
+
+The event ``country $i$ is the lowest-price supplier to $n$'' can be written as
+``$p_{ni}$ is the minimum across all $j$''. Hence
+\begin{align*}
+\pi_{ni}
+&= \Pr\big(p_{ni} = \min_j p_{nj}\big)
+= \int_0^\infty \Pr\big(p_{nj}>p\ \forall j\neq i\big) dp \\
+&= \int_0^\infty g_{ni}(p)\, \prod_{j\neq i}\big(1-G_{nj}(p)\big)\, dp \\
+&= \int_0^\infty T_i \theta\, c_{ni}^{-\theta}\, p^{\theta-1}
+    \exp\!\big(-T_i c_{ni}^{-\theta} p^{\theta}\big)
+    \exp\!\Big(-\sum_{j\neq i} T_j c_{nj}^{-\theta} p^{\theta}\Big)\, dp \\
+&= \int_0^\infty T_i \theta\, c_{ni}^{-\theta}\, p^{\theta-1}
+    \exp\!\big(-\Phi_n p^{\theta}\big)\, dp.
+\end{align*}
+
+where $\Phi_n = \sum_j T_j c_{nj}^{-\theta}$. Change variables $x=\Phi_n p^{\theta}$, so $dx = \Phi_n \theta p^{\theta-1} dp$ (and when $p:0\to\infty$, $x:0\to\infty$). Then
+\begin{align*}
+\pi_{ni}
+&= T_i c_{ni}^{-\theta} \int_0^\infty \frac{\Phi_n \theta p^{\theta-1}}{\Phi_n \theta p^{\theta-1}}
+    \exp(-x)\, dp
+= T_i c_{ni}^{-\theta} \frac{1}{\Phi_n}\int_0^\infty e^{-x}\, dx \\
+&= \frac{T_i c_{ni}^{-\theta}}{\Phi_n}.
+\end{align*}
+This proves the desired expression.
+\end{solution}

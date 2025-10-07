@@ -1,0 +1,115 @@
+Suppose that two symmetric economies are opened to trade and fixed and variable trade costs are sufficiently high to induce selection into export markets. Solve for the open economy values of $\varphi^*$, $\varphi^*_x$, P, R.
+
+\begin{solution}
+	\paragraph{Household Side.} Since all countries are symmetric, the household problem remains the same as in autarky, yielding the familiar demand functions:
+	\begin{align*}
+		q_d(\omega) &= Q \left( \frac{p_d(\omega)}{P} \right)^{-\sigma}\\
+		r_d(\omega) &= R \left( \frac{p_d(\omega)}{P} \right)^{1 - \sigma}
+	\end{align*}
+	where demand for each variety is downward sloping in its own price with elasticity $\sigma>1$.
+
+	\paragraph{Producer Side.} Firms now face an iceberg trade cost $\tau>1$ and fixed export cost $f_x>0$ when serving the foreign market. A firm with productivity $\varphi$ that chooses to export maximizes:
+	\begin{align*}
+		\max_{p_d(\varphi), p_x(\varphi)} \quad & \pi(\varphi) = r_d(\varphi) - w \left( f + \frac{q_d(\varphi)}{\varphi} \right) + n r_x(\varphi) - n w \left( f_x + \frac{\tau q_x(\varphi)}{\varphi} \right)
+	\end{align*}
+
+	The first-order conditions yield constant markup pricing:
+	\begin{align*}
+		p_d(\varphi) &= \frac{\sigma}{\sigma - 1} \frac{w}{\varphi} = \frac{w}{\rho \varphi} \\
+		p_x(\varphi) &= \frac{\sigma}{\sigma - 1} \frac{\tau w}{\varphi} = \frac{\tau w}{\rho \varphi}
+	\end{align*}
+
+	Normalizing wages to $w=1$ (feasible due to symmetry), the revenue functions become:
+	\begin{align*}
+		r_d(\varphi) &= R \left( \frac{1}{\rho \varphi P} \right)^{1 - \sigma} \\
+		r_x(\varphi) &= R \left( \frac{\tau}{\rho \varphi P} \right)^{1 - \sigma} = \tau^{1-\sigma} r_d(\varphi)
+	\end{align*}
+
+	\paragraph{Zero Profit Conditions.} Since trade costs induce selection, we analyze domestic and export cutoffs separately.
+
+	For domestic market entry, the zero profit condition gives:
+	\begin{align*}
+		\pi_d(\varphi^*) &= r_d(\varphi^*) - \frac{1}{\varphi^*} q_d(\varphi^*) - f = 0
+	\end{align*}
+
+	Using the fact that variable profits equal $\frac{1}{\sigma}$ of revenues under CES demand:
+	\begin{align*}
+		\pi_d(\varphi^*) &= \frac{1}{\sigma} r_d(\varphi^*) - f = 0 \\
+		\implies r_d(\varphi^*) &= \sigma f
+	\end{align*}
+
+	For the export cutoff, consider a firm that serves both markets. Export profits are:
+	\begin{align*}
+		\pi_x(\varphi) &= r_x(\varphi) - \frac{\tau}{\varphi} q_x(\varphi) - f_x
+	\end{align*}
+
+	Under CES demand, variable export profits equal $\frac{1}{\sigma}$ of export revenues, so:
+	\begin{align*}
+		\pi_x(\varphi) &= r_x(\varphi) - \frac{\tau}{\varphi} q_x(\varphi) - f_x \\
+		&= \tau^{1-\sigma} r_d(\varphi) - \frac{\tau}{\varphi}Q\left(\frac{p_x(\varphi)}{P}\right)^{-\sigma} - f_x \\
+		&= \tau^{1-\sigma} r_d(\varphi) - \frac{\tau}{\varphi}Q\left(\frac{\tau}{\rho \varphi P}\right)^{-\sigma} - f_x \\
+		&= \tau^{1-\sigma} \left( r_d(\varphi) - \rho^{\sigma} \varphi^{\sigma - 1} R P^{\sigma - 1} \right) - f_x \\
+		&= \tau^{1-\sigma} \left( r_d(\varphi) - \rho r_d(\varphi) \right) - f_x \\
+		&= \tau^{1-\sigma} \left( \frac{1}{\sigma} r_d(\varphi) \right) - f_x \\
+	\end{align*}
+	The export cutoff $\varphi_x^*$ satisfies $\pi_x(\varphi_x^*)=0$, hence:
+	\begin{align*}
+		r_d(\varphi_x^*) &= \sigma f_x \tau^{\sigma - 1} \implies r_x(\varphi_x^*) = \sigma f_x
+	\end{align*}
+	We also know that:
+	\begin{align*}
+		\sigma f_x &= r_x(\varphi_x^*)\\
+		&= \tau^{1-\sigma} r_d(\varphi_x^*) \\
+		&= \left( \frac{\varphi_x^*}{\varphi^*} \right)^{\sigma - 1} r_d(\varphi^*) \\
+		&= \left( \frac{\varphi_x^*}{\varphi^*} \right)^{\sigma - 1} \sigma f \implies \\
+		\varphi_x^* &= \varphi^* \left( \frac{f_x}{f} \right)^{\frac{1}{\sigma - 1}} \tau
+	\end{align*}
+	Thus, the export cutoff exceeds the domestic cutoff: $\varphi_x^* > \varphi^* \iff \tau^{\sigma - 1} f_x > f$.
+
+	\paragraph{Enter, Exit and Exporting.} Firms pay the domestic fixed cost $f$ to serve the domestic market. Only firms with $\varphi \geq \varphi^*$ can cover this cost and remain active. Thus, the mass of active firms is:
+	\begin{align*}
+		M &= N \left( 1 - G(\varphi^*) \right)\\
+		&= N \left( \frac{\varphi_{\min}}{\varphi^*} \right)^k \\
+		&= N \left( \frac{\varphi_{\min}}{\varphi_{min}\left( \frac{f}{\delta f_e}\theta \right)^{\frac{1}{k}}} \right)^k \\
+		&= N \left( \frac{\delta f_e}{f \theta} \right)
+	\end{align*}
+	Among active firms, only those with $\varphi \geq \varphi_x^*$ can cover the additional export costs and choose to export. The mass of exporting firms is:
+	\begin{align*}
+		M_x &= N \left( 1 - G(\varphi_x^*) \right)\\
+		&= N \left( \frac{\varphi_{\min}}{\varphi_x^*} \right)^k \\
+		&= N \left( \frac{\varphi_{\min}}{\varphi_{min}\left( \frac{f}{\delta f_e}\theta \right)^{\frac{1}{k}} \left( \frac{f_x}{f} \right)^{\frac{1}{\sigma - 1}} \tau} \right)^k \\
+		&= N \left( \frac{\delta f_e}{f \theta} \right) \left( \frac{f}{f_x} \right)^{\frac{k}{\sigma - 1}} \tau^{-k}
+	\end{align*}
+
+	\paragraph{Average Revenue and Profits.} The average revenue of active firms is:
+	\begin{align*}
+		\bar{r} = r_d(\tilde{\varphi}_d) + \chi N r_x(\tilde{\varphi}_x)
+	\end{align*}
+	where $\tilde{\varphi}_d$ and $\tilde{\varphi}_x$ are the average productivity levels of domestic and exporting firms, respectively,  $\chi = \frac{M_x}{M}$ is the fraction of active firms that export and:
+	\begin{align*}
+		r_d(\tilde{\varphi}_d) &= \left(\frac{\tilde{\varphi}_d}{\varphi^*}\right)^{\sigma - 1} \sigma f \\
+		r_x(\tilde{\varphi}_x) &= \left(\frac{\tilde{\varphi}_x}{\varphi_x^*}\right)^{\sigma - 1} \sigma f_x
+	\end{align*}
+	Thus, the average domestic profit of firms is:
+	\begin{align*}
+		\bar{\pi} = \pi_d(\tilde{\varphi}_d) + \chi N \pi_x(\tilde{\varphi}_x)
+	\end{align*}
+	where:
+	\begin{align*}
+		\pi_d(\tilde{\varphi}_d) &= \frac{1}{\sigma} r_d(\tilde{\varphi}_d) - f \\
+		&= \left(\frac{\tilde{\varphi}_d}{\varphi^*}\right)^{\sigma - 1} f - f \\
+		&= f \left[ \left(\frac{\tilde{\varphi}_d}{\varphi^*}\right)^{\sigma - 1} - 1 \right] \\
+		\pi_x(\tilde{\varphi}_x) &= f_x \left[ \left(\frac{\tilde{\varphi}_x}{\varphi_x^*}\right)^{\sigma - 1} - 1 \right]
+	\end{align*}
+
+	\paragraph{Free Entry Condition.} The value of entering the market is the expected profit of a potential entrant, which is the probability of becoming active times the expected profit conditional on being active and the probability of exporting times the expected export profit conditional on exporting:
+	\begin{align*}
+		v_e = \frac{1 - G(\varphi^*)}{\delta} \left( \bar{\pi}_d + \chi N \bar{\pi}_x \right)
+	\end{align*}
+	Free entry implies that the expected profit of a potential entrant equals the entry cost:
+	\begin{align*}
+		v_e = f_e &\iff \frac{1 - G(\varphi^*)}{\delta} \left( \bar{\pi}_d + \chi N \bar{\pi}_x \right) = f_e\\
+		&\iff \frac{1}{\delta} \left[ \int_{\varphi^*}^{\infty} \pi_d(\varphi) dG(\varphi) + \chi N \int_{\varphi_x^*}^{\infty} \pi_x(\varphi) dG(\varphi) \right] = f_e\\
+		&\iff \frac{1}{\delta} \left[ \int_{\varphi^*}^{\infty} \left( f \left[ \left(\frac{\varphi}{\varphi^*}\right)^{\sigma - 1} - 1 \right] \right) dG(\varphi) + \chi N \int_{\varphi_x^*}^{\infty} \left( f_x \left[ \left(\frac{\varphi}{\varphi_x^*}\right)^{\sigma - 1} - 1 \right] \right) dG(\varphi) \right] = f_e 
+	\end{align*}
+\end{solution}

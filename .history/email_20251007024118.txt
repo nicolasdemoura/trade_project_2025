@@ -1,0 +1,19 @@
+Boa noite JPP,
+
+Envio em anexo meu trabalho de International Trade, com uma semana de atraso. Eu havia pedido por algumas horas a mais, mas acabei me atrasando por estar concentrado no TCC. Desde então migrei do Matlab para o R, que me sinto mais confortável. É totalmente culpa minha, e entendo se não for possível aceitar por conta das datas de submissão de notas no sistema. Ainda assim, gostaria muito de receber seu feedback, se for possível, pois aprendi bastante implementando o modelo.
+
+Alguns comentários gerais sobre o que fiz:
+
+1. Implementei o modelo considerando bens intermediários, em vez de apenas salários.
+2. Modelei tanto o mercado de trabalho móvel quanto imóvel, embora as estimativas de bem-estar tenham ficado absurdas no caso imóvel.
+3. Fittei as trade shares ao invés de simplesmente usá-las, como você havia sugerido.
+4. Usei dados do TRAINS para 9 países e, para os EUA, da USITC, calculando como o volume de tributos sobre o valor do produto. Como o perfil tarifário pode ter mudado por conta do choque tarifário, talvez isso explique as mudanças de bem-estar que encontrei. 
+
+O código está disponível no GitHub, e você deve ter acesso por lá. Deixei tudo organizado com as instruções de reprodução.
+
+Ah, e por favor, não se assuste com o número de páginas. Coloquei todos os parâmetros estimados como tabelas no apêndice, para manter o corpo do texto mais limpo. O texto principal tem 25 páginas. 
+
+Agradeço pela paciência e compreensão. Caso ainda possa comentar o trabalho, ficaria muito grato pelas suas observações.
+
+Att.,
+Nícolas

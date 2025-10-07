@@ -1,0 +1,43 @@
+\documentclass[12pt,answers]{exam}
+
+
+\input{packages}
+\input{preamble}
+\input{nicoeconomics}
+
+\renewcommand{\solutiontitle}{\noindent\textit{Solution:}\enspace}
+\CorrectChoiceEmphasis{\color{indigo}}
+\unframedsolutions
+\SolutionEmphasis{\color{indigo}}
+
+% ------------------ EXAM CONFIGURATION ------------------ 
+\pagestyle{headandfoot}
+\firstpageheadrule
+\firstpageheader{FGV EESP\\CMCD}{Nícolas Goulart de Moura}{International Trade\\\today}
+\firstpagefooter{}{}{\thepage\ of \numpages}
+
+%\runningheadrule
+%\runningheader{FGV-EESP}{Matemática II}{\today}
+\runningfooter{}{}{\thepage\ of \numpages}
+
+% ------------------ DOCUMENT BEGGINING  ------------------ 
+
+\begin{document}
+
+\begin{center}\LARGE \textsc{Problem Set \#2} \end{center}
+Following \cite{eaton2002Econometrica}.
+\begin{questions}
+    \question
+    \input{body/question_1.tex}
+    \newpage
+    \question
+    \input{body/question_2.tex}
+    \newpage
+    \question
+    \input{body/question_3.tex}
+\end{questions}
+
+\newpage
+\bibliographystyle{chicago}
+\bibliography{references}
+\end{document}

@@ -1,0 +1,23 @@
+
+Prove that the price of a good that country $n$ actually buys from some $i$ has distribution $G_n(p)$.
+
+
+\begin{solution}
+The minimum price in $n$ is
+\[
+p_n = \min_i p_{ni}.
+\]
+
+Thus
+\begin{align*}
+\Pr(p_n \leq p) 
+&= 1 - \Pr(p_{ni} > p, \ \forall i) \\
+&= 1 - \exp\!\left(-\sum_i T_i (c_{ni} p)^{-\theta}\right) \\
+&= 1 - \exp(-\Phi_n p^{-\theta}).
+\end{align*}
+
+Therefore
+\[
+G_n(p) = 1 - \exp(-\Phi_n p^{-\theta}).
+\]
+\end{solution}

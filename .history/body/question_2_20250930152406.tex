@@ -1,0 +1,99 @@
+\begin{solution}
+	\textbf{Restatement.} Two symmetric economies open to trade. Trade costs are iceberg and fixed: variable $\tau>1$, fixed $f_x>0$, large enough that only a subset of firms export. Solve for the open-economy cutoff productivities $\varphi^*$ (domestic) and $\varphi_x^*$ (export), the CES price index $P$, and total revenue $R$, using the slides’ framework and the notation from Question 1.
+
+\bigskip
+	\textbf{Environment and demand (slides).}
+Consumers in each country have CES demand over all available varieties (home and imported):
+\[
+q(\omega) = Q \Big(\tfrac{p(\omega)}{P}\Big)^{-\sigma},\qquad 
+P = \Big( \int p(\omega)^{1-\sigma} d\omega \Big)^{\tfrac{1}{1-\sigma}},\qquad r(\omega)=R\Big(\tfrac{p(\omega)}{P}\Big)^{1-\sigma}.
+\]
+Wage normalized to $w=1$. Firm with productivity $\varphi$ has marginal cost $1/\varphi$ and charges CES markup price (slides):
+\[
+p(\varphi) = \frac{\sigma}{\sigma-1}\cdot\frac{1}{\varphi}.
+\]
+
+\bigskip
+	\textbf{Profits and cutoffs (slides).}
+Domestic operating profit for a firm serving its own market:
+\[
+\pi_d(\varphi) = \frac{1}{\sigma} r_d(\varphi) - f,\qquad r_d(\varphi)= R\Big(\tfrac{p(\varphi)}{P}\Big)^{1-\sigma} 
+ = R\Big(\tfrac{\sigma}{\sigma-1}\Big)^{1-\sigma} (\varphi P)^{\sigma-1}.
+\]
+Exporting to the foreign market entails iceberg cost $\tau$ and fixed cost $f_x$. Delivered foreign price with CES pricing and iceberg costs is $p_x(\varphi)=\tfrac{\sigma}{\sigma-1}\cdot\tfrac{\tau}{\varphi}$. Hence export revenue from one foreign destination (the symmetric partner):
+\[
+r_x(\varphi) = R^* \Big(\tfrac{p_x(\varphi)}{P^*}\Big)^{1-\sigma} = R^*\Big(\tfrac{\sigma}{\sigma-1}\Big)^{1-\sigma} (\varphi P^*/\tau)^{\sigma-1},
+\]
+and export profits are $\pi_x(\varphi)=\tfrac{1}{\sigma} r_x(\varphi)-f_x$.
+
+With symmetry in equilibrium: $P=P^*$ and $R=R^*$. Zero-profit cutoffs (slides):
+\[
+\pi_d(\varphi^*)=0 \;\Rightarrow\; r_d(\varphi^*)=\sigma f,
+\qquad
+\pi_x(\varphi_x^*)=0 \;\Rightarrow\; r_x(\varphi_x^*)=\sigma f_x.
+\]
+Substituting the revenue formulas and using symmetry,
+\begin{align*}
+&R\Big(\tfrac{\sigma}{\sigma-1}\Big)^{1-\sigma} (\varphi^* P)^{\sigma-1} = \sigma f
+\quad\Rightarrow\quad
+\boxed{\;\displaystyle \varphi^* \,=\, \frac{\sigma}{\sigma-1}\,\Big(\frac{\sigma f}{R}\Big)^{\!\tfrac{1}{\sigma-1}} \frac{1}{P} \;}, \\
+&R\Big(\tfrac{\sigma}{\sigma-1}\Big)^{1-\sigma} \Big(\frac{\varphi_x^* P}{\tau}\Big)^{\sigma-1} = \sigma f_x
+\quad\Rightarrow\quad
+\boxed{\;\displaystyle \varphi_x^* \,=\, \tau\, \frac{\sigma}{\sigma-1}\,\Big(\frac{\sigma f_x}{R}\Big)^{\!\tfrac{1}{\sigma-1}} \frac{1}{P} \; }.
+\end{align*}
+Note the standard ranking when $\tau>1$ and $f_x>0$: $\varphi_x^*>\varphi^*$ (selection into export markets).
+
+\bigskip
+	\textbf{Open-economy price index (slides).}
+Each country consumes both home and imported varieties. With symmetry, the set of prices contributing to $P^{1-\sigma}$ includes:
+\begin{itemize}
+	\item Home sellers: $p(\varphi)^{1-\sigma}=\big(\tfrac{\sigma}{\sigma-1}\big)^{1-\sigma}\,\varphi^{\sigma-1}$ for $\varphi\ge \varphi^*$.
+	\item Foreign exporters (only if $\varphi\ge \varphi_x^*$): delivered price $p_x(\varphi)=\tfrac{\sigma}{\sigma-1}\,\tfrac{\tau}{\varphi}$, so $p_x(\varphi)^{1-\sigma}=\big(\tfrac{\sigma}{\sigma-1}\big)^{1-\sigma}\,\tau^{1-\sigma}\,\varphi^{\sigma-1}$.
+\end{itemize}
+Let $M$ denote the mass of active home firms and $M_x$ the mass of foreign exporters selling to home. Under symmetry, $M_x$ equals the foreign mass with $\varphi\ge \varphi_x^*$. Then
+\[
+P^{1-\sigma} \,=\, \Big(\frac{\sigma}{\sigma-1}\Big)^{1-\sigma} \bigg[\; M\, \mathbb{E}\big(\varphi^{\sigma-1}\,|\,\varphi\ge \varphi^*\big) \,\; +\; 
+	au^{1-\sigma} M_x\, \mathbb{E}\big(\varphi^{\sigma-1}\,|\,\varphi\ge \varphi_x^*\big) \bigg].
+\]
+Equivalently,
+\[
+\boxed{\;\displaystyle P \,=\, \Bigg[ \Big(\tfrac{\sigma}{\sigma-1}\Big)^{1-\sigma}\Big( M\, \mathbb{E}[\varphi^{\sigma-1}\,|\,\varphi\ge \varphi^*] 
+\; +\; \tau^{1-\sigma} M_x\, \mathbb{E}[\varphi^{\sigma-1}\,|\,\varphi\ge \varphi_x^*]\Big) \Bigg]^{\!\tfrac{1}{1-\sigma}}\; }.
+\]
+
+\bigskip
+	\textbf{Aggregate revenue $R$ (slides: free entry and symmetry).}
+With only labor and $w=1$, total expenditure equals labor income plus any transfers. Under the standard closure in the slides with free entry driving expected profits to zero, in a symmetric two-country world we have $R=L$ in each country. If you prefer to treat $R$ as given, the expressions above already characterize $\varphi^*$, $\varphi_x^*$, and $P$ as functions of $R$.
+\[
+\boxed{\; R = L \; (w=1)\; }.
+\]
+
+\bigskip
+	\textbf{Final open-economy answers (your notation).}
+\[
+\boxed{\;\displaystyle \varphi^* \,=\, \frac{\sigma}{\sigma-1}\,\Big(\frac{\sigma f}{R}\Big)^{\!\tfrac{1}{\sigma-1}} \frac{1}{P}\; },\quad
+\boxed{\;\displaystyle \varphi_x^* \,=\, \tau\, \frac{\sigma}{\sigma-1}\,\Big(\frac{\sigma f_x}{R}\Big)^{\!\tfrac{1}{\sigma-1}} \frac{1}{P}\; },
+\]
+\[
+\boxed{\;\displaystyle P \,=\, \Bigg[ \Big(\tfrac{\sigma}{\sigma-1}\Big)^{1-\sigma}\Big( M\, \mathbb{E}[\varphi^{\sigma-1}|\varphi\ge \varphi^*] + \tau^{1-\sigma} M_x\, \mathbb{E}[\varphi^{\sigma-1}|\varphi\ge \varphi_x^*] \Big) \Bigg]^{\!\tfrac{1}{1-\sigma}}\; },\quad
+\boxed{\; R = L\; (w=1) }.
+
+\bigskip
+	extbf{Pareto productivity hypothesis (closed forms under symmetry).}
+
+Assume productivities are Pareto on $[\varphi_m,\infty)$ with tail parameter $\theta>\sigma-1$. Then for any $a\ge\varphi_m$, $\mathbb{E}[\varphi^{\sigma-1}|\varphi\ge a]=\dfrac{\theta}{\theta-(\sigma-1)} a^{\sigma-1}$. Using the domestic cutoff and export cutoff conditions:
+\[
+(\varphi^* P)^{\sigma-1}=\Big(\tfrac{\sigma}{\sigma-1}\Big)^{\!\sigma-1} \frac{\sigma f}{R},\qquad
+\Big(\tfrac{\varphi_x^* P}{\tau}\Big)^{\sigma-1}=\Big(\tfrac{\sigma}{\sigma-1}\Big)^{\!\sigma-1} \frac{\sigma f_x}{R}.
+\]
+Plugging these into the price-index expression and canceling common terms gives, under symmetry ($M_x=M$),
+\[
+\boxed{\; P^{1-\sigma} = \Big(\tfrac{\sigma}{\sigma-1}\Big)^{1-\sigma} \frac{\theta}{\theta-(\sigma-1)} M\,\Big[ (\varphi^*)^{\sigma-1} + \tau^{1-\sigma} (\varphi_x^*)^{\sigma-1} \Big] \; }.
+\]
+Using the cutoff equalities to eliminate $(\varphi^*)^{\sigma-1}$ and $(\varphi_x^*)^{\sigma-1}$ further yields a closed-form identity linking $R$, $M$, $f$, and $f_x$ without circular references:
+\[
+\boxed{\; R \,=\, \frac{\sigma\,\theta}{\theta-(\sigma-1)}\, M\,\big( f + f_x \big) \; } \quad \text{(two symmetric markets served by each active exporter)}.
+\]
+\]
+\end{solution}
+ 
